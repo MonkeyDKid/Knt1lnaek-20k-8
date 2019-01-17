@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 06951fd9fd54f4a4d8f83b19d1967983
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: Cylinder002
+    100004: Cylinder003
+    100006: //RootNode
+    100008: laba laba
+    100010: Object001
+    100012: Object047
+    100014: Object048
+    100016: Plane005
+    100018: Plane013
+    100020: Plane014
+    100022: Plane016
+    100024: Plane017
+    100026: Plane018
+    100028: Plane019
+    100030: Plane020
+    100032: Plane021
+    100034: Plane022
+    100036: Plane023
+    100038: Plane024
+    100040: Plane025
+    100042: Plane026
+    100044: Plane027
+    100046: Camera001
+    100048: Camera001.Target
+    100050: Object011
+    100052: Object017
+    100054: tanah kuburan
+    400000: Cylinder001
+    400002: Cylinder002
+    400004: Cylinder003
+    400006: //RootNode
+    400008: laba laba
+    400010: Object001
+    400012: Object047
+    400014: Object048
+    400016: Plane005
+    400018: Plane013
+    400020: Plane014
+    400022: Plane016
+    400024: Plane017
+    400026: Plane018
+    400028: Plane019
+    400030: Plane020
+    400032: Plane021
+    400034: Plane022
+    400036: Plane023
+    400038: Plane024
+    400040: Plane025
+    400042: Plane026
+    400044: Plane027
+    400046: Camera001
+    400048: Camera001.Target
+    400050: Object011
+    400052: Object017
+    400054: tanah kuburan
+    2300000: Cylinder001
+    2300002: Cylinder002
+    2300004: Cylinder003
+    2300006: laba laba
+    2300008: Object001
+    2300010: Object047
+    2300012: Object048
+    2300014: Plane005
+    2300016: Plane013
+    2300018: Plane014
+    2300020: Plane016
+    2300022: Plane017
+    2300024: Plane018
+    2300026: Plane019
+    2300028: Plane020
+    2300030: Plane021
+    2300032: Plane022
+    2300034: Plane023
+    2300036: Plane024
+    2300038: Plane025
+    2300040: Plane026
+    2300042: Plane027
+    2300044: Object011
+    2300046: Object017
+    2300048: tanah kuburan
+    3300000: Cylinder001
+    3300002: Cylinder002
+    3300004: Cylinder003
+    3300006: laba laba
+    3300008: Object001
+    3300010: Object047
+    3300012: Object048
+    3300014: Plane005
+    3300016: Plane013
+    3300018: Plane014
+    3300020: Plane016
+    3300022: Plane017
+    3300024: Plane018
+    3300026: Plane019
+    3300028: Plane020
+    3300030: Plane021
+    3300032: Plane022
+    3300034: Plane023
+    3300036: Plane024
+    3300038: Plane025
+    3300040: Plane026
+    3300042: Plane027
+    3300044: Object011
+    3300046: Object017
+    3300048: tanah kuburan
+    4300000: Object001
+    4300002: Plane005
+    4300004: Plane013
+    4300006: Object047
+    4300008: Plane014
+    4300010: Object048
+    4300012: Plane016
+    4300014: Plane017
+    4300016: Plane018
+    4300018: Plane019
+    4300020: Plane020
+    4300022: Plane021
+    4300024: Plane022
+    4300026: Plane023
+    4300028: Plane024
+    4300030: Plane025
+    4300032: Plane026
+    4300034: Plane027
+    4300036: Cylinder001
+    4300038: Cylinder002
+    4300040: Cylinder003
+    4300042: laba laba
+    4300044: tanah kuburan
+    4300046: Object017
+    4300048: Object011
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1998'
+    second: {fileID: 2100000, guid: 6ba2dd188c520e142a04581e36837cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2026'
+    second: {fileID: 2100000, guid: 1a29776f7f96f8843b59a2b87e74618f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2027'
+    second: {fileID: 2100000, guid: a43d6c46e6d718c4c9bbc84d1ce6caf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #70'
+    second: {fileID: 2100000, guid: f076f8b58e9f4854680b4aee83b2c497, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 3
+      lastFrame: 1999.9999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Cylinder002
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: laba laba
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object047
+        weight: 1
+      - path: Object048
+        weight: 1
+      - path: Plane005
+        weight: 1
+      - path: Plane013
+        weight: 1
+      - path: Plane014
+        weight: 1
+      - path: Plane016
+        weight: 1
+      - path: Plane017
+        weight: 1
+      - path: Plane018
+        weight: 1
+      - path: Plane019
+        weight: 1
+      - path: Plane020
+        weight: 1
+      - path: Plane021
+        weight: 1
+      - path: Plane022
+        weight: 1
+      - path: Plane023
+        weight: 1
+      - path: Plane024
+        weight: 1
+      - path: Plane025
+        weight: 1
+      - path: Plane026
+        weight: 1
+      - path: Plane027
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 8275525be40395c408ea348741c883ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _pocong_water_rig002 L Clavicle
+    100002: _pocong_water_rig002 L Forearm
+    100004: _pocong_water_rig002 L Hand
+    100006: _pocong_water_rig002 L UpperArm
+    100008: _pocong_water_rig002 R Calf
+    100010: _pocong_water_rig002 R Clavicle
+    100012: _pocong_water_rig002 R Foot
+    100014: _pocong_water_rig002 R Forearm
+    100016: _pocong_water_rig002 R Hand
+    100018: _pocong_water_rig002 R Thigh
+    100020: _pocong_water_rig002 R Toe0
+    100022: _pocong_water_rig002 R UpperArm
+    100024: Bip001
+    100026: Bip_Mukarata_wind
+    100028: Bip_Mukarata_wind Footsteps
+    100030: Bip_Mukarata_wind Head
+    100032: Bip_Mukarata_wind HeadNub
+    100034: Bip_Mukarata_wind L Calf
+    100036: Bip_Mukarata_wind L Clavicle
+    100038: Bip_Mukarata_wind L Finger0
+    100040: Bip_Mukarata_wind L Finger01
+    100042: Bip_Mukarata_wind L Finger02
+    100044: Bip_Mukarata_wind L Finger0Nub
+    100046: Bip_Mukarata_wind L Finger1
+    100048: Bip_Mukarata_wind L Finger11
+    100050: Bip_Mukarata_wind L Finger12
+    100052: Bip_Mukarata_wind L Finger1Nub
+    100054: Bip_Mukarata_wind L Finger2
+    100056: Bip_Mukarata_wind L Finger21
+    100058: Bip_Mukarata_wind L Finger22
+    100060: Bip_Mukarata_wind L Finger2Nub
+    100062: Bip_Mukarata_wind L Finger3
+    100064: Bip_Mukarata_wind L Finger31
+    100066: Bip_Mukarata_wind L Finger32
+    100068: Bip_Mukarata_wind L Finger3Nub
+    100070: Bip_Mukarata_wind L Finger4
+    100072: Bip_Mukarata_wind L Finger41
+    100074: Bip_Mukarata_wind L Finger42
+    100076: Bip_Mukarata_wind L Finger4Nub
+    100078: Bip_Mukarata_wind L Foot
+    100080: Bip_Mukarata_wind L Forearm
+    100082: Bip_Mukarata_wind L Hand
+    100084: Bip_Mukarata_wind L Thigh
+    100086: Bip_Mukarata_wind L Toe0
+    100088: Bip_Mukarata_wind L Toe0Nub
+    100090: Bip_Mukarata_wind L UpperArm
+    100092: Bip_Mukarata_wind Neck
+    100094: Bip_Mukarata_wind Pelvis
+    100096: Bip_Mukarata_wind R Calf
+    100098: Bip_Mukarata_wind R Clavicle
+    100100: Bip_Mukarata_wind R Finger0
+    100102: Bip_Mukarata_wind R Finger01
+    100104: Bip_Mukarata_wind R Finger02
+    100106: Bip_Mukarata_wind R Finger0Nub
+    100108: Bip_Mukarata_wind R Finger1
+    100110: Bip_Mukarata_wind R Finger11
+    100112: Bip_Mukarata_wind R Finger12
+    100114: Bip_Mukarata_wind R Finger1Nub
+    100116: Bip_Mukarata_wind R Finger2
+    100118: Bip_Mukarata_wind R Finger21
+    100120: Bip_Mukarata_wind R Finger22
+    100122: Bip_Mukarata_wind R Finger2Nub
+    100124: Bip_Mukarata_wind R Finger3
+    100126: Bip_Mukarata_wind R Finger31
+    100128: Bip_Mukarata_wind R Finger32
+    100130: Bip_Mukarata_wind R Finger3Nub
+    100132: Bip_Mukarata_wind R Finger4
+    100134: Bip_Mukarata_wind R Finger41
+    100136: Bip_Mukarata_wind R Finger42
+    100138: Bip_Mukarata_wind R Finger4Nub
+    100140: Bip_Mukarata_wind R Foot
+    100142: Bip_Mukarata_wind R Forearm
+    100144: Bip_Mukarata_wind R Hand
+    100146: Bip_Mukarata_wind R Thigh
+    100148: Bip_Mukarata_wind R Toe0
+    100150: Bip_Mukarata_wind R Toe0Nub
+    100152: Bip_Mukarata_wind R UpperArm
+    100154: Bip_Mukarata_wind Spine
+    100156: Bip_Mukarata_wind Spine1
+    100158: Bip_Mukarata_wind Spine2
+    100160: //RootNode
+    100162: Object045
+    100164: Object045_MeshPart0
+    100166: Object045_MeshPart1
+    100168: pocong_water_rig002
+    100170: pocong_water_rig002 Head
+    100172: pocong_water_rig002 HeadNub
+    100174: pocong_water_rig002 L Calf
+    100176: pocong_water_rig002 L Foot
+    100178: pocong_water_rig002 L Thigh
+    100180: pocong_water_rig002 L Toe0
+    100182: pocong_water_rig002 L Toe0Nub
+    100184: pocong_water_rig002 Neck
+    100186: pocong_water_rig002 Pelvis
+    100188: pocong_water_rig002 R Toe0Nub
+    100190: pocong_water_rig002 Spine
+    400000: _pocong_water_rig002 L Clavicle
+    400002: _pocong_water_rig002 L Forearm
+    400004: _pocong_water_rig002 L Hand
+    400006: _pocong_water_rig002 L UpperArm
+    400008: _pocong_water_rig002 R Calf
+    400010: _pocong_water_rig002 R Clavicle
+    400012: _pocong_water_rig002 R Foot
+    400014: _pocong_water_rig002 R Forearm
+    400016: _pocong_water_rig002 R Hand
+    400018: _pocong_water_rig002 R Thigh
+    400020: _pocong_water_rig002 R Toe0
+    400022: _pocong_water_rig002 R UpperArm
+    400024: Bip001
+    400026: Bip_Mukarata_wind
+    400028: Bip_Mukarata_wind Footsteps
+    400030: Bip_Mukarata_wind Head
+    400032: Bip_Mukarata_wind HeadNub
+    400034: Bip_Mukarata_wind L Calf
+    400036: Bip_Mukarata_wind L Clavicle
+    400038: Bip_Mukarata_wind L Finger0
+    400040: Bip_Mukarata_wind L Finger01
+    400042: Bip_Mukarata_wind L Finger02
+    400044: Bip_Mukarata_wind L Finger0Nub
+    400046: Bip_Mukarata_wind L Finger1
+    400048: Bip_Mukarata_wind L Finger11
+    400050: Bip_Mukarata_wind L Finger12
+    400052: Bip_Mukarata_wind L Finger1Nub
+    400054: Bip_Mukarata_wind L Finger2
+    400056: Bip_Mukarata_wind L Finger21
+    400058: Bip_Mukarata_wind L Finger22
+    400060: Bip_Mukarata_wind L Finger2Nub
+    400062: Bip_Mukarata_wind L Finger3
+    400064: Bip_Mukarata_wind L Finger31
+    400066: Bip_Mukarata_wind L Finger32
+    400068: Bip_Mukarata_wind L Finger3Nub
+    400070: Bip_Mukarata_wind L Finger4
+    400072: Bip_Mukarata_wind L Finger41
+    400074: Bip_Mukarata_wind L Finger42
+    400076: Bip_Mukarata_wind L Finger4Nub
+    400078: Bip_Mukarata_wind L Foot
+    400080: Bip_Mukarata_wind L Forearm
+    400082: Bip_Mukarata_wind L Hand
+    400084: Bip_Mukarata_wind L Thigh
+    400086: Bip_Mukarata_wind L Toe0
+    400088: Bip_Mukarata_wind L Toe0Nub
+    400090: Bip_Mukarata_wind L UpperArm
+    400092: Bip_Mukarata_wind Neck
+    400094: Bip_Mukarata_wind Pelvis
+    400096: Bip_Mukarata_wind R Calf
+    400098: Bip_Mukarata_wind R Clavicle
+    400100: Bip_Mukarata_wind R Finger0
+    400102: Bip_Mukarata_wind R Finger01
+    400104: Bip_Mukarata_wind R Finger02
+    400106: Bip_Mukarata_wind R Finger0Nub
+    400108: Bip_Mukarata_wind R Finger1
+    400110: Bip_Mukarata_wind R Finger11
+    400112: Bip_Mukarata_wind R Finger12
+    400114: Bip_Mukarata_wind R Finger1Nub
+    400116: Bip_Mukarata_wind R Finger2
+    400118: Bip_Mukarata_wind R Finger21
+    400120: Bip_Mukarata_wind R Finger22
+    400122: Bip_Mukarata_wind R Finger2Nub
+    400124: Bip_Mukarata_wind R Finger3
+    400126: Bip_Mukarata_wind R Finger31
+    400128: Bip_Mukarata_wind R Finger32
+    400130: Bip_Mukarata_wind R Finger3Nub
+    400132: Bip_Mukarata_wind R Finger4
+    400134: Bip_Mukarata_wind R Finger41
+    400136: Bip_Mukarata_wind R Finger42
+    400138: Bip_Mukarata_wind R Finger4Nub
+    400140: Bip_Mukarata_wind R Foot
+    400142: Bip_Mukarata_wind R Forearm
+    400144: Bip_Mukarata_wind R Hand
+    400146: Bip_Mukarata_wind R Thigh
+    400148: Bip_Mukarata_wind R Toe0
+    400150: Bip_Mukarata_wind R Toe0Nub
+    400152: Bip_Mukarata_wind R UpperArm
+    400154: Bip_Mukarata_wind Spine
+    400156: Bip_Mukarata_wind Spine1
+    400158: Bip_Mukarata_wind Spine2
+    400160: //RootNode
+    400162: Object045
+    400164: Object045_MeshPart0
+    400166: Object045_MeshPart1
+    400168: pocong_water_rig002
+    400170: pocong_water_rig002 Head
+    400172: pocong_water_rig002 HeadNub
+    400174: pocong_water_rig002 L Calf
+    400176: pocong_water_rig002 L Foot
+    400178: pocong_water_rig002 L Thigh
+    400180: pocong_water_rig002 L Toe0
+    400182: pocong_water_rig002 L Toe0Nub
+    400184: pocong_water_rig002 Neck
+    400186: pocong_water_rig002 Pelvis
+    400188: pocong_water_rig002 R Toe0Nub
+    400190: pocong_water_rig002 Spine
+    2300000: Object045_MeshPart0
+    2300002: Object045_MeshPart1
+    3300000: Object045_MeshPart0
+    3300002: Object045_MeshPart1
+    4300000: Object045_MeshPart0
+    4300002: Object045_MeshPart1
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1822'
+    second: {fileID: 2100000, guid: d34be69c8491a4746ae5d8887a5b158c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

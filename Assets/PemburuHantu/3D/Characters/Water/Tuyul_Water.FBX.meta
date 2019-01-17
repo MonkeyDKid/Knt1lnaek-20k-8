@@ -1,0 +1,2241 @@
+fileFormatVersion: 2
+guid: 05ab116c85f415a40987f846264f3fbb
+timeCreated: 1493006184
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tuyul_fire
+    100004: tuyul_fire_rig
+    100006: tuyul_fire_rig L Finger0
+    100008: tuyul_fire_rig L Finger01
+    100010: tuyul_fire_rig L Finger0Nub
+    100012: tuyul_fire_rig L Finger1
+    100014: tuyul_fire_rig L Finger11
+    100016: tuyul_fire_rig L Finger1Nub
+    100018: tuyul_fire_rig L Finger2
+    100020: tuyul_fire_rig L Finger21
+    100022: tuyul_fire_rig L Finger2Nub
+    100024: tuyul_fire_rig L Finger3
+    100026: tuyul_fire_rig L Finger31
+    100028: tuyul_fire_rig L Finger3Nub
+    100030: tuyul_fire_rig L Finger4
+    100032: tuyul_fire_rig L Finger41
+    100034: tuyul_fire_rig L Finger4Nub
+    100036: tuyul_fire_rig R Finger0
+    100038: tuyul_fire_rig R Finger01
+    100040: tuyul_fire_rig R Finger0Nub
+    100042: tuyul_fire_rig R Finger1
+    100044: tuyul_fire_rig R Finger11
+    100046: tuyul_fire_rig R Finger1Nub
+    100048: tuyul_fire_rig R Finger2
+    100050: tuyul_fire_rig R Finger21
+    100052: tuyul_fire_rig R Finger2Nub
+    100054: tuyul_fire_rig R Finger3
+    100056: tuyul_fire_rig R Finger31
+    100058: tuyul_fire_rig R Finger3Nub
+    100060: tuyul_fire_rig R Finger4
+    100062: tuyul_fire_rig R Finger41
+    100064: tuyul_fire_rig R Finger4Nub
+    100066: tuyul_fire_rig_Head
+    100068: tuyul_fire_rig_HeadNub
+    100070: tuyul_fire_rig_L Calf
+    100072: tuyul_fire_rig_L Clavicle
+    100074: tuyul_fire_rig_L Foot
+    100076: tuyul_fire_rig_L Forearm
+    100078: tuyul_fire_rig_L Hand
+    100080: tuyul_fire_rig_L Thigh
+    100082: tuyul_fire_rig_L Toe0
+    100084: tuyul_fire_rig_L Toe0Nub
+    100086: tuyul_fire_rig_L UpperArm
+    100088: tuyul_fire_rig_Neck
+    100090: tuyul_fire_rig_Pelvis
+    100092: tuyul_fire_rig_R Calf
+    100094: tuyul_fire_rig_R Clavicle
+    100096: tuyul_fire_rig_R Foot
+    100098: tuyul_fire_rig_R Forearm
+    100100: tuyul_fire_rig_R Hand
+    100102: tuyul_fire_rig_R Thigh
+    100104: tuyul_fire_rig_R Toe0
+    100106: tuyul_fire_rig_R Toe0Nub
+    100108: tuyul_fire_rig_R UpperArm
+    100110: tuyul_fire_rig_Spine
+    100112: tuyul_fire_rig_Spine1
+    100114: Camera001
+    100116: Camera001.Target
+    100118: Sphere001
+    100120: tuyul_fire_rig_Footsteps
+    100122: tuyul_water
+    100124: tuyul_water_rig
+    100126: tuyul_water_rig L Finger0
+    100128: tuyul_water_rig L Finger01
+    100130: tuyul_water_rig L Finger0Nub
+    100132: tuyul_water_rig L Finger1
+    100134: tuyul_water_rig L Finger11
+    100136: tuyul_water_rig L Finger1Nub
+    100138: tuyul_water_rig L Finger2
+    100140: tuyul_water_rig L Finger21
+    100142: tuyul_water_rig L Finger2Nub
+    100144: tuyul_water_rig L Finger3
+    100146: tuyul_water_rig L Finger31
+    100148: tuyul_water_rig L Finger3Nub
+    100150: tuyul_water_rig L Finger4
+    100152: tuyul_water_rig L Finger41
+    100154: tuyul_water_rig L Finger4Nub
+    100156: tuyul_water_rig R Finger0
+    100158: tuyul_water_rig R Finger01
+    100160: tuyul_water_rig R Finger0Nub
+    100162: tuyul_water_rig R Finger1
+    100164: tuyul_water_rig R Finger11
+    100166: tuyul_water_rig R Finger1Nub
+    100168: tuyul_water_rig R Finger2
+    100170: tuyul_water_rig R Finger21
+    100172: tuyul_water_rig R Finger2Nub
+    100174: tuyul_water_rig R Finger3
+    100176: tuyul_water_rig R Finger31
+    100178: tuyul_water_rig R Finger3Nub
+    100180: tuyul_water_rig R Finger4
+    100182: tuyul_water_rig R Finger41
+    100184: tuyul_water_rig R Finger4Nub
+    100186: tuyul_water_rig_Footsteps
+    100188: tuyul_water_rig_Head
+    100190: tuyul_water_rig_HeadNub
+    100192: tuyul_water_rig_L Calf
+    100194: tuyul_water_rig_L Clavicle
+    100196: tuyul_water_rig_L Foot
+    100198: tuyul_water_rig_L Forearm
+    100200: tuyul_water_rig_L Hand
+    100202: tuyul_water_rig_L Thigh
+    100204: tuyul_water_rig_L Toe0
+    100206: tuyul_water_rig_L Toe0Nub
+    100208: tuyul_water_rig_L UpperArm
+    100210: tuyul_water_rig_Neck
+    100212: tuyul_water_rig_Pelvis
+    100214: tuyul_water_rig_R Calf
+    100216: tuyul_water_rig_R Clavicle
+    100218: tuyul_water_rig_R Foot
+    100220: tuyul_water_rig_R Forearm
+    100222: tuyul_water_rig_R Hand
+    100224: tuyul_water_rig_R Thigh
+    100226: tuyul_water_rig_R Toe0
+    100228: tuyul_water_rig_R Toe0Nub
+    100230: tuyul_water_rig_R UpperArm
+    100232: tuyul_water_rig_Spine
+    100234: tuyul_water_rig_Spine1
+    400000: //RootNode
+    400002: tuyul_fire
+    400004: tuyul_fire_rig
+    400006: tuyul_fire_rig L Finger0
+    400008: tuyul_fire_rig L Finger01
+    400010: tuyul_fire_rig L Finger0Nub
+    400012: tuyul_fire_rig L Finger1
+    400014: tuyul_fire_rig L Finger11
+    400016: tuyul_fire_rig L Finger1Nub
+    400018: tuyul_fire_rig L Finger2
+    400020: tuyul_fire_rig L Finger21
+    400022: tuyul_fire_rig L Finger2Nub
+    400024: tuyul_fire_rig L Finger3
+    400026: tuyul_fire_rig L Finger31
+    400028: tuyul_fire_rig L Finger3Nub
+    400030: tuyul_fire_rig L Finger4
+    400032: tuyul_fire_rig L Finger41
+    400034: tuyul_fire_rig L Finger4Nub
+    400036: tuyul_fire_rig R Finger0
+    400038: tuyul_fire_rig R Finger01
+    400040: tuyul_fire_rig R Finger0Nub
+    400042: tuyul_fire_rig R Finger1
+    400044: tuyul_fire_rig R Finger11
+    400046: tuyul_fire_rig R Finger1Nub
+    400048: tuyul_fire_rig R Finger2
+    400050: tuyul_fire_rig R Finger21
+    400052: tuyul_fire_rig R Finger2Nub
+    400054: tuyul_fire_rig R Finger3
+    400056: tuyul_fire_rig R Finger31
+    400058: tuyul_fire_rig R Finger3Nub
+    400060: tuyul_fire_rig R Finger4
+    400062: tuyul_fire_rig R Finger41
+    400064: tuyul_fire_rig R Finger4Nub
+    400066: tuyul_fire_rig_Head
+    400068: tuyul_fire_rig_HeadNub
+    400070: tuyul_fire_rig_L Calf
+    400072: tuyul_fire_rig_L Clavicle
+    400074: tuyul_fire_rig_L Foot
+    400076: tuyul_fire_rig_L Forearm
+    400078: tuyul_fire_rig_L Hand
+    400080: tuyul_fire_rig_L Thigh
+    400082: tuyul_fire_rig_L Toe0
+    400084: tuyul_fire_rig_L Toe0Nub
+    400086: tuyul_fire_rig_L UpperArm
+    400088: tuyul_fire_rig_Neck
+    400090: tuyul_fire_rig_Pelvis
+    400092: tuyul_fire_rig_R Calf
+    400094: tuyul_fire_rig_R Clavicle
+    400096: tuyul_fire_rig_R Foot
+    400098: tuyul_fire_rig_R Forearm
+    400100: tuyul_fire_rig_R Hand
+    400102: tuyul_fire_rig_R Thigh
+    400104: tuyul_fire_rig_R Toe0
+    400106: tuyul_fire_rig_R Toe0Nub
+    400108: tuyul_fire_rig_R UpperArm
+    400110: tuyul_fire_rig_Spine
+    400112: tuyul_fire_rig_Spine1
+    400114: Camera001
+    400116: Camera001.Target
+    400118: Sphere001
+    400120: tuyul_fire_rig_Footsteps
+    400122: tuyul_water
+    400124: tuyul_water_rig
+    400126: tuyul_water_rig L Finger0
+    400128: tuyul_water_rig L Finger01
+    400130: tuyul_water_rig L Finger0Nub
+    400132: tuyul_water_rig L Finger1
+    400134: tuyul_water_rig L Finger11
+    400136: tuyul_water_rig L Finger1Nub
+    400138: tuyul_water_rig L Finger2
+    400140: tuyul_water_rig L Finger21
+    400142: tuyul_water_rig L Finger2Nub
+    400144: tuyul_water_rig L Finger3
+    400146: tuyul_water_rig L Finger31
+    400148: tuyul_water_rig L Finger3Nub
+    400150: tuyul_water_rig L Finger4
+    400152: tuyul_water_rig L Finger41
+    400154: tuyul_water_rig L Finger4Nub
+    400156: tuyul_water_rig R Finger0
+    400158: tuyul_water_rig R Finger01
+    400160: tuyul_water_rig R Finger0Nub
+    400162: tuyul_water_rig R Finger1
+    400164: tuyul_water_rig R Finger11
+    400166: tuyul_water_rig R Finger1Nub
+    400168: tuyul_water_rig R Finger2
+    400170: tuyul_water_rig R Finger21
+    400172: tuyul_water_rig R Finger2Nub
+    400174: tuyul_water_rig R Finger3
+    400176: tuyul_water_rig R Finger31
+    400178: tuyul_water_rig R Finger3Nub
+    400180: tuyul_water_rig R Finger4
+    400182: tuyul_water_rig R Finger41
+    400184: tuyul_water_rig R Finger4Nub
+    400186: tuyul_water_rig_Footsteps
+    400188: tuyul_water_rig_Head
+    400190: tuyul_water_rig_HeadNub
+    400192: tuyul_water_rig_L Calf
+    400194: tuyul_water_rig_L Clavicle
+    400196: tuyul_water_rig_L Foot
+    400198: tuyul_water_rig_L Forearm
+    400200: tuyul_water_rig_L Hand
+    400202: tuyul_water_rig_L Thigh
+    400204: tuyul_water_rig_L Toe0
+    400206: tuyul_water_rig_L Toe0Nub
+    400208: tuyul_water_rig_L UpperArm
+    400210: tuyul_water_rig_Neck
+    400212: tuyul_water_rig_Pelvis
+    400214: tuyul_water_rig_R Calf
+    400216: tuyul_water_rig_R Clavicle
+    400218: tuyul_water_rig_R Foot
+    400220: tuyul_water_rig_R Forearm
+    400222: tuyul_water_rig_R Hand
+    400224: tuyul_water_rig_R Thigh
+    400226: tuyul_water_rig_R Toe0
+    400228: tuyul_water_rig_R Toe0Nub
+    400230: tuyul_water_rig_R UpperArm
+    400232: tuyul_water_rig_Spine
+    400234: tuyul_water_rig_Spine1
+    2300000: Sphere001
+    3300000: Sphere001
+    4300000: tuyul_fire
+    4300002: Sphere001
+    4300004: tuyul_water
+    7400000: idle
+    7400002: attack
+    7400004: hit
+    7400006: charge
+    7400008: nangkis_loss
+    7400010: nangkis
+    7400012: select
+    7400014: maju
+    7400016: menang
+    7400018: kalah
+    7400020: draw
+    7400022: Take 001
+    7400024: attackbaru
+    7400026: attackbaru2
+    7400028: hitbaru
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: tuyul_fire
+    13700002: tuyul_water
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: select
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menang
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 123
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kalah
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 188
+      lastFrame: 283
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Footsteps
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru
+      takeName: Take 001
+      firstFrame: 288
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Footsteps
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru2
+      takeName: Take 001
+      firstFrame: 353
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Footsteps
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hitbaru
+      takeName: Take 001
+      firstFrame: 398
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: tuyul_fire
+        weight: 1
+      - path: tuyul_fire_rig
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Footsteps
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_L
+          Thigh/tuyul_fire_rig_L Calf/tuyul_fire_rig_L Foot/tuyul_fire_rig_L Toe0/tuyul_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_R
+          Thigh/tuyul_fire_rig_R Calf/tuyul_fire_rig_R Foot/tuyul_fire_rig_R Toe0/tuyul_fire_rig_R
+          Toe0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_Head/tuyul_fire_rig_HeadNub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger0/tuyul_fire_rig L Finger01/tuyul_fire_rig L
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger1/tuyul_fire_rig L Finger11/tuyul_fire_rig L
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger2/tuyul_fire_rig L Finger21/tuyul_fire_rig L
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger3/tuyul_fire_rig L Finger31/tuyul_fire_rig L
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_L
+          Clavicle/tuyul_fire_rig_L UpperArm/tuyul_fire_rig_L Forearm/tuyul_fire_rig_L
+          Hand/tuyul_fire_rig L Finger4/tuyul_fire_rig L Finger41/tuyul_fire_rig L
+          Finger4Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger0/tuyul_fire_rig R Finger01/tuyul_fire_rig R
+          Finger0Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger1/tuyul_fire_rig R Finger11/tuyul_fire_rig R
+          Finger1Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger2/tuyul_fire_rig R Finger21/tuyul_fire_rig R
+          Finger2Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger3/tuyul_fire_rig R Finger31/tuyul_fire_rig R
+          Finger3Nub
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41
+        weight: 1
+      - path: tuyul_fire_rig/tuyul_fire_rig_Pelvis/tuyul_fire_rig_Spine/tuyul_fire_rig_Spine1/tuyul_fire_rig_Neck/tuyul_fire_rig_R
+          Clavicle/tuyul_fire_rig_R UpperArm/tuyul_fire_rig_R Forearm/tuyul_fire_rig_R
+          Hand/tuyul_fire_rig R Finger4/tuyul_fire_rig R Finger41/tuyul_fire_rig R
+          Finger4Nub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

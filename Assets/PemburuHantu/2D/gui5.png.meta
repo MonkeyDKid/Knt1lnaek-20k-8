@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: b4d1d42f9a74d4b4b829108895e01a3e
+timeCreated: 1501735490
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gui5_0
+    21300002: gui5_1
+    21300004: gui5_2
+    21300006: gui5_3
+    21300008: gui5_4
+    21300010: gui5_6
+    21300012: gui5_5
+    21300014: gui5_7
+    21300016: gui5_8
+    21300018: gui5_9
+    21300020: gui5_10
+    21300022: gui5_11
+    21300024: gui5_12
+    21300026: gui5_13
+    21300028: gui5_14
+    21300030: gui5_15
+    21300032: gui5_16
+    21300034: gui5_17
+    21300036: gui5_18
+    21300038: gui5_19
+    21300040: gui5_20
+    21300042: gui5_21
+    21300044: gui5_22
+    21300046: gui5_23
+    21300048: gui5_24
+    21300050: gui5_25
+    21300052: gui5_26
+    21300054: gui5_27
+    21300056: gui5_28
+    21300058: gui5_29
+    21300060: gui5_30
+    21300062: gui5_31
+    21300064: gui5_32
+    21300066: gui5_33
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gui5_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 518
+        width: 417
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 803
+        width: 675
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_2
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 987
+        width: 431
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 210
+        width: 969
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 536
+        width: 667
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_5
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 982
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_7
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 987
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_8
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 879
+        width: 325
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_9
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 888
+        width: 307
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_10
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 751
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_11
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 751
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_12
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 751
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 700
+        width: 514
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_14
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 670
+        width: 513
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_15
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 288
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_16
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 288
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_17
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 288
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_6
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 406
+        width: 422
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_18
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 62
+        width: 173
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_19
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 65
+        width: 173
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_20
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 962
+        width: 37
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 46
+        width: 310
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 12
+        width: 204
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_23
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 86
+        width: 448
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_24
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 607
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 607
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_26
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 607
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_27
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 540
+        width: 122
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_28
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 540
+        width: 111
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_29
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 577
+        width: 364
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_30
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 749
+        width: 76
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_31
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 792
+        width: 78
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_32
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 812
+        width: 304
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui5_33
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 740
+        width: 307
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

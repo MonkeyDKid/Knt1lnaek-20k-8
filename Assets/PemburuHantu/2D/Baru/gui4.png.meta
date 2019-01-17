@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: ccd115996eb2ed8428fbc054f801944e
+timeCreated: 1539844655
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gui4_0
+    21300002: gui4_1
+    21300004: gui4_10
+    21300006: gui4_11
+    21300008: gui4_12
+    21300010: gui4_14
+    21300012: gui4_18
+    21300014: gui4_19
+    21300016: gui4_20
+    21300018: gui4_21
+    21300020: gui4_22
+    21300022: gui4_23
+    21300024: gui4_24
+    21300026: gui4_25
+    21300028: gui4_27
+    21300030: gui4_30
+    21300032: gui4_31
+    21300034: gui4_32
+    21300036: gui4_33
+    21300038: gui4_34
+    21300040: gui4_35
+    21300042: gui4_36
+    21300044: gui4_37
+    21300046: gui4_38
+    21300048: gui4_39
+    21300050: gui4_40
+    21300052: gui4_41
+    21300054: gui4_42
+    21300056: gui4_43
+    21300058: gui4_44
+    21300060: gui4_45
+    21300062: gui4_46
+    21300064: gui4_47
+    21300066: gui4_48
+    21300068: gui4_49
+    21300070: gui4_50
+    21300072: gui4_51
+    21300074: gui4_2
+    21300076: gui4_3
+    21300078: gui4_4
+    21300080: gui4_5
+    21300082: gui4_6
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gui4_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 939
+        width: 1428
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_1
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 996
+        width: 420
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_10
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 855
+        width: 128
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_11
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 855
+        width: 128
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_12
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 932
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_14
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 934
+        width: 93
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 888
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 888
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 888
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 821
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 821
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 821
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_24
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 903
+        width: 560
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_25
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 887
+        width: 204
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_27
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 892
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 816
+        width: 97
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_31
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 816
+        width: 117
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_32
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 796
+        width: 301
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_33
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 796
+        width: 301
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_34
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 769
+        width: 244
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_35
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 771
+        width: 244
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_36
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 696
+        width: 1314
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_37
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 648
+        width: 197
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_38
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 648
+        width: 327
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 426
+        width: 609
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_40
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 424
+        width: 609
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 44, y: 67, z: 61, w: 185}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_41
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 459
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_42
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 527
+        width: 379
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 159
+        width: 609
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_44
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 157
+        width: 609
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 114
+        width: 124
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_46
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 104
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_47
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 34
+        width: 492
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_48
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 42
+        width: 442
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 60
+        width: 120
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_50
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 66
+        width: 84
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 14
+        width: 120
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_2
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 13
+        width: 624
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_3
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 459
+        width: 259
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_4
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 230
+        width: 213
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_5
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 248
+        width: 213
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui4_6
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 228
+        width: 181
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

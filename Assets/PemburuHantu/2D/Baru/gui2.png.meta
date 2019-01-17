@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: d91d8bd74ac568e47881628520cbec65
+timeCreated: 1507706292
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gui2_0
+    21300002: gui2_1
+    21300004: gui2_2
+    21300006: gui2_3
+    21300008: gui2_4
+    21300010: gui2_5
+    21300012: gui2_6
+    21300014: gui2_7
+    21300016: gui2_8
+    21300018: gui2_13
+    21300020: gui2_19
+    21300022: gui2_24
+    21300024: gui2_39
+    21300026: gui2_40
+    21300028: gui2_44
+    21300030: gui2_45
+    21300032: gui2_51
+    21300034: gui2_60
+    21300036: gui2_68
+    21300038: gui2_79
+    21300040: gui2_80
+    21300042: gui2_81
+    21300044: gui2_83
+    21300046: gui2_84
+    21300048: gui2_86
+    21300050: gui2_90
+    21300052: gui2_92
+    21300054: gui2_93
+    21300056: gui2_95
+    21300058: gui2_98
+    21300060: gui2_100
+    21300062: gui2_101
+    21300064: gui2_102
+    21300066: gui2_103
+    21300068: gui2_104
+    21300070: gui2_105
+    21300072: gui2_106
+    21300074: gui2_107
+    21300076: gui2_108
+    21300078: gui2_109
+    21300080: gui2_114
+    21300082: gui2_120
+    21300084: gui2_121
+    21300086: gui2_122
+    21300088: gui2_123
+    21300090: gui2_124
+    21300092: gui2_133
+    21300094: gui2_134
+    21300096: gui2_135
+    21300098: gui2_136
+    21300100: gui2_9
+    21300102: gui2_10
+    21300104: gui2_11
+    21300106: gui2_12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gui2_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 868
+        width: 183
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 872
+        width: 183
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_2
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 953
+        width: 244
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_3
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 952
+        width: 244
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_4
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 585
+        width: 469
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 841
+        width: 365
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_6
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 825
+        width: 222
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_7
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 842
+        width: 208
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 796
+        width: 121
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 794
+        width: 249
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 800
+        width: 156
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_24
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 802
+        width: 119
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_39
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 713
+        width: 223
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_40
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 761
+        width: 122
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_44
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 726
+        width: 120
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 726
+        width: 253
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_51
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 757
+        width: 154
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_60
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 720
+        width: 155
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_68
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 715
+        width: 156
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_79
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 664
+        width: 182
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_80
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 664
+        width: 203
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_81
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 652
+        width: 227
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_83
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 654
+        width: 119
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 600
+        width: 246
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_86
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 596
+        width: 359
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_90
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 608
+        width: 230
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_92
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 605
+        width: 168
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_93
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 532
+        width: 315
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_95
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 532
+        width: 305
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_98
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 565
+        width: 243
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_100
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 562
+        width: 109
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_101
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 100
+        width: 469
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_102
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 519
+        width: 168
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_103
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 458
+        width: 222
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_104
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 347
+        width: 603
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_105
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 327
+        width: 190
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_106
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 330
+        width: 282
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_107
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 216
+        width: 127
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_108
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 210
+        width: 282
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_109
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 297
+        width: 108
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_114
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 298
+        width: 124
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_120
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 231
+        width: 208
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_121
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 212
+        width: 127
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_122
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 225
+        width: 298
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_123
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 199
+        width: 275
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_124
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 190
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_133
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 190
+        width: 103
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_134
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 30
+        width: 633
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_135
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 48
+        width: 363
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_136
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 46
+        width: 363
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_9
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 565
+        width: 301
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_10
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 395
+        width: 133
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_11
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 180
+        width: 217
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui2_12
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 400
+        width: 154
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

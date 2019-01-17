@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 4874caf63bea5b24ea907a892d853f4d
+timeCreated: 1493006189
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: jerangkong_fire
+    100004: jerangkong_fire_rig
+    100006: jerangkong_fire_rig_Head
+    100008: jerangkong_fire_rig_HeadNub
+    100010: jerangkong_fire_rig_L Calf
+    100012: jerangkong_fire_rig_L Clavicle
+    100014: jerangkong_fire_rig_L Foot
+    100016: jerangkong_fire_rig_L Forearm
+    100018: jerangkong_fire_rig_L Hand
+    100020: jerangkong_fire_rig_L Thigh
+    100022: jerangkong_fire_rig_L Toe0
+    100024: jerangkong_fire_rig_L Toe0Nub
+    100026: jerangkong_fire_rig_L UpperArm
+    100028: jerangkong_fire_rig_Neck
+    100030: jerangkong_fire_rig_Pelvis
+    100032: jerangkong_fire_rig_R Calf
+    100034: jerangkong_fire_rig_R Clavicle
+    100036: jerangkong_fire_rig_R Foot
+    100038: jerangkong_fire_rig_R Forearm
+    100040: jerangkong_fire_rig_R Hand
+    100042: jerangkong_fire_rig_R Thigh
+    100044: jerangkong_fire_rig_R Toe0
+    100046: jerangkong_fire_rig_R Toe0Nub
+    100048: jerangkong_fire_rig_R UpperArm
+    100050: jerangkong_fire_rig_Spine
+    100052: jerangkong_fire_rig_Spine1
+    100054: jerangkong_fire_rig_Footsteps
+    100056: jerangkong_water
+    100058: jerangkong_water_rig
+    100060: jerangkong_water_rig_Footsteps
+    100062: jerangkong_water_rig_Head
+    100064: jerangkong_water_rig_HeadNub
+    100066: jerangkong_water_rig_L Calf
+    100068: jerangkong_water_rig_L Clavicle
+    100070: jerangkong_water_rig_L Foot
+    100072: jerangkong_water_rig_L Forearm
+    100074: jerangkong_water_rig_L Hand
+    100076: jerangkong_water_rig_L Thigh
+    100078: jerangkong_water_rig_L Toe0
+    100080: jerangkong_water_rig_L Toe0Nub
+    100082: jerangkong_water_rig_L UpperArm
+    100084: jerangkong_water_rig_Neck
+    100086: jerangkong_water_rig_Pelvis
+    100088: jerangkong_water_rig_R Calf
+    100090: jerangkong_water_rig_R Clavicle
+    100092: jerangkong_water_rig_R Foot
+    100094: jerangkong_water_rig_R Forearm
+    100096: jerangkong_water_rig_R Hand
+    100098: jerangkong_water_rig_R Thigh
+    100100: jerangkong_water_rig_R Toe0
+    100102: jerangkong_water_rig_R Toe0Nub
+    100104: jerangkong_water_rig_R UpperArm
+    100106: jerangkong_water_rig_Spine
+    100108: jerangkong_water_rig_Spine1
+    400000: //RootNode
+    400002: jerangkong_fire
+    400004: jerangkong_fire_rig
+    400006: jerangkong_fire_rig_Head
+    400008: jerangkong_fire_rig_HeadNub
+    400010: jerangkong_fire_rig_L Calf
+    400012: jerangkong_fire_rig_L Clavicle
+    400014: jerangkong_fire_rig_L Foot
+    400016: jerangkong_fire_rig_L Forearm
+    400018: jerangkong_fire_rig_L Hand
+    400020: jerangkong_fire_rig_L Thigh
+    400022: jerangkong_fire_rig_L Toe0
+    400024: jerangkong_fire_rig_L Toe0Nub
+    400026: jerangkong_fire_rig_L UpperArm
+    400028: jerangkong_fire_rig_Neck
+    400030: jerangkong_fire_rig_Pelvis
+    400032: jerangkong_fire_rig_R Calf
+    400034: jerangkong_fire_rig_R Clavicle
+    400036: jerangkong_fire_rig_R Foot
+    400038: jerangkong_fire_rig_R Forearm
+    400040: jerangkong_fire_rig_R Hand
+    400042: jerangkong_fire_rig_R Thigh
+    400044: jerangkong_fire_rig_R Toe0
+    400046: jerangkong_fire_rig_R Toe0Nub
+    400048: jerangkong_fire_rig_R UpperArm
+    400050: jerangkong_fire_rig_Spine
+    400052: jerangkong_fire_rig_Spine1
+    400054: jerangkong_fire_rig_Footsteps
+    400056: jerangkong_water
+    400058: jerangkong_water_rig
+    400060: jerangkong_water_rig_Footsteps
+    400062: jerangkong_water_rig_Head
+    400064: jerangkong_water_rig_HeadNub
+    400066: jerangkong_water_rig_L Calf
+    400068: jerangkong_water_rig_L Clavicle
+    400070: jerangkong_water_rig_L Foot
+    400072: jerangkong_water_rig_L Forearm
+    400074: jerangkong_water_rig_L Hand
+    400076: jerangkong_water_rig_L Thigh
+    400078: jerangkong_water_rig_L Toe0
+    400080: jerangkong_water_rig_L Toe0Nub
+    400082: jerangkong_water_rig_L UpperArm
+    400084: jerangkong_water_rig_Neck
+    400086: jerangkong_water_rig_Pelvis
+    400088: jerangkong_water_rig_R Calf
+    400090: jerangkong_water_rig_R Clavicle
+    400092: jerangkong_water_rig_R Foot
+    400094: jerangkong_water_rig_R Forearm
+    400096: jerangkong_water_rig_R Hand
+    400098: jerangkong_water_rig_R Thigh
+    400100: jerangkong_water_rig_R Toe0
+    400102: jerangkong_water_rig_R Toe0Nub
+    400104: jerangkong_water_rig_R UpperArm
+    400106: jerangkong_water_rig_Spine
+    400108: jerangkong_water_rig_Spine1
+    4300000: jerangkong_fire
+    4300002: jerangkong_water
+    7400000: idle
+    7400002: attack
+    7400004: hit
+    7400006: charge
+    7400008: nangkis_loss
+    7400010: nangkis
+    7400012: select
+    7400014: maju
+    7400016: menang
+    7400018: kalah
+    7400020: kalah
+    7400022: Take 001
+    7400024: attackbaru
+    7400026: attackbaru2
+    7400028: hitbaru
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: jerangkong_fire
+    13700002: jerangkong_water
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: select
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menang
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 123
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Footsteps
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kalah
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Footsteps
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 188
+      lastFrame: 283
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Footsteps
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru
+      takeName: Take 001
+      firstFrame: 288
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Footsteps
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru2
+      takeName: Take 001
+      firstFrame: 353
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Footsteps
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hitbaru
+      takeName: Take 001
+      firstFrame: 398
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jerangkong_fire
+        weight: 1
+      - path: jerangkong_fire_rig
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Footsteps
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_L
+          Thigh/jerangkong_fire_rig_L Calf/jerangkong_fire_rig_L Foot/jerangkong_fire_rig_L
+          Toe0/jerangkong_fire_rig_L Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_R
+          Thigh/jerangkong_fire_rig_R Calf/jerangkong_fire_rig_R Foot/jerangkong_fire_rig_R
+          Toe0/jerangkong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_Head/jerangkong_fire_rig_HeadNub
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_L
+          Clavicle/jerangkong_fire_rig_L UpperArm/jerangkong_fire_rig_L Forearm/jerangkong_fire_rig_L
+          Hand
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm
+        weight: 1
+      - path: jerangkong_fire_rig/jerangkong_fire_rig_Pelvis/jerangkong_fire_rig_Spine/jerangkong_fire_rig_Spine1/jerangkong_fire_rig_Neck/jerangkong_fire_rig_R
+          Clavicle/jerangkong_fire_rig_R UpperArm/jerangkong_fire_rig_R Forearm/jerangkong_fire_rig_R
+          Hand
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: 9772284fcbcfa7846bf5526ff05bec6b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _Bip001 L Clavicle
+    100002: _Bip001 L Forearm
+    100004: _Bip001 L Hand
+    100006: _Bip001 L UpperArm
+    100008: _Bip001 R Calf
+    100010: _Bip001 R Clavicle
+    100012: _Bip001 R Foot
+    100014: _Bip001 R Forearm
+    100016: _Bip001 R Hand
+    100018: _Bip001 R Thigh
+    100020: _Bip001 R Toe0
+    100022: _Bip001 R UpperArm
+    100024: //RootNode
+    100026: pocong_fire
+    100028: pocong_fire_rig
+    100030: pocong_fire_rig_Head
+    100032: pocong_fire_rig_HeadNub
+    100034: pocong_fire_rig_L Calf
+    100036: pocong_fire_rig_L Foot
+    100038: pocong_fire_rig_L Thigh
+    100040: pocong_fire_rig_L Toe0
+    100042: pocong_fire_rig_L Toe0Nub
+    100044: pocong_fire_rig_Neck
+    100046: pocong_fire_rig_Pelvis
+    100048: pocong_fire_rig_R Toe0Nub
+    100050: pocong_fire_rig_Spine
+    100052: ' fire'
+    100054: Camera001
+    100056: Camera001.Target
+    100058: pocong_fire001
+    100060: pocong_fire_rig001
+    100062: pocong_fire_rig001 fireNub
+    100064: pocong_fire_rig001 Footsteps
+    100066: pocong_fire_rig001 Head
+    100068: pocong_fire_rig001 HeadNub
+    100070: pocong_fire_rig001 L Calf
+    100072: pocong_fire_rig001 L Clavicle
+    100074: pocong_fire_rig001 L Foot
+    100076: pocong_fire_rig001 L Forearm
+    100078: pocong_fire_rig001 L Hand
+    100080: pocong_fire_rig001 L Thigh
+    100082: pocong_fire_rig001 L Toe0
+    100084: pocong_fire_rig001 L Toe0Nub
+    100086: pocong_fire_rig001 L UpperArm
+    100088: pocong_fire_rig001 Neck
+    100090: pocong_fire_rig001 Pelvis
+    100092: pocong_fire_rig001 R Calf
+    100094: pocong_fire_rig001 R Clavicle
+    100096: pocong_fire_rig001 R Foot
+    100098: pocong_fire_rig001 R Forearm
+    100100: pocong_fire_rig001 R Hand
+    100102: pocong_fire_rig001 R Thigh
+    100104: pocong_fire_rig001 R Toe0
+    100106: pocong_fire_rig001 R Toe0Nub
+    100108: pocong_fire_rig001 R UpperArm
+    100110: pocong_fire_rig001 Spine
+    100112: pocong_fire_rig_Footsteps
+    100114: Sphere001
+    100116: Camera002
+    400000: _Bip001 L Clavicle
+    400002: _Bip001 L Forearm
+    400004: _Bip001 L Hand
+    400006: _Bip001 L UpperArm
+    400008: _Bip001 R Calf
+    400010: _Bip001 R Clavicle
+    400012: _Bip001 R Foot
+    400014: _Bip001 R Forearm
+    400016: _Bip001 R Hand
+    400018: _Bip001 R Thigh
+    400020: _Bip001 R Toe0
+    400022: _Bip001 R UpperArm
+    400024: //RootNode
+    400026: pocong_fire
+    400028: pocong_fire_rig
+    400030: pocong_fire_rig_Head
+    400032: pocong_fire_rig_HeadNub
+    400034: pocong_fire_rig_L Calf
+    400036: pocong_fire_rig_L Foot
+    400038: pocong_fire_rig_L Thigh
+    400040: pocong_fire_rig_L Toe0
+    400042: pocong_fire_rig_L Toe0Nub
+    400044: pocong_fire_rig_Neck
+    400046: pocong_fire_rig_Pelvis
+    400048: pocong_fire_rig_R Toe0Nub
+    400050: pocong_fire_rig_Spine
+    400052: ' fire'
+    400054: Camera001
+    400056: Camera001.Target
+    400058: pocong_fire001
+    400060: pocong_fire_rig001
+    400062: pocong_fire_rig001 fireNub
+    400064: pocong_fire_rig001 Footsteps
+    400066: pocong_fire_rig001 Head
+    400068: pocong_fire_rig001 HeadNub
+    400070: pocong_fire_rig001 L Calf
+    400072: pocong_fire_rig001 L Clavicle
+    400074: pocong_fire_rig001 L Foot
+    400076: pocong_fire_rig001 L Forearm
+    400078: pocong_fire_rig001 L Hand
+    400080: pocong_fire_rig001 L Thigh
+    400082: pocong_fire_rig001 L Toe0
+    400084: pocong_fire_rig001 L Toe0Nub
+    400086: pocong_fire_rig001 L UpperArm
+    400088: pocong_fire_rig001 Neck
+    400090: pocong_fire_rig001 Pelvis
+    400092: pocong_fire_rig001 R Calf
+    400094: pocong_fire_rig001 R Clavicle
+    400096: pocong_fire_rig001 R Foot
+    400098: pocong_fire_rig001 R Forearm
+    400100: pocong_fire_rig001 R Hand
+    400102: pocong_fire_rig001 R Thigh
+    400104: pocong_fire_rig001 R Toe0
+    400106: pocong_fire_rig001 R Toe0Nub
+    400108: pocong_fire_rig001 R UpperArm
+    400110: pocong_fire_rig001 Spine
+    400112: pocong_fire_rig_Footsteps
+    400114: Sphere001
+    400116: Camera002
+    2300000: Sphere001
+    3300000: Sphere001
+    4300000: pocong_fire
+    4300002: pocong_fire001
+    4300004: Sphere001
+    7400000: idle
+    7400002: attack
+    7400004: hit
+    7400006: charge
+    7400008: nangkis_loss
+    7400010: nangkis
+    7400012: select
+    7400014: maju
+    7400016: menang
+    7400018: kalah
+    7400020: draw
+    7400022: Take 001
+    7400024: attackbaru
+    7400026: attackbaru2
+    7400028: hitbaru
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pocong_fire
+    13700002: pocong_fire001
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: cdf120601c3bb974eb087e3335cadc26, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: select
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menang
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 123
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kalah
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 188
+      lastFrame: 283
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Footsteps
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru
+      takeName: Take 001
+      firstFrame: 288
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Footsteps
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru2
+      takeName: Take 001
+      firstFrame: 353
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Footsteps
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hitbaru
+      takeName: Take 001
+      firstFrame: 398
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: pocong_fire
+        weight: 1
+      - path: pocong_fire_rig
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Footsteps
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/_Bip001
+          R Thigh/_Bip001 R Calf/_Bip001 R Foot/_Bip001 R Toe0/pocong_fire_rig_R Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_L
+          Thigh/pocong_fire_rig_L Calf/pocong_fire_rig_L Foot/pocong_fire_rig_L Toe0/pocong_fire_rig_L
+          Toe0Nub
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          L Clavicle/_Bip001 L UpperArm/_Bip001 L Forearm/_Bip001 L Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/_Bip001
+          R Clavicle/_Bip001 R UpperArm/_Bip001 R Forearm/_Bip001 R Hand
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head
+        weight: 1
+      - path: pocong_fire_rig/pocong_fire_rig_Pelvis/pocong_fire_rig_Spine/pocong_fire_rig_Neck/pocong_fire_rig_Head/pocong_fire_rig_HeadNub
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

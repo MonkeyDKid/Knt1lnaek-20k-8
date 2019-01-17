@@ -1,0 +1,700 @@
+fileFormatVersion: 2
+guid: b11cfa0e11cd2c34ebca07143ea9fcdf
+timeCreated: 1510716388
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gui3_0
+    21300002: gui3_1
+    21300004: gui3_2
+    21300006: gui3_3
+    21300008: gui3_4
+    21300010: gui3_5
+    21300012: gui3_6
+    21300014: gui3_7
+    21300016: gui3_13
+    21300018: gui3_14
+    21300020: gui3_16
+    21300022: gui3_21
+    21300024: gui3_22
+    21300026: gui3_24
+    21300028: gui3_47
+    21300030: gui3_57
+    21300032: gui3_58
+    21300034: gui3_59
+    21300036: gui3_64
+    21300038: gui3_65
+    21300040: gui3_68
+    21300042: gui3_76
+    21300044: gui3_91
+    21300046: gui3_92
+    21300048: gui3_93
+    21300050: gui3_94
+    21300052: gui3_95
+    21300054: gui3_96
+    21300056: gui3_97
+    21300058: gui3_98
+    21300060: gui3_99
+    21300062: gui3_100
+    21300064: gui3_101
+    21300066: gui3_102
+    21300068: gui3_103
+    21300070: gui3_104
+    21300072: gui3_105
+    21300074: gui3_106
+    21300076: gui3_107
+    21300078: gui3_108
+    21300080: gui3_109
+    21300082: gui3_110
+    21300084: gui3_111
+    21300086: barugui3_0
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gui3_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 466
+        width: 516
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 72, y: 83, z: 72, w: 85}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 490
+        width: 421
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_2
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 903
+        width: 129
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_3
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 903
+        width: 252
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 903
+        width: 341
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_5
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 706
+        width: 451
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_6
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 706
+        width: 397
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 629
+        width: 360
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_13
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 545
+        width: 60
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_14
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 620
+        width: 380
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_16
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 549
+        width: 248
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_21
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 546
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_22
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 559
+        width: 402
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_24
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 495
+        width: 675
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_47
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 504
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_57
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 382
+        width: 379
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_58
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 393
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_59
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 446
+        width: 258
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_64
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 386
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_65
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 384
+        width: 297
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_68
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 393
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_76
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 386
+        width: 599
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_91
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 258
+        width: 363
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_92
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 259
+        width: 363
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_93
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 260
+        width: 492
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_94
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 321
+        width: 311
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_95
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 321
+        width: 311
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_96
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 258
+        width: 311
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_97
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 259
+        width: 311
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 134
+        width: 363
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_99
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 136
+        width: 633
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_100
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 186
+        width: 323
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_101
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 164
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_102
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 164
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_103
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 153
+        width: 148
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_104
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 152
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_105
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 74
+        width: 168
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_106
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 15
+        width: 363
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_107
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 122
+        width: 311
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_108
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 78
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_109
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 78
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_110
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 442
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: gui3_111
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 11
+        width: 327
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: barugui3_0
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 18
+        width: 168
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 28f6c30396c71c246a120ae2dc09a62c
+timeCreated: 1497949795
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bunga n semak
+    100002: Cylinder001
+    100004: Cylinder002
+    100006: Dummy001
+    100008: Dummy002
+    100010: Dummy003
+    100012: Dummy004
+    100014: Dummy007
+    100016: Dummy008
+    100018: Dummy009
+    100020: Dummy010
+    100022: Dummy011
+    100024: Dummy012
+    100026: Dummy013
+    100028: Dummy014
+    100030: Dummy015
+    100032: Dummy016
+    100034: Dummy017
+    100036: Dummy018
+    100038: Dummy019
+    100040: Dummy020
+    100042: //RootNode
+    100044: jembatannya
+    100046: Line002
+    100048: Line003
+    100050: monster pohon
+    100052: Object001
+    100054: Object002
+    100056: Object003
+    100058: Object006
+    100060: Object008
+    100062: Object009
+    100064: Object010
+    100066: Object011
+    100068: Object012
+    100070: Plane025
+    100072: Plane028
+    100074: Plane029
+    100076: Plane032
+    100078: Plane033
+    100080: Plane034
+    100082: Plane035
+    100084: Plane036
+    100086: Plane037
+    100088: Plane038
+    100090: Plane039
+    100092: Plane040
+    100094: Plane041
+    100096: Plane043
+    100098: Plane044
+    100100: pohon akar
+    100102: pohon akar001
+    400000: bunga n semak
+    400002: Cylinder001
+    400004: Cylinder002
+    400006: Dummy001
+    400008: Dummy002
+    400010: Dummy003
+    400012: Dummy004
+    400014: Dummy007
+    400016: Dummy008
+    400018: Dummy009
+    400020: Dummy010
+    400022: Dummy011
+    400024: Dummy012
+    400026: Dummy013
+    400028: Dummy014
+    400030: Dummy015
+    400032: Dummy016
+    400034: Dummy017
+    400036: Dummy018
+    400038: Dummy019
+    400040: Dummy020
+    400042: //RootNode
+    400044: jembatannya
+    400046: Line002
+    400048: Line003
+    400050: monster pohon
+    400052: Object001
+    400054: Object002
+    400056: Object003
+    400058: Object006
+    400060: Object008
+    400062: Object009
+    400064: Object010
+    400066: Object011
+    400068: Object012
+    400070: Plane025
+    400072: Plane028
+    400074: Plane029
+    400076: Plane032
+    400078: Plane033
+    400080: Plane034
+    400082: Plane035
+    400084: Plane036
+    400086: Plane037
+    400088: Plane038
+    400090: Plane039
+    400092: Plane040
+    400094: Plane041
+    400096: Plane043
+    400098: Plane044
+    400100: pohon akar
+    400102: pohon akar001
+    2300000: bunga n semak
+    2300002: Cylinder001
+    2300004: Cylinder002
+    2300006: jembatannya
+    2300008: Object001
+    2300010: Object002
+    2300012: Object003
+    2300014: Object006
+    2300016: Object008
+    2300018: Object009
+    2300020: Object010
+    2300022: Object011
+    2300024: Object012
+    2300026: Plane025
+    2300028: Plane028
+    2300030: Plane029
+    2300032: Plane032
+    2300034: Plane033
+    2300036: Plane034
+    2300038: Plane035
+    2300040: Plane036
+    2300042: Plane037
+    2300044: Plane038
+    2300046: Plane039
+    2300048: Plane040
+    2300050: Plane041
+    2300052: Plane043
+    2300054: Plane044
+    2300056: pohon akar
+    2300058: pohon akar001
+    3300000: bunga n semak
+    3300002: Cylinder001
+    3300004: Cylinder002
+    3300006: jembatannya
+    3300008: Object001
+    3300010: Object002
+    3300012: Object003
+    3300014: Object006
+    3300016: Object008
+    3300018: Object009
+    3300020: Object010
+    3300022: Object011
+    3300024: Object012
+    3300026: Plane025
+    3300028: Plane028
+    3300030: Plane029
+    3300032: Plane032
+    3300034: Plane033
+    3300036: Plane034
+    3300038: Plane035
+    3300040: Plane036
+    3300042: Plane037
+    3300044: Plane038
+    3300046: Plane039
+    3300048: Plane040
+    3300050: Plane041
+    3300052: Plane043
+    3300054: Plane044
+    3300056: pohon akar
+    3300058: pohon akar001
+    4300000: monster pohon
+    4300002: bunga n semak
+    4300004: Plane028
+    4300006: Plane029
+    4300008: Plane032
+    4300010: Plane025
+    4300012: jembatannya
+    4300014: pohon akar
+    4300016: pohon akar001
+    4300018: Object001
+    4300020: Object002
+    4300022: Plane033
+    4300024: Plane034
+    4300026: Plane035
+    4300028: Plane036
+    4300030: Plane037
+    4300032: Plane038
+    4300034: Plane039
+    4300036: Plane040
+    4300038: Plane041
+    4300040: Plane043
+    4300042: Object003
+    4300044: Object006
+    4300046: Object008
+    4300048: Object009
+    4300050: Object010
+    4300052: Object011
+    4300054: Plane044
+    4300056: Object012
+    4300058: Cylinder001
+    4300060: Cylinder002
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: monster pohon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 400
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bunga n semak
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Cylinder002
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Dummy003
+        weight: 1
+      - path: Dummy001/Dummy003/Dummy002
+        weight: 1
+      - path: Dummy001/Dummy003/Dummy002/Dummy004
+        weight: 1
+      - path: Dummy008
+        weight: 1
+      - path: Dummy008/Dummy007
+        weight: 1
+      - path: Dummy008/Dummy007/Plane028
+        weight: 1
+      - path: Dummy009
+        weight: 1
+      - path: Dummy009/Dummy010
+        weight: 1
+      - path: Dummy009/Dummy010/Plane029
+        weight: 1
+      - path: Dummy011
+        weight: 1
+      - path: Dummy011/Dummy012
+        weight: 1
+      - path: Dummy011/Dummy012/Plane032
+        weight: 1
+      - path: Dummy014
+        weight: 1
+      - path: Dummy014/Dummy013
+        weight: 1
+      - path: Dummy014/Dummy013/Plane025
+        weight: 1
+      - path: Dummy015
+        weight: 1
+      - path: Dummy015/Plane034
+        weight: 1
+      - path: Dummy016
+        weight: 1
+      - path: Dummy016/Plane035
+        weight: 1
+      - path: Dummy017
+        weight: 1
+      - path: Dummy017/Plane036
+        weight: 1
+      - path: Dummy018
+        weight: 1
+      - path: Dummy018/Plane037
+        weight: 1
+      - path: Dummy019
+        weight: 1
+      - path: Dummy019/Plane038
+        weight: 1
+      - path: Dummy020
+        weight: 1
+      - path: Dummy020/Plane039
+        weight: 1
+      - path: jembatannya
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: monster pohon
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object008
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: Object010
+        weight: 1
+      - path: Object011
+        weight: 1
+      - path: Object012
+        weight: 1
+      - path: Plane033
+        weight: 1
+      - path: Plane040
+        weight: 1
+      - path: Plane041
+        weight: 1
+      - path: Plane043
+        weight: 1
+      - path: Plane044
+        weight: 1
+      - path: pohon akar
+        weight: 1
+      - path: pohon akar001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

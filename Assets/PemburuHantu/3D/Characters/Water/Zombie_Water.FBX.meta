@@ -1,0 +1,3061 @@
+fileFormatVersion: 2
+guid: 030f3d5ed347cf744a489830b8f1c50c
+timeCreated: 1497598063
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip_Zombie_Fire
+    100002: Bip_Zombie_Fire Footsteps
+    100004: Bip_Zombie_Fire Head
+    100006: Bip_Zombie_Fire HeadNub
+    100008: Bip_Zombie_Fire L Calf
+    100010: Bip_Zombie_Fire L Clavicle
+    100012: Bip_Zombie_Fire L Finger0
+    100014: Bip_Zombie_Fire L Finger01
+    100016: Bip_Zombie_Fire L Finger02
+    100018: Bip_Zombie_Fire L Finger0Nub
+    100020: Bip_Zombie_Fire L Finger1
+    100022: Bip_Zombie_Fire L Finger11
+    100024: Bip_Zombie_Fire L Finger12
+    100026: Bip_Zombie_Fire L Finger1Nub
+    100028: Bip_Zombie_Fire L Finger2
+    100030: Bip_Zombie_Fire L Finger21
+    100032: Bip_Zombie_Fire L Finger22
+    100034: Bip_Zombie_Fire L Finger2Nub
+    100036: Bip_Zombie_Fire L Finger3
+    100038: Bip_Zombie_Fire L Finger31
+    100040: Bip_Zombie_Fire L Finger32
+    100042: Bip_Zombie_Fire L Finger3Nub
+    100044: Bip_Zombie_Fire L Finger4
+    100046: Bip_Zombie_Fire L Finger41
+    100048: Bip_Zombie_Fire L Finger42
+    100050: Bip_Zombie_Fire L Finger4Nub
+    100052: Bip_Zombie_Fire L Foot
+    100054: Bip_Zombie_Fire L Forearm
+    100056: Bip_Zombie_Fire L Hand
+    100058: Bip_Zombie_Fire L Thigh
+    100060: Bip_Zombie_Fire L Toe0
+    100062: Bip_Zombie_Fire L Toe0Nub
+    100064: Bip_Zombie_Fire L UpperArm
+    100066: Bip_Zombie_Fire Neck
+    100068: Bip_Zombie_Fire Pelvis
+    100070: Bip_Zombie_Fire R Calf
+    100072: Bip_Zombie_Fire R Clavicle
+    100074: Bip_Zombie_Fire R Finger0
+    100076: Bip_Zombie_Fire R Finger01
+    100078: Bip_Zombie_Fire R Finger02
+    100080: Bip_Zombie_Fire R Finger0Nub
+    100082: Bip_Zombie_Fire R Finger1
+    100084: Bip_Zombie_Fire R Finger11
+    100086: Bip_Zombie_Fire R Finger12
+    100088: Bip_Zombie_Fire R Finger1Nub
+    100090: Bip_Zombie_Fire R Finger2
+    100092: Bip_Zombie_Fire R Finger21
+    100094: Bip_Zombie_Fire R Finger22
+    100096: Bip_Zombie_Fire R Finger2Nub
+    100098: Bip_Zombie_Fire R Finger3
+    100100: Bip_Zombie_Fire R Finger31
+    100102: Bip_Zombie_Fire R Finger32
+    100104: Bip_Zombie_Fire R Finger3Nub
+    100106: Bip_Zombie_Fire R Finger4
+    100108: Bip_Zombie_Fire R Finger41
+    100110: Bip_Zombie_Fire R Finger42
+    100112: Bip_Zombie_Fire R Finger4Nub
+    100114: Bip_Zombie_Fire R Foot
+    100116: Bip_Zombie_Fire R Forearm
+    100118: Bip_Zombie_Fire R Hand
+    100120: Bip_Zombie_Fire R Thigh
+    100122: Bip_Zombie_Fire R Toe0
+    100124: Bip_Zombie_Fire R Toe0Nub
+    100126: Bip_Zombie_Fire R UpperArm
+    100128: Bip_Zombie_Fire Spine
+    100130: Bip_Zombie_Fire Spine1
+    100132: Bip_Zombie_Fire Spine2
+    100134: //RootNode
+    100136: Zombie_Fire
+    100138: Camera002
+    100140: Camera002.Target
+    100142: Sky001
+    100144: Sphere001
+    100146: Bip_Zombie_Water
+    100148: Bip_Zombie_Water Footsteps
+    100150: Bip_Zombie_Water Head
+    100152: Bip_Zombie_Water HeadNub
+    100154: Bip_Zombie_Water L Calf
+    100156: Bip_Zombie_Water L Clavicle
+    100158: Bip_Zombie_Water L Finger0
+    100160: Bip_Zombie_Water L Finger01
+    100162: Bip_Zombie_Water L Finger02
+    100164: Bip_Zombie_Water L Finger0Nub
+    100166: Bip_Zombie_Water L Finger1
+    100168: Bip_Zombie_Water L Finger11
+    100170: Bip_Zombie_Water L Finger12
+    100172: Bip_Zombie_Water L Finger1Nub
+    100174: Bip_Zombie_Water L Finger2
+    100176: Bip_Zombie_Water L Finger21
+    100178: Bip_Zombie_Water L Finger22
+    100180: Bip_Zombie_Water L Finger2Nub
+    100182: Bip_Zombie_Water L Finger3
+    100184: Bip_Zombie_Water L Finger31
+    100186: Bip_Zombie_Water L Finger32
+    100188: Bip_Zombie_Water L Finger3Nub
+    100190: Bip_Zombie_Water L Finger4
+    100192: Bip_Zombie_Water L Finger41
+    100194: Bip_Zombie_Water L Finger42
+    100196: Bip_Zombie_Water L Finger4Nub
+    100198: Bip_Zombie_Water L Foot
+    100200: Bip_Zombie_Water L Forearm
+    100202: Bip_Zombie_Water L Hand
+    100204: Bip_Zombie_Water L Thigh
+    100206: Bip_Zombie_Water L Toe0
+    100208: Bip_Zombie_Water L Toe0Nub
+    100210: Bip_Zombie_Water L UpperArm
+    100212: Bip_Zombie_Water Neck
+    100214: Bip_Zombie_Water Pelvis
+    100216: Bip_Zombie_Water Ponytail1
+    100218: Bip_Zombie_Water Ponytail11
+    100220: Bip_Zombie_Water Ponytail1Nub
+    100222: Bip_Zombie_Water R Calf
+    100224: Bip_Zombie_Water R Clavicle
+    100226: Bip_Zombie_Water R Finger0
+    100228: Bip_Zombie_Water R Finger01
+    100230: Bip_Zombie_Water R Finger02
+    100232: Bip_Zombie_Water R Finger0Nub
+    100234: Bip_Zombie_Water R Finger1
+    100236: Bip_Zombie_Water R Finger11
+    100238: Bip_Zombie_Water R Finger12
+    100240: Bip_Zombie_Water R Finger1Nub
+    100242: Bip_Zombie_Water R Finger2
+    100244: Bip_Zombie_Water R Finger21
+    100246: Bip_Zombie_Water R Finger22
+    100248: Bip_Zombie_Water R Finger2Nub
+    100250: Bip_Zombie_Water R Finger3
+    100252: Bip_Zombie_Water R Finger31
+    100254: Bip_Zombie_Water R Finger32
+    100256: Bip_Zombie_Water R Finger3Nub
+    100258: Bip_Zombie_Water R Finger4
+    100260: Bip_Zombie_Water R Finger41
+    100262: Bip_Zombie_Water R Finger42
+    100264: Bip_Zombie_Water R Finger4Nub
+    100266: Bip_Zombie_Water R Foot
+    100268: Bip_Zombie_Water R Forearm
+    100270: Bip_Zombie_Water R Hand
+    100272: Bip_Zombie_Water R Thigh
+    100274: Bip_Zombie_Water R Toe0
+    100276: Bip_Zombie_Water R Toe0Nub
+    100278: Bip_Zombie_Water R UpperArm
+    100280: Bip_Zombie_Water Spine
+    100282: Bip_Zombie_Water Spine1
+    100284: Bip_Zombie_Water Spine2
+    100286: Zombie_water
+    400000: Bip_Zombie_Fire
+    400002: Bip_Zombie_Fire Footsteps
+    400004: Bip_Zombie_Fire Head
+    400006: Bip_Zombie_Fire HeadNub
+    400008: Bip_Zombie_Fire L Calf
+    400010: Bip_Zombie_Fire L Clavicle
+    400012: Bip_Zombie_Fire L Finger0
+    400014: Bip_Zombie_Fire L Finger01
+    400016: Bip_Zombie_Fire L Finger02
+    400018: Bip_Zombie_Fire L Finger0Nub
+    400020: Bip_Zombie_Fire L Finger1
+    400022: Bip_Zombie_Fire L Finger11
+    400024: Bip_Zombie_Fire L Finger12
+    400026: Bip_Zombie_Fire L Finger1Nub
+    400028: Bip_Zombie_Fire L Finger2
+    400030: Bip_Zombie_Fire L Finger21
+    400032: Bip_Zombie_Fire L Finger22
+    400034: Bip_Zombie_Fire L Finger2Nub
+    400036: Bip_Zombie_Fire L Finger3
+    400038: Bip_Zombie_Fire L Finger31
+    400040: Bip_Zombie_Fire L Finger32
+    400042: Bip_Zombie_Fire L Finger3Nub
+    400044: Bip_Zombie_Fire L Finger4
+    400046: Bip_Zombie_Fire L Finger41
+    400048: Bip_Zombie_Fire L Finger42
+    400050: Bip_Zombie_Fire L Finger4Nub
+    400052: Bip_Zombie_Fire L Foot
+    400054: Bip_Zombie_Fire L Forearm
+    400056: Bip_Zombie_Fire L Hand
+    400058: Bip_Zombie_Fire L Thigh
+    400060: Bip_Zombie_Fire L Toe0
+    400062: Bip_Zombie_Fire L Toe0Nub
+    400064: Bip_Zombie_Fire L UpperArm
+    400066: Bip_Zombie_Fire Neck
+    400068: Bip_Zombie_Fire Pelvis
+    400070: Bip_Zombie_Fire R Calf
+    400072: Bip_Zombie_Fire R Clavicle
+    400074: Bip_Zombie_Fire R Finger0
+    400076: Bip_Zombie_Fire R Finger01
+    400078: Bip_Zombie_Fire R Finger02
+    400080: Bip_Zombie_Fire R Finger0Nub
+    400082: Bip_Zombie_Fire R Finger1
+    400084: Bip_Zombie_Fire R Finger11
+    400086: Bip_Zombie_Fire R Finger12
+    400088: Bip_Zombie_Fire R Finger1Nub
+    400090: Bip_Zombie_Fire R Finger2
+    400092: Bip_Zombie_Fire R Finger21
+    400094: Bip_Zombie_Fire R Finger22
+    400096: Bip_Zombie_Fire R Finger2Nub
+    400098: Bip_Zombie_Fire R Finger3
+    400100: Bip_Zombie_Fire R Finger31
+    400102: Bip_Zombie_Fire R Finger32
+    400104: Bip_Zombie_Fire R Finger3Nub
+    400106: Bip_Zombie_Fire R Finger4
+    400108: Bip_Zombie_Fire R Finger41
+    400110: Bip_Zombie_Fire R Finger42
+    400112: Bip_Zombie_Fire R Finger4Nub
+    400114: Bip_Zombie_Fire R Foot
+    400116: Bip_Zombie_Fire R Forearm
+    400118: Bip_Zombie_Fire R Hand
+    400120: Bip_Zombie_Fire R Thigh
+    400122: Bip_Zombie_Fire R Toe0
+    400124: Bip_Zombie_Fire R Toe0Nub
+    400126: Bip_Zombie_Fire R UpperArm
+    400128: Bip_Zombie_Fire Spine
+    400130: Bip_Zombie_Fire Spine1
+    400132: Bip_Zombie_Fire Spine2
+    400134: Zombie_Fire
+    400136: //RootNode
+    400138: Camera002
+    400140: Camera002.Target
+    400142: Sky001
+    400144: Sphere001
+    400146: Bip_Zombie_Water
+    400148: Bip_Zombie_Water Footsteps
+    400150: Bip_Zombie_Water Head
+    400152: Bip_Zombie_Water HeadNub
+    400154: Bip_Zombie_Water L Calf
+    400156: Bip_Zombie_Water L Clavicle
+    400158: Bip_Zombie_Water L Finger0
+    400160: Bip_Zombie_Water L Finger01
+    400162: Bip_Zombie_Water L Finger02
+    400164: Bip_Zombie_Water L Finger0Nub
+    400166: Bip_Zombie_Water L Finger1
+    400168: Bip_Zombie_Water L Finger11
+    400170: Bip_Zombie_Water L Finger12
+    400172: Bip_Zombie_Water L Finger1Nub
+    400174: Bip_Zombie_Water L Finger2
+    400176: Bip_Zombie_Water L Finger21
+    400178: Bip_Zombie_Water L Finger22
+    400180: Bip_Zombie_Water L Finger2Nub
+    400182: Bip_Zombie_Water L Finger3
+    400184: Bip_Zombie_Water L Finger31
+    400186: Bip_Zombie_Water L Finger32
+    400188: Bip_Zombie_Water L Finger3Nub
+    400190: Bip_Zombie_Water L Finger4
+    400192: Bip_Zombie_Water L Finger41
+    400194: Bip_Zombie_Water L Finger42
+    400196: Bip_Zombie_Water L Finger4Nub
+    400198: Bip_Zombie_Water L Foot
+    400200: Bip_Zombie_Water L Forearm
+    400202: Bip_Zombie_Water L Hand
+    400204: Bip_Zombie_Water L Thigh
+    400206: Bip_Zombie_Water L Toe0
+    400208: Bip_Zombie_Water L Toe0Nub
+    400210: Bip_Zombie_Water L UpperArm
+    400212: Bip_Zombie_Water Neck
+    400214: Bip_Zombie_Water Pelvis
+    400216: Bip_Zombie_Water Ponytail1
+    400218: Bip_Zombie_Water Ponytail11
+    400220: Bip_Zombie_Water Ponytail1Nub
+    400222: Bip_Zombie_Water R Calf
+    400224: Bip_Zombie_Water R Clavicle
+    400226: Bip_Zombie_Water R Finger0
+    400228: Bip_Zombie_Water R Finger01
+    400230: Bip_Zombie_Water R Finger02
+    400232: Bip_Zombie_Water R Finger0Nub
+    400234: Bip_Zombie_Water R Finger1
+    400236: Bip_Zombie_Water R Finger11
+    400238: Bip_Zombie_Water R Finger12
+    400240: Bip_Zombie_Water R Finger1Nub
+    400242: Bip_Zombie_Water R Finger2
+    400244: Bip_Zombie_Water R Finger21
+    400246: Bip_Zombie_Water R Finger22
+    400248: Bip_Zombie_Water R Finger2Nub
+    400250: Bip_Zombie_Water R Finger3
+    400252: Bip_Zombie_Water R Finger31
+    400254: Bip_Zombie_Water R Finger32
+    400256: Bip_Zombie_Water R Finger3Nub
+    400258: Bip_Zombie_Water R Finger4
+    400260: Bip_Zombie_Water R Finger41
+    400262: Bip_Zombie_Water R Finger42
+    400264: Bip_Zombie_Water R Finger4Nub
+    400266: Bip_Zombie_Water R Foot
+    400268: Bip_Zombie_Water R Forearm
+    400270: Bip_Zombie_Water R Hand
+    400272: Bip_Zombie_Water R Thigh
+    400274: Bip_Zombie_Water R Toe0
+    400276: Bip_Zombie_Water R Toe0Nub
+    400278: Bip_Zombie_Water R UpperArm
+    400280: Bip_Zombie_Water Spine
+    400282: Bip_Zombie_Water Spine1
+    400284: Bip_Zombie_Water Spine2
+    400286: Zombie_water
+    2300000: Sphere001
+    3300000: Sphere001
+    4300000: Zombie_Fire
+    4300002: Sphere001
+    4300004: Zombie_water
+    7400000: idle
+    7400002: attack
+    7400004: hit
+    7400006: charge
+    7400008: nangkis_loss
+    7400010: nangkis
+    7400012: select
+    7400014: maju
+    7400016: draw
+    7400018: menang
+    7400020: kalah
+    7400022: Take 001
+    7400024: attackbaru
+    7400026: attackbaru2
+    7400028: hitbaru
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Zombie_Fire
+    13700002: Zombie_water
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: select
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menang
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 123
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kalah
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 188
+      lastFrame: 283
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Camera002
+        weight: 1
+      - path: Camera002.Target
+        weight: 1
+      - path: Sky001
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru
+      takeName: Take 001
+      firstFrame: 288
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Camera002
+        weight: 1
+      - path: Camera002.Target
+        weight: 1
+      - path: Sky001
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru2
+      takeName: Take 001
+      firstFrame: 353
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Camera002
+        weight: 1
+      - path: Camera002.Target
+        weight: 1
+      - path: Sky001
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hitbaru
+      takeName: Take 001
+      firstFrame: 398
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Zombie_Fire
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Footsteps
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          L Thigh/Bip_Zombie_Fire L Calf/Bip_Zombie_Fire L Foot/Bip_Zombie_Fire L
+          Toe0/Bip_Zombie_Fire L Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          R Thigh/Bip_Zombie_Fire R Calf/Bip_Zombie_Fire R Foot/Bip_Zombie_Fire R
+          Toe0/Bip_Zombie_Fire R Toe0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire Head/Bip_Zombie_Fire
+          HeadNub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger0/Bip_Zombie_Fire L Finger01/Bip_Zombie_Fire L Finger02/Bip_Zombie_Fire
+          L Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger1/Bip_Zombie_Fire L Finger11/Bip_Zombie_Fire L Finger12/Bip_Zombie_Fire
+          L Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger2/Bip_Zombie_Fire L Finger21/Bip_Zombie_Fire L Finger22/Bip_Zombie_Fire
+          L Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger3/Bip_Zombie_Fire L Finger31/Bip_Zombie_Fire L Finger32/Bip_Zombie_Fire
+          L Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire L Clavicle/Bip_Zombie_Fire
+          L UpperArm/Bip_Zombie_Fire L Forearm/Bip_Zombie_Fire L Hand/Bip_Zombie_Fire
+          L Finger4/Bip_Zombie_Fire L Finger41/Bip_Zombie_Fire L Finger42/Bip_Zombie_Fire
+          L Finger4Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger0/Bip_Zombie_Fire R Finger01/Bip_Zombie_Fire R Finger02/Bip_Zombie_Fire
+          R Finger0Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger1/Bip_Zombie_Fire R Finger11/Bip_Zombie_Fire R Finger12/Bip_Zombie_Fire
+          R Finger1Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger2/Bip_Zombie_Fire R Finger21/Bip_Zombie_Fire R Finger22/Bip_Zombie_Fire
+          R Finger2Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger3/Bip_Zombie_Fire R Finger31/Bip_Zombie_Fire R Finger32/Bip_Zombie_Fire
+          R Finger3Nub
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42
+        weight: 1
+      - path: Bip_Zombie_Fire/Bip_Zombie_Fire Pelvis/Bip_Zombie_Fire Spine/Bip_Zombie_Fire
+          Spine1/Bip_Zombie_Fire Spine2/Bip_Zombie_Fire Neck/Bip_Zombie_Fire R Clavicle/Bip_Zombie_Fire
+          R UpperArm/Bip_Zombie_Fire R Forearm/Bip_Zombie_Fire R Hand/Bip_Zombie_Fire
+          R Finger4/Bip_Zombie_Fire R Finger41/Bip_Zombie_Fire R Finger42/Bip_Zombie_Fire
+          R Finger4Nub
+        weight: 1
+      - path: Camera002
+        weight: 1
+      - path: Camera002.Target
+        weight: 1
+      - path: Sky001
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Zombie_Fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

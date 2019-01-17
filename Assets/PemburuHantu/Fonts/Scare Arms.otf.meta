@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6a27f28a6b91dfb44b9cd8264657070d
+timeCreated: 1541402274
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Scare Arms
+  fontNames:
+  - Scare Arms
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

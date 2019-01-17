@@ -1,0 +1,1844 @@
+fileFormatVersion: 2
+guid: a5f500be5c2a3494ca6ff335fcdbd357
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip_Palasik_Fire_
+    100002: Bip_Palasik_Fire_ Head
+    100004: Bip_Palasik_Fire_ HeadNub
+    100006: Bip_Palasik_Fire_ L Calf
+    100008: Bip_Palasik_Fire_ L Clavicle
+    100010: Bip_Palasik_Fire_ L Finger0
+    100012: Bip_Palasik_Fire_ L Finger0Nub
+    100014: Bip_Palasik_Fire_ L Foot
+    100016: Bip_Palasik_Fire_ L Forearm
+    100018: Bip_Palasik_Fire_ L Hand
+    100020: Bip_Palasik_Fire_ L Thigh
+    100022: Bip_Palasik_Fire_ L Toe0
+    100024: Bip_Palasik_Fire_ L Toe0Nub
+    100026: Bip_Palasik_Fire_ L UpperArm
+    100028: Bip_Palasik_Fire_ Neck
+    100030: Bip_Palasik_Fire_ Pelvis
+    100032: Bip_Palasik_Fire_ R Calf
+    100034: Bip_Palasik_Fire_ R Clavicle
+    100036: Bip_Palasik_Fire_ R Finger0
+    100038: Bip_Palasik_Fire_ R Finger0Nub
+    100040: Bip_Palasik_Fire_ R Foot
+    100042: Bip_Palasik_Fire_ R Forearm
+    100044: Bip_Palasik_Fire_ R Hand
+    100046: Bip_Palasik_Fire_ R Thigh
+    100048: Bip_Palasik_Fire_ R Toe0
+    100050: Bip_Palasik_Fire_ R Toe0Nub
+    100052: Bip_Palasik_Fire_ R UpperArm
+    100054: Bip_Palasik_Fire_ Spine
+    100056: Bip_Palasik_Fire_ Spine1
+    100058: Bip_Palasik_Fire_ Spine2
+    100060: Bip_Palasik_Tail016
+    100062: Bip_Palasik_Tail017
+    100064: Bip_Palasik_Tail018
+    100066: Bip_Palasik_Tail019
+    100068: Bip_Palasik_Tail020
+    100070: Bip_Palasik_Tail021
+    100072: Bip_Palasik_Tail022
+    100074: Bip_Palasik_Tail023
+    100076: Bip_Palasik_Tongue014
+    100078: Bip_Palasik_Tongue015
+    100080: Bip_Palasik_Tongue016
+    100082: Bip_Palasik_Tongue017
+    100084: Bip_Palasik_Tongue018
+    100086: Bip_Palasik_Tongue019
+    100088: Bip_Palasik_Tongue020
+    100090: //RootNode
+    100092: Palasik_fire
+    100094: Bip_Palasik_Fire_ Footsteps
+    100096: Camera001
+    100098: Camera001.Target
+    100100: Sphere001
+    100102: Bip_Palasik_Tail024
+    100104: Bip_Palasik_Tail025
+    100106: Bip_Palasik_Tail026
+    100108: Bip_Palasik_Tail027
+    100110: Bip_Palasik_Tail028
+    100112: Bip_Palasik_Tail029
+    100114: Bip_Palasik_Tail030
+    100116: Bip_Palasik_Tail031
+    100118: Bip_Palasik_Tongue021
+    100120: Bip_Palasik_Tongue022
+    100122: Bip_Palasik_Tongue023
+    100124: Bip_Palasik_Tongue024
+    100126: Bip_Palasik_Tongue025
+    100128: Bip_Palasik_Tongue026
+    100130: Bip_Palasik_Tongue027
+    100132: Bip_Palasik_Wind_
+    100134: Bip_Palasik_Wind_ Footsteps
+    100136: Bip_Palasik_Wind_ Head
+    100138: Bip_Palasik_Wind_ HeadNub
+    100140: Bip_Palasik_Wind_ L Calf
+    100142: Bip_Palasik_Wind_ L Clavicle
+    100144: Bip_Palasik_Wind_ L Finger0
+    100146: Bip_Palasik_Wind_ L Finger0Nub
+    100148: Bip_Palasik_Wind_ L Foot
+    100150: Bip_Palasik_Wind_ L Forearm
+    100152: Bip_Palasik_Wind_ L Hand
+    100154: Bip_Palasik_Wind_ L Thigh
+    100156: Bip_Palasik_Wind_ L Toe0
+    100158: Bip_Palasik_Wind_ L Toe0Nub
+    100160: Bip_Palasik_Wind_ L UpperArm
+    100162: Bip_Palasik_Wind_ Neck
+    100164: Bip_Palasik_Wind_ Pelvis
+    100166: Bip_Palasik_Wind_ R Calf
+    100168: Bip_Palasik_Wind_ R Clavicle
+    100170: Bip_Palasik_Wind_ R Finger0
+    100172: Bip_Palasik_Wind_ R Finger0Nub
+    100174: Bip_Palasik_Wind_ R Foot
+    100176: Bip_Palasik_Wind_ R Forearm
+    100178: Bip_Palasik_Wind_ R Hand
+    100180: Bip_Palasik_Wind_ R Thigh
+    100182: Bip_Palasik_Wind_ R Toe0
+    100184: Bip_Palasik_Wind_ R Toe0Nub
+    100186: Bip_Palasik_Wind_ R UpperArm
+    100188: Bip_Palasik_Wind_ Spine
+    100190: Bip_Palasik_Wind_ Spine1
+    100192: Bip_Palasik_Wind_ Spine2
+    100194: Palasik_wind
+    100196: Camera002
+    400000: Bip_Palasik_Fire_
+    400002: Bip_Palasik_Fire_ Head
+    400004: Bip_Palasik_Fire_ HeadNub
+    400006: Bip_Palasik_Fire_ L Calf
+    400008: Bip_Palasik_Fire_ L Clavicle
+    400010: Bip_Palasik_Fire_ L Finger0
+    400012: Bip_Palasik_Fire_ L Finger0Nub
+    400014: Bip_Palasik_Fire_ L Foot
+    400016: Bip_Palasik_Fire_ L Forearm
+    400018: Bip_Palasik_Fire_ L Hand
+    400020: Bip_Palasik_Fire_ L Thigh
+    400022: Bip_Palasik_Fire_ L Toe0
+    400024: Bip_Palasik_Fire_ L Toe0Nub
+    400026: Bip_Palasik_Fire_ L UpperArm
+    400028: Bip_Palasik_Fire_ Neck
+    400030: Bip_Palasik_Fire_ Pelvis
+    400032: Bip_Palasik_Fire_ R Calf
+    400034: Bip_Palasik_Fire_ R Clavicle
+    400036: Bip_Palasik_Fire_ R Finger0
+    400038: Bip_Palasik_Fire_ R Finger0Nub
+    400040: Bip_Palasik_Fire_ R Foot
+    400042: Bip_Palasik_Fire_ R Forearm
+    400044: Bip_Palasik_Fire_ R Hand
+    400046: Bip_Palasik_Fire_ R Thigh
+    400048: Bip_Palasik_Fire_ R Toe0
+    400050: Bip_Palasik_Fire_ R Toe0Nub
+    400052: Bip_Palasik_Fire_ R UpperArm
+    400054: Bip_Palasik_Fire_ Spine
+    400056: Bip_Palasik_Fire_ Spine1
+    400058: Bip_Palasik_Fire_ Spine2
+    400060: Bip_Palasik_Tail016
+    400062: Bip_Palasik_Tail017
+    400064: Bip_Palasik_Tail018
+    400066: Bip_Palasik_Tail019
+    400068: Bip_Palasik_Tail020
+    400070: Bip_Palasik_Tail021
+    400072: Bip_Palasik_Tail022
+    400074: Bip_Palasik_Tail023
+    400076: Bip_Palasik_Tongue014
+    400078: Bip_Palasik_Tongue015
+    400080: Bip_Palasik_Tongue016
+    400082: Bip_Palasik_Tongue017
+    400084: Bip_Palasik_Tongue018
+    400086: Bip_Palasik_Tongue019
+    400088: Bip_Palasik_Tongue020
+    400090: //RootNode
+    400092: Palasik_fire
+    400094: Bip_Palasik_Fire_ Footsteps
+    400096: Camera001
+    400098: Camera001.Target
+    400100: Sphere001
+    400102: Bip_Palasik_Tail024
+    400104: Bip_Palasik_Tail025
+    400106: Bip_Palasik_Tail026
+    400108: Bip_Palasik_Tail027
+    400110: Bip_Palasik_Tail028
+    400112: Bip_Palasik_Tail029
+    400114: Bip_Palasik_Tail030
+    400116: Bip_Palasik_Tail031
+    400118: Bip_Palasik_Tongue021
+    400120: Bip_Palasik_Tongue022
+    400122: Bip_Palasik_Tongue023
+    400124: Bip_Palasik_Tongue024
+    400126: Bip_Palasik_Tongue025
+    400128: Bip_Palasik_Tongue026
+    400130: Bip_Palasik_Tongue027
+    400132: Bip_Palasik_Wind_
+    400134: Bip_Palasik_Wind_ Footsteps
+    400136: Bip_Palasik_Wind_ Head
+    400138: Bip_Palasik_Wind_ HeadNub
+    400140: Bip_Palasik_Wind_ L Calf
+    400142: Bip_Palasik_Wind_ L Clavicle
+    400144: Bip_Palasik_Wind_ L Finger0
+    400146: Bip_Palasik_Wind_ L Finger0Nub
+    400148: Bip_Palasik_Wind_ L Foot
+    400150: Bip_Palasik_Wind_ L Forearm
+    400152: Bip_Palasik_Wind_ L Hand
+    400154: Bip_Palasik_Wind_ L Thigh
+    400156: Bip_Palasik_Wind_ L Toe0
+    400158: Bip_Palasik_Wind_ L Toe0Nub
+    400160: Bip_Palasik_Wind_ L UpperArm
+    400162: Bip_Palasik_Wind_ Neck
+    400164: Bip_Palasik_Wind_ Pelvis
+    400166: Bip_Palasik_Wind_ R Calf
+    400168: Bip_Palasik_Wind_ R Clavicle
+    400170: Bip_Palasik_Wind_ R Finger0
+    400172: Bip_Palasik_Wind_ R Finger0Nub
+    400174: Bip_Palasik_Wind_ R Foot
+    400176: Bip_Palasik_Wind_ R Forearm
+    400178: Bip_Palasik_Wind_ R Hand
+    400180: Bip_Palasik_Wind_ R Thigh
+    400182: Bip_Palasik_Wind_ R Toe0
+    400184: Bip_Palasik_Wind_ R Toe0Nub
+    400186: Bip_Palasik_Wind_ R UpperArm
+    400188: Bip_Palasik_Wind_ Spine
+    400190: Bip_Palasik_Wind_ Spine1
+    400192: Bip_Palasik_Wind_ Spine2
+    400194: Palasik_wind
+    400196: Camera002
+    2300000: Sphere001
+    3300000: Sphere001
+    4300000: Palasik_fire
+    4300002: Sphere001
+    4300004: Palasik_wind
+    7400000: idle
+    7400002: attack
+    7400004: hit
+    7400006: charge
+    7400008: nangkis_loss
+    7400010: nangkis
+    7400012: select
+    7400014: maju
+    7400016: menang
+    7400018: kalah
+    7400020: draw
+    7400022: Take 001
+    7400024: attackbaru
+    7400026: attackbaru2
+    7400028: hitbaru
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Palasik_fire
+    13700002: Palasik_wind
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #0'
+    second: {fileID: 2100000, guid: bfbe68ae462d8b84e950d2e2fae7bc09, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 2
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: select
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: menang
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 123
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: kalah
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 188
+      lastFrame: 283
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Footsteps
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru
+      takeName: Take 001
+      firstFrame: 288
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Footsteps
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackbaru2
+      takeName: Take 001
+      firstFrame: 353
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Footsteps
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hitbaru
+      takeName: Take 001
+      firstFrame: 398
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip_Palasik_Fire_
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Footsteps
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          L Thigh/Bip_Palasik_Fire_ L Calf/Bip_Palasik_Fire_ L Foot/Bip_Palasik_Fire_
+          L Toe0/Bip_Palasik_Fire_ L Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          R Thigh/Bip_Palasik_Fire_ R Calf/Bip_Palasik_Fire_ R Foot/Bip_Palasik_Fire_
+          R Toe0/Bip_Palasik_Fire_ R Toe0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Fire_ HeadNub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          Head/Bip_Palasik_Tongue014/Bip_Palasik_Tongue015/Bip_Palasik_Tongue016/Bip_Palasik_Tongue017/Bip_Palasik_Tongue018/Bip_Palasik_Tongue019/Bip_Palasik_Tongue020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          L Clavicle/Bip_Palasik_Fire_ L UpperArm/Bip_Palasik_Fire_ L Forearm/Bip_Palasik_Fire_
+          L Hand/Bip_Palasik_Fire_ L Finger0/Bip_Palasik_Fire_ L Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Fire_ Spine/Bip_Palasik_Fire_
+          Spine1/Bip_Palasik_Fire_ Spine2/Bip_Palasik_Fire_ Neck/Bip_Palasik_Fire_
+          R Clavicle/Bip_Palasik_Fire_ R UpperArm/Bip_Palasik_Fire_ R Forearm/Bip_Palasik_Fire_
+          R Hand/Bip_Palasik_Fire_ R Finger0/Bip_Palasik_Fire_ R Finger0Nub
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022
+        weight: 1
+      - path: Bip_Palasik_Fire_/Bip_Palasik_Fire_ Pelvis/Bip_Palasik_Tail016/Bip_Palasik_Tail017/Bip_Palasik_Tail018/Bip_Palasik_Tail019/Bip_Palasik_Tail020/Bip_Palasik_Tail021/Bip_Palasik_Tail022/Bip_Palasik_Tail023
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Palasik_fire
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

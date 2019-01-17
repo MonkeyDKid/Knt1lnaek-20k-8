@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: f786ae0b780b4724b8f19e774eebced0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone006
+    100010: Bone007
+    100012: Bone008
+    100014: Bone009
+    100016: bunga n semak
+    100018: Dummy001
+    100020: Dummy002
+    100022: Dummy003
+    100024: Dummy004
+    100026: Dummy005
+    100028: Dummy006
+    100030: Dummy007
+    100032: Dummy008
+    100034: Dummy009
+    100036: Dummy010
+    100038: Dummy011
+    100040: Dummy012
+    100042: Dummy013
+    100044: Dummy014
+    100046: //RootNode
+    100048: jembatannya
+    100050: Line001
+    100052: Line002
+    100054: Line003
+    100056: monster pohon
+    100058: Plane008
+    100060: Plane021
+    100062: Plane025
+    100064: Plane028
+    100066: Plane029
+    100068: Plane032
+    100070: pohon akar
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone006
+    400010: Bone007
+    400012: Bone008
+    400014: Bone009
+    400016: bunga n semak
+    400018: Dummy001
+    400020: Dummy002
+    400022: Dummy003
+    400024: Dummy004
+    400026: Dummy005
+    400028: Dummy006
+    400030: Dummy007
+    400032: Dummy008
+    400034: Dummy009
+    400036: Dummy010
+    400038: Dummy011
+    400040: Dummy012
+    400042: Dummy013
+    400044: Dummy014
+    400046: //RootNode
+    400048: jembatannya
+    400050: Line001
+    400052: Line002
+    400054: Line003
+    400056: monster pohon
+    400058: Plane008
+    400060: Plane021
+    400062: Plane025
+    400064: Plane028
+    400066: Plane029
+    400068: Plane032
+    400070: pohon akar
+    2300000: bunga n semak
+    2300002: jembatannya
+    2300004: Plane008
+    2300006: Plane025
+    2300008: Plane028
+    2300010: Plane029
+    2300012: Plane032
+    2300014: pohon akar
+    3300000: bunga n semak
+    3300002: jembatannya
+    3300004: Plane008
+    3300006: Plane025
+    3300008: Plane028
+    3300010: Plane029
+    3300012: Plane032
+    3300014: pohon akar
+    4300000: jembatannya
+    4300002: monster pohon
+    4300004: bunga n semak
+    4300006: Plane008
+    4300008: Plane021
+    4300010: pohon akar
+    4300012: Plane028
+    4300014: Plane029
+    4300016: Plane032
+    4300018: Plane025
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: monster pohon
+    13700002: Plane021
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1373'
+    second: {fileID: 2100000, guid: e444b7b93193fe046a14d17d95e9a9c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1596'
+    second: {fileID: 2100000, guid: a7f91da452cefe8489bab4751d81df3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1653'
+    second: {fileID: 2100000, guid: d0fd9dfdc18b0b449b626dcd9b6e68ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1654'
+    second: {fileID: 2100000, guid: 6c786d6298a09ef42a82553c82889fe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1655'
+    second: {fileID: 2100000, guid: 848568a4dbdfe3e479b8d763ee04c5a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1676'
+    second: {fileID: 2100000, guid: afdfd2035d0343448b3ddee49b437783, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
