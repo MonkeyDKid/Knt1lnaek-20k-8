@@ -8,6 +8,7 @@ public class CraftingManager : MonoBehaviour {
 float myFloat;
 string ItemName;
 string ItemFile;
+public Sprite[] Gem;
 public GameObject[] SeqObject;
 	void Awake()
 	{
@@ -28,11 +29,26 @@ public void StartSequence()
 	}
 	SeqObject[3].transform.DOLocalMoveY(4.5f,1);
 	
+	
 }
 
-public void ClickSummon (string WhichSummon) {		
+public void ClickSummon (int WhichSummon) {
+		string jenis;
+		SeqObject[6].GetComponent<SpriteRenderer>().sprite = Gem[WhichSummon];
+		if(WhichSummon == 0)
+		{
+			jenis = "COMMON";
+		}
+		else if(WhichSummon == 1)
+		{
+			jenis = "RARE";
+		}
+		else
+		{
+			jenis = "LEGENDARY";
+		}
 		if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 100 && int.Parse (PlayerPrefs.GetString (Link.LEGENDARYGem)) >= 1) {
-				StartCoroutine(CraftEquipment(WhichSummon));
+				StartCoroutine(CraftEquipment(jenis));
 		} 
 		else 
 		{
