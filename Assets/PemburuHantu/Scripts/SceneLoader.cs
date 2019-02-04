@@ -16,6 +16,7 @@ public class SceneLoader : MonoBehaviour {
 	AsyncOperation async;
 	public string[] katahint;
 	public Text katahintText;
+    int timeOut = 10;
     // Updates once per frame
 
 
@@ -64,7 +65,10 @@ public class SceneLoader : MonoBehaviour {
 	}
 	void Update() {
 
-			
+			if(Input.GetKeyDown(KeyCode.Space))
+            {
+                PlayerPrefs.DeleteAll();
+            }
 			
         // If the player has pressed the space bar and a new scene is not loading yet...
 		if (loadScene == false && PlayerPrefs.GetInt ("Loadscreen") == 1) {
@@ -114,6 +118,20 @@ public class SceneLoader : MonoBehaviour {
 
         WWW www = new WWW(url, form);
         yield return www;
+         float timer = 0; 
+         bool failed = false;
+                    
+         while (!www.isDone)
+                     {
+                         if (timer > timeOut) { failed = true; break; }
+                         timer += Time.deltaTime;
+                         yield return null;
+                     }
+                     if (failed || !string.IsNullOrEmpty(www.error))
+                     {
+                         www.Dispose();
+                         yield break;
+                     }
         if (www.error == null)
         {
             var jsonString = JSON.Parse(www.text);

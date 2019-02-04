@@ -65,21 +65,10 @@ public void ClickSummon (int WhichSummon) {
 
 		WWW www = new WWW(url,form);
 		yield return www;
-		if (www.error == null) {
-            //PlayerPrefs.SetString("SummonStats", "Summoned");
-			//testsummonings
-			
+		if (www.error == null) {			
 			var jsonString = JSON.Parse (www.text);
 
 			if(int.Parse(jsonString ["code"])!=0)
-			// {
-			// SummonItem.gameObject.SetActive(true);
-			// Debug.Log(jsonString ["data"] ["id"] );
-			// SummonItem.Atk = jsonString ["data"] ["ATTACK"] ;
-			// SummonItem.Def = jsonString ["data"] ["DEFEND"] ;
-			// SummonItem.Hp = jsonString ["data"] ["HP"] ;
-			// SummonItem.Type = jsonString ["data"] ["type"] ;
-			// SummonItem.Atk = jsonString ["data"] ["ATTACK"] ;
 			ItemName = jsonString ["data"] ["name"] ;		
 			ItemFile = jsonString ["data"] ["image"];
 
@@ -126,7 +115,9 @@ public void ABC()
 {
 		
 		SeqObject[4].transform.DOScale(new Vector3(1.5f,1.5f,1),1).OnComplete(()=>{
-			SeqObject[10].GetComponent<Image>().DOFillAmount(1,7).SetEase(Ease.InCubic);
+			SeqObject[10].GetComponent<Image>().DOFillAmount(1,7).SetEase(Ease.InCubic).OnComplete(delegate{
+				SeqObject[10].GetComponent<Image>().fillAmount = 0;
+			});
 			SeqObject[8].transform.DOScale(new Vector3(.4f,.4f,1),1);
 			SeqObject[5].SetActive(true);
 			SeqObject[6].GetComponent<SpriteRenderer>().DOFade(0,2);
@@ -139,6 +130,30 @@ public void ShowItem()
 	SeqObject[11].SetActive(true);
 	SeqObject[8].GetComponent<SpriteRenderer>().DOFade(0,0);
 	SeqObject[7].GetComponent<SpriteRenderer>().DOFade(1,0f);
+	SeqObject[12].SetActive(true);
+}
+
+public void BackToPositionSeq()
+{		
+		SeqObject[5].SetActive(false);
+		SeqObject[7].GetComponent<SpriteRenderer>().DOFade(0,0f);
+		SeqObject[11].SetActive(false);
+		SeqObject[8].GetComponent<SpriteRenderer>().DOFade(1,0);
+		SeqObject[4].transform.DOScale(new Vector3(1f,1f,1),1).OnComplete(delegate(){
+		SeqObject[8].transform.DOScale(new Vector3(.5f,.5f,1),1);
+		
+			
+			
+			SeqObject[6].GetComponent<SpriteRenderer>().DOFade(1,1);
+		});
+
+	for (int i=0; i<3;i++)
+	{
+		SeqObject[i].transform.DOLocalMoveY(-128.8f,1);
+	}
+	SeqObject[3].transform.DOLocalMoveY(3.04f,1).OnComplete(delegate(){
+		SeqObject[12].SetActive(false);
+	});
 }
 
 }

@@ -13,10 +13,11 @@ public class Summon : MonoBehaviour
 	//public Text SoulStone;
 	public Button OKCatch;
 	public GameObject Summonsd, Summonings,Summoned, validationerror;
-	public ParticleSystem p;
+	public GameObject[] SummonedGhosts;
+	public ParticleSystem[] p;
 	public GameObject soundBG, model,mycamera,FirstTimerSummon,summoneffect,sei;
 	public firstimersummon firstTimerSummonScript;
-	//
+	public GameObject SummonParticlePrefab;
 	public Text Common, Rare, Legendary;
 	public Sprite CommonIcon, RareIcon, LegendaryIcon;
 	public Image icon;
@@ -36,7 +37,7 @@ public class Summon : MonoBehaviour
         //PlayerPrefs.SetString ("PLAY_TUTORIAL", "TRUE");
         Debug.Log(PlayerPrefs.GetString ("PLAY_TUTORIAL"));
 		tutorHitung = PlayerPrefs.GetInt ("tutorhitung");
-		if(PlayerPrefs.GetInt ("Catched")==0||!PlayerPrefs.HasKey("Catched"))
+		if(PlayerPrefs.GetInt ("Catched") == 0 || !PlayerPrefs.HasKey("Catched") )
 		{
 			Summonsd.SetActive(true);
 		
@@ -62,7 +63,7 @@ public class Summon : MonoBehaviour
 		}
 
 		StartCoroutine (updateData ());
-		OnClickCommon ();
+		//OnClickCommon ();
 		Gold.text = PlayerPrefs.GetString (Link.GOLD);
 		Crystal.text = PlayerPrefs.GetString ("Crystal");
 		Common.text = PlayerPrefs.GetString (Link.COMMONGem);
@@ -106,124 +107,6 @@ public class Summon : MonoBehaviour
 			}
 
 	}
-
-
-	public void OnClickCommon () {
-		jenis = "COMMON";
-		header.text = "SUMMON " + jenis;
-		icon.sprite = CommonIcon;
-        Debug.Log(PlayerPrefs.GetString(Link.COMMONGem)+ PlayerPrefs.GetString(Link.GOLD));
-		if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 20 && int.Parse (PlayerPrefs.GetString (Link.COMMONGem)) >= 1) {
-			
-			statusAktif.SetActive (false);
-		} else {
-			statusAktif.SetActive (true);
-		}
-	}
-
-	public void OnClickRare () {
-		jenis = "RARE";
-		header.text = "SUMMON " + jenis;
-		icon.sprite = RareIcon;
-		if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 20 && int.Parse (PlayerPrefs.GetString (Link.RAREGem)) >= 1) {
-			statusAktif.SetActive (false);
-		} else {
-			
-			statusAktif.SetActive (true);
-		}
-	}
-
-	public void OnClickLegendary () {
-		jenis = "LEGENDARY";
-		header.text = "SUMMON " + jenis;
-		icon.sprite = LegendaryIcon;
-		if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 20 && int.Parse (PlayerPrefs.GetString (Link.LEGENDARYGem)) >= 1) {
-			statusAktif.SetActive (false);
-		} else {
-			
-			statusAktif.SetActive (true);
-		}
-	}
-
-	public void OnClickSummon () {
-		
-		if(Summons==false)
-		{
-		if (jenis == "COMMON") {
-			var winning = Random.value;
-				int choice = 0 ;
-
-				if (winning > .4f) 
-				{
-					choice = Random.Range (0, 5);
-
-
-				} 
-				else if (winning < .4f && winning > .1f) 
-				{
-					choice = Random.Range (6, 9);
-				} 
-				else if (winning > 0 && winning < .1f)
-				{
-					choice = Random.Range (10, 11);
-				}
-			
-				StartCoroutine (Waitforsec (choice));
-				StartCoroutine(SendXpp(100));
-		} 
-			else if (jenis == "RARE") {
-				
-				var winning = Random.value;
-				int choice = 0 ;
-				if (winning > .4f) 
-				{
-					choice = Random.Range (12, 29);
-
-
-				} 
-				else if (winning < .4f && winning > .1f) 
-				{
-					choice = Random.Range (30, 39);
-
-
-				} 
-				else if (winning > 0 && winning < .1f)
-				{
-
-					choice = Random.Range (40, 43);
-
-				}
-				StartCoroutine (Waitforsec (choice));
-				StartCoroutine(SendXpp(150));
-				}
-			else {
-				var winning = Random.value;
-				int choice = 0 ;
-				if (winning > .4f) 
-				{
-					choice = Random.Range (30, 45);
-
-
-				} 
-				else if (winning < .4f && winning > .1f) 
-				{
-					choice = Random.Range (46, 53);
-
-
-				} 
-				else if (winning > 0 && winning < .1f)
-				{
-
-					choice = Random.Range (54, 56);
-
-				}
-				StartCoroutine (Waitforsec (choice));
-				StartCoroutine(SendXpp(200));
-		}
-		Summons = true;
-	}
-	}
-
 	public void OnClickSummoned () {
 
 		summontutorialhitung();
@@ -305,46 +188,89 @@ public class Summon : MonoBehaviour
 	}
 	}
 
-		public void OnClickCraft () {
-		
-		if(Summons==false)
-		{
-		StartCoroutine(CraftEquipment(jenis));
-		}
-		Summons = true;
-	}
-	
-		
+public void dummyButton()
+{
+	PlayerPrefs.SetString ("PLAY_TUTORIAL","TRUE");
+	tutorHitung = 0;
+	string fakeJson = "{Hantu:[{hantufile:Pocong_Fire}{hantufile:Pocong_Water}{hantufile:Pocong_Wind}]}";
+	Summoning(fakeJson);
+}
+
 	public void Summoning(string ghost){
 		
 
 	
+		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") 
+		{
+				var jsonString = JSON.Parse (ghost);
+			for(int i = 0; i<3; i++)
+			{
+				var models = Instantiate (Resources.Load ("PrefabsChar/" + jsonString["Hantu"][i]["hantufile"]) as GameObject,  new Vector3(0f,0f,0f), Quaternion.identity);
+				models.transform.SetParent (mycamera.transform);
+				models.transform.localPosition =mycamera.transform.Find ("SummonPos").transform.localPosition;
+				models.transform.localScale = mycamera.transform.Find ("SummonPos").transform.localScale;
+				models.transform.localEulerAngles = mycamera.transform.Find ("SummonPos").transform.localEulerAngles;
+				models.name = "ghost";
+				models.transform.SetParent (mycamera.transform.Find ("SummonPos"));
+				SummonedGhosts[i] = models;
+				switch(i)
+				{
+					case 0 :
+					models.transform.localPosition = new Vector3(0.62f,0,0);
+					models.transform.localEulerAngles = new Vector3(0,-30,0);
 
-		model = Instantiate (Resources.Load ("PrefabsChar/" + ghost) as GameObject,  new Vector3(0f,0f,0f), Quaternion.identity);
-		model.transform.SetParent (mycamera.transform);
-		model.transform.localPosition =mycamera.transform.Find ("SummonPos").transform.localPosition;
-		model.transform.localScale = mycamera.transform.Find ("SummonPos").transform.localScale;
-		model.transform.localEulerAngles = mycamera.transform.Find ("SummonPos").transform.localEulerAngles;
-		model.name = "ghost";
-		model.transform.SetParent (mycamera.transform.Find ("SummonPos"));
-		model.SetActive (false);
-		//ss.Summon (ghost);
-		// ini terusin ke mana???
+					break;
+					case 1 :
+					models.transform.localPosition = new Vector3(0, 0, 0);
+					break;
+					case 2 :
+					models.transform.localPosition = new Vector3(-0.62f,0,0);
+					models.transform.localEulerAngles = new Vector3(0,30,0);
 
-		StartCoroutine (sendSummon(ghost,jenis,model));
-//		tutorHitung += 1;
-//		PlayerPrefs.SetInt ("tutorhitung", tutorHitung);
-//		if (PlayerPrefs.GetInt ("tutorhitung") >= 3 ) {
-//			if(PlayerPrefs.GetString ("PLAY_TUTORIAL")== "TRUE")
-//			{
-//			PlayerPrefs.SetString ("SummonTutor", "UDAH");
-//			//next.SetActive(true);
-//			firstTimerSummonScript.position = 3;
-//
-//		}
-//		}
-	
+					break; 
+					default :
+					break;
+
+				}
+				//models.SetActive (false);
+				summontutorialhitung();
+				
+
+				//StartCoroutine (sendSummon(jsonString["Hantu"][i],jenis,model));
+			}
+
+			SummonEffect();
+
+		}
+		else
+		{
+			model = Instantiate (Resources.Load ("PrefabsChar/" + ghost) as GameObject,  new Vector3(0f,0f,0f), Quaternion.identity);
+			model.transform.SetParent (mycamera.transform);
+			model.transform.localPosition =mycamera.transform.Find ("SummonPos").transform.localPosition;
+			model.transform.localScale = mycamera.transform.Find ("SummonPos").transform.localScale;
+			model.transform.localEulerAngles = mycamera.transform.Find ("SummonPos").transform.localEulerAngles;
+			model.name = "ghost";
+			model.transform.SetParent (mycamera.transform.Find ("SummonPos"));
+			model.SetActive (false);
+
+			StartCoroutine (sendSummon(ghost,jenis,model));
+		}	
 	}
+
+	public void SummonEffect()
+	{
+		p[0].Play();
+		p[1].Play();
+		p[2].Play();	
+		for(int i=0;i<3;i++)
+		{
+			SummonedGhosts[i].SetActive(true);
+			SummonedGhosts[i].GetComponent<Animation> ().PlayQueued ("select", QueueMode.PlayNow);
+			SummonedGhosts[i].GetComponent<Animation> ().PlayQueued ("idle");
+		}
+		
+	}
+
 	public void summontutorialhitung(){
 		tutorHitung += 1;
 		PlayerPrefs.SetInt ("tutorhitung", tutorHitung);
@@ -424,7 +350,7 @@ public class Summon : MonoBehaviour
 			model.SetActive(true);
 			model.GetComponent<Animation> ().PlayQueued ("select", QueueMode.PlayNow);
 			model.GetComponent<Animation> ().PlayQueued ("idle");
-			p.Play ();
+			p[1].Play ();
 		//	StartCoroutine(Waitforsec());
 			var jsonString = JSON.Parse (www.text);
 			Debug.Log(jsonString ["data"] ["id"] );
@@ -471,84 +397,6 @@ public class Summon : MonoBehaviour
 		}
 
 	}
-
-	private IEnumerator CraftEquipment(string jenis)
-	{
-		string url = Link.url + "CraftEquipment";
-		WWWForm form = new WWWForm ();
-		form.AddField ("MY_ID", PlayerPrefs.GetString(Link.ID));
-		form.AddField ("JENIS", jenis);
-
-		WWW www = new WWW(url,form);
-		yield return www;
-		if (www.error == null) {
-            //PlayerPrefs.SetString("SummonStats", "Summoned");
-			//testsummonings
-			
-			var jsonString = JSON.Parse (www.text);
-
-			if(int.Parse(jsonString ["code"])!=0)
-			{
-			SummonItem.gameObject.SetActive(true);
-			Debug.Log(jsonString ["data"] ["id"] );
-			SummonItem.Atk = jsonString ["data"] ["ATTACK"] ;
-			SummonItem.Def = jsonString ["data"] ["DEFEND"] ;
-			SummonItem.Hp = jsonString ["data"] ["HP"] ;
-			SummonItem.Type = jsonString ["data"] ["type"] ;
-			SummonItem.Atk = jsonString ["data"] ["ATTACK"] ;
-			SummonItem.Name = jsonString ["data"] ["name"] ;
-		
-			SummonItem.SummonItem(jsonString ["data"] ["image"]);
-
-			//StartCoroutine(sendEXP(jsonString ["data"] ["id"] ,0));
-			Debug.Log (www.text);
-			// file = file.Replace ("_Fire", "");
-			// file = file.Replace ("_Water", "");
-			// file = file.Replace ("_Wind", "");
-			// file = file.Replace ("_fire", "");
-			// file = file.Replace ("_water", "");
-			// file = file.Replace ("_wind", "");
-			// Debug.Log (file);
-			// if (file == "Kunti ") {
-			// 	file = "Kuntilanak";
-			// }
-			// if (file == "Babingepet ") {
-			// 	file = "Babi Ngepet";
-			// }
-			// if (file == "Hantutanpakepala ") {
-			// 	file = "Hantu tanpa kepala";
-			// }
-			// if (file == "SusterNgesot ") {
-			// 	file = "Suster Ngesot";
-			// }
-			// if (file == "nagabesukih ") {
-			// 	file = "Naga Besukih";
-			// }
-			// if (file == "Nyiroro ") {
-			// 	file = "Ratu Pantai";
-			// }
-			// if (file == "SundelBolong") {
-			// 	file = "Sundel Bolong";
-			// }
-			// if (file == "Kolorijo ") {
-			// 	file = "Kolor Ijo";
-			// }
-			// info.text = file;
-			StartCoroutine (updateData ());
-           yield return new WaitForSeconds(1f);
-         //  Summonings.GetComponent<Button> ().enabled = true;
-	p.Play ();
-        }
-		else
-		{
-			print("failed");
-		}
-		} else {
-		//failed
-		}
-
-	}
-	
 
 	IEnumerator Waitforsec(int choice){
 		GameObject effect= Instantiate(summoneffect,sei.transform.position, Quaternion.identity) as GameObject;
@@ -677,30 +525,6 @@ public class Summon : MonoBehaviour
 	}
 	private IEnumerator updateData()
 	{
-
-        //string url = Link.url + "login";
-        //WWWForm form = new WWWForm ();
-        //form.AddField (Link.DEVICE_ID, PlayerPrefs.GetString(Link.DEVICE_ID));
-        //form.AddField (Link.EMAIL, PlayerPrefs.GetString(Link.EMAIL));
-        //form.AddField (Link.PASSWORD, PlayerPrefs.GetString(Link.PASSWORD));
-
-        //Debug.Log (PlayerPrefs.GetString(Link.ID));
-
-        //WWW www = new WWW(url,form);
-        //yield return www;
-        //if (www.error == null) {
-        //	//StartCoroutine (getDataBatu());
-
-        //	Debug.Log ("UPDATE SUCCESS");
-        //        
-        //          var jsonString = JSON.Parse (www.text);
-        //	Debug.Log (www.text);
-
-        //	PlayerPrefs.SetString (Link.GOLD, jsonString ["data"] ["coin"]);
-        //	PlayerPrefs.SetString ("Crystal", jsonString ["data"] ["crystal"]);
-        //	PlayerPrefs.SetString (Link.COMMON, jsonString ["data"] ["common"]);
-        //	PlayerPrefs.SetString (Link.RARE, jsonString ["data"] ["rare"]);
-        //	PlayerPrefs.SetString (Link.LEGENDARY, jsonString ["data"] ["legendary"]);
         string url = Link.url + "getDataUser";
         WWWForm form = new WWWForm();
         form.AddField(Link.ID, PlayerPrefs.GetString(Link.ID));
@@ -728,18 +552,6 @@ public class Summon : MonoBehaviour
                 Common.text = PlayerPrefs.GetString(Link.COMMONGem);
                 Rare.text = PlayerPrefs.GetString(Link.RAREGem);
                 Legendary.text = PlayerPrefs.GetString(Link.LEGENDARYGem);
-
-                if (jenis == "COMMON")
-                {
-                    OnClickCommon();
-                }
-                else if (jenis == "RARE")
-                {
-                    OnClickRare();
-                }
-                else {
-                    OnClickLegendary();
-                }
                 Summons = false;
             }
             else if (PlayerPrefs.GetString(Link.FOR_CONVERTING) == "33")
