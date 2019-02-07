@@ -23,10 +23,14 @@ namespace InfinityCode.OnlineMapsExamples
             // Create OSM Overpass request where highway is primary or residential
             string requestData = String.Format("node({0},{1},{2},{3});way(bn)[{4}];(._;>;);out;",
                 bottomRight.y, topLeft.x, topLeft.y, bottomRight.x, "'highway'~'primary|residential'");
-
+            string requestData2 =  String.Format("node[shop=convenience]({0},{1},{2},{3});(._;>;);out;",bottomRight.y, topLeft.x, topLeft.y, bottomRight.x);
+            string requestData3 = String.Format("area(3600304751)->.searchArea; node[shop=convenience](area.searchArea)({0},{1},{2},{3});(._;>;); out;",bottomRight.y, topLeft.x, topLeft.y, bottomRight.x);
             // Send request and subscribe to complete event
-            OnlineMapsOSMAPIQuery.Find(requestData).OnComplete += OnComplete;
+            OnlineMapsOSMAPIQuery.Find(requestData3).OnComplete += OnComplete;
         }
+
+      
+      
 
         /// This event called when the request is completed.
         private void OnComplete(string response)
@@ -34,14 +38,15 @@ namespace InfinityCode.OnlineMapsExamples
             List<OnlineMapsOSMNode> nodes;
             List<OnlineMapsOSMWay> ways;
             List<OnlineMapsOSMRelation> relations;
-
+             print(response);
             // Get nodes, ways and relations from response
-            OnlineMapsOSMAPIQuery.ParseOSMResponse(response, out nodes, out ways, out relations);
-
-            foreach (OnlineMapsOSMWay way in ways)
+            OnlineMapsOSMAPIQuery.ParseOSMResponse(response, out nodes, out ways, out relations);           
+           print(nodes.Count);
+            foreach (OnlineMapsOSMNode way in nodes)
             {
                 // Log highway type
-                Debug.Log(way.tags.FirstOrDefault(t => t.key == "highway").value);
+              OnlineMapsMarker markers = OnlineMaps.instance.AddMarker(way.lon, way.lat);
+//                Debug.Log(way.tags.FirstOrDefault(t => t.key == "name").value);
             }
         }
     }

@@ -87,10 +87,14 @@ public class LocationManager : MonoBehaviour {
 						//	GetComponent<GoogleMap> ().markers [0].locations [x].latitude = double.Parse(jsonString["data"][x]["latitude"]);
 						//	GetComponent<GoogleMap> ().markers [0].locations [x].longitude = double.Parse(jsonString["data"][x]["longitude"]);
 						// abc+="|"+jsonString["data"][x]["latitude"]+","+jsonString["data"][x]["longitude"];
-						float longitudef = float.Parse(jsonString["data"][x]["longitude"]);
-						float latitudef  = float.Parse(jsonString["data"][x]["latitude"]);
-						OnlineMapsMarker marker = OnlineMaps.instance.AddMarker(longitudef, latitudef);
-						marker.texture = forMarker;
+						if(jsonString["data"][x]["longitude"]!=null)
+						{
+							double longitudef = double.Parse(jsonString["data"][x]["longitude"]);
+							double latitudef  = double.Parse(jsonString["data"][x]["latitude"]);
+							OnlineMapsMarker marker = OnlineMaps.instance.AddMarker(longitudef, latitudef);
+							marker.texture = forMarker;
+						}
+						
 					}
 
 					yield return new WaitForSeconds (.1f);
