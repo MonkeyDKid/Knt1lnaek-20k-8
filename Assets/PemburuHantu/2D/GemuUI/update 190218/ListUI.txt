@@ -1,0 +1,31 @@
+mock1 :	gambar button news dan inbox serta gambar dropdown menunya
+	gambar button Shop
+
+mock2 :	gambar icon close(X)
+	gambar background panel pilih map
+	gambar stage button di pilih map
+
+mock3 :	gambar background panel pilih level
+	gambar layout per-stage
+	gambar start button
+
+mock4 : gambar backround header di setiap scene ato menu (tidak perlu d beri text).
+
+mock5 : gambar icon element dan tipe hantu. element (api, air, angin), tipe (defend, attack,hp)
+	gambar background nama hantu berdasarkan element.
+
+mock6 : gambar Alam Ghaeb dipisah setiap ekspresi
+	gambar kotak dialog
+
+mock7 : gambar background panel Setting
+	gambar button link email, link facebook dan redeem code
+
+peta  :	Design posisi UI untuk peta
+	gambar2 marker untuk lawan, reward, dan posisi player
+	pop up dialog menampilkan lawan ato yg akan menggunakan pop up di peta
+
+Tangkap: redesign posisi ui di scene berburu hantu
+	 gambar button Map, film Selector, common, rare dan legendary roll.
+
+
+crafting: gambar icon2 equipment.
