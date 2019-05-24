@@ -1988,6 +1988,10 @@ public void nextornot()
 
 	public void hidegameobject(GameObject one, GameObject two)
 	{
+		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") {
+			if(one.name=="Hantu2A"||two.name=="Hantu2A")
+			return;
+		}
 		one.transform.Find("Canvas").GetComponent<Animator>().enabled=false;
 		two.transform.Find("Canvas").GetComponent<Animator>().enabled=false;
 		one.transform.Find("Canvas").gameObject.SetActive(false);
@@ -3750,7 +3754,7 @@ public void nextornot()
 
 	public void OnClickDone () {
 		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") {
-			PlayerPrefs.SetString ("PLAY_TUTORIAL","FALSE");
+			PlayerPrefs.SetString ("FightUdah", "TRUE");
 			PlayerPrefs.SetString ("lewat","ya");
 		}
 			
@@ -4102,10 +4106,13 @@ GetCritical = Random.Range(0,10);
 		hantugo1.transform.localPosition= new Vector3 (0.3f, 0.011f, 0.444f);
 		hantugo2.transform.localPosition= new Vector3 (0f, 0.011f, 0.444f);
 		hantugo3.transform.localPosition= new Vector3 (-0.3f, 0.011f, 0.444f);
-
+		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") != "TRUE") 
+		{
+			hantugom2.transform.Find("COPY_POSITION").GetComponentInChildren<SkinnedMeshRenderer>().enabled=true;
+			hantugom3.transform.Find("COPY_POSITION").GetComponentInChildren<SkinnedMeshRenderer>().enabled=true;
+		
+		}
 		hantugom1.transform.Find("COPY_POSITION").GetComponentInChildren<SkinnedMeshRenderer>().enabled=true;
-		hantugom2.transform.Find("COPY_POSITION").GetComponentInChildren<SkinnedMeshRenderer>().enabled=true;
-		hantugom3.transform.Find("COPY_POSITION").GetComponentInChildren<SkinnedMeshRenderer>().enabled=true;
 		hantugo1.transform.Find("Canvas").gameObject.SetActive(true);
 		hantugo2.transform.Find("Canvas").gameObject.SetActive(true);
 		hantugo3.transform.Find("Canvas").gameObject.SetActive(true);

@@ -22,7 +22,7 @@ public abstract class OnlineMapsLocationServiceBase : MonoBehaviour
     /// This event allows you to intercept receiving a GPS location.
     /// </summary>
     public OnGetLocationDelegate OnGetLocation;
-
+    private OSMberburu OSM;
     /// <summary>
     /// This event is called when the IP location are found.
     /// </summary>
@@ -306,7 +306,7 @@ public abstract class OnlineMapsLocationServiceBase : MonoBehaviour
     {
         api = OnlineMaps.instance;
         api.OnChangePosition += OnChangePosition;
-
+        OSM = GetComponent<OSMberburu>();
         if (findLocationByIP)
         {
 #if UNITY_EDITOR || !UNITY_WEBGL
@@ -385,7 +385,8 @@ public abstract class OnlineMapsLocationServiceBase : MonoBehaviour
                     isPositionInited = true;
                     if (OnLocationInited != null) OnLocationInited();
                 }
-                if (OnLocationChanged != null) OnLocationChanged(position);
+                if (OnLocationChanged != null) OnLocationChanged(position); 
+                // OSM.CheckOSM();
             }
 
             if (updatePosition)
@@ -397,6 +398,7 @@ public abstract class OnlineMapsLocationServiceBase : MonoBehaviour
                 else if (restoreAfter > 0 && DateTime.Now.Ticks > lastPositionChangedTime + OnlineMapsUtils.second * restoreAfter)
                 {
                     _allowUpdatePosition = true;
+                   
                     UpdatePosition();
                     if (OnPositionRestored != null) OnPositionRestored();
                 }
@@ -443,7 +445,9 @@ public abstract class OnlineMapsLocationServiceBase : MonoBehaviour
             if (markerType == OnlineMapsLocationServiceMarkerType.twoD)
             {
                 _marker = OnlineMaps.instance.AddMarker(position, marker2DTexture, markerTooltip);
+                _marker.scale = .7f;
                 (_marker as OnlineMapsMarker).align = marker2DAlign;
+                (_marker as OnlineMapsMarker)._sortingOrder = 1;
                 if (useCompassForMarker) (_marker as OnlineMapsMarker).rotation = trueHeading / 360;
             }
             else

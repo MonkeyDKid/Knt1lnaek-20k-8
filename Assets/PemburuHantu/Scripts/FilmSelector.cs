@@ -3,21 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using SimpleJSON;
+using DG.Tweening;
 
 public class FilmSelector : MonoBehaviour {
 
+public GameObject[] RollPrefab;
+public Transform RollStartPosition;
 public Text FilmSelectorText, CatchTimeText;
+public Sprite[] Film_Selector;
 public bool onclick;
 public bool OnDown;
 public berburu Hunting;
 public OnLocation ChangeHantu;
 private Text CommonRollText, RareRollText, LegendaryRollText;
 public float CatchTime, MaxTime;
-public GameObject GhostScanner, CommonRoll, RareRoll, LegendaryRoll, PopUpTimesUp, RollSelector;
+public GameObject FilmList,closefilm,GhostScanner, CommonRoll, RareRoll, LegendaryRoll, PopUpTimesUp, RollSelector;
 public Image CatchBar;
 public bool Catch=false;
 	// Use this for initialization
 	void Start () {
+		
+// PlayerPrefs.SetString("PLAY_TUTORIAL","FALSE") ;          
 		 CatchBar.fillAmount=0;
 		 GhostScanner.GetComponent<BoxCollider>().enabled=false;
 		 var CR=CommonRoll.transform.Find("Text").GetComponent<Text>();
@@ -26,9 +32,13 @@ public bool Catch=false;
 		 CommonRollText = CR;
 		 RareRollText = RR;
 		 LegendaryRollText = LR;
-		 CommonRollText.text = "Common Roll "+PlayerPrefs.GetString(Link.COMMON);
-         RareRollText.text = "Rare Roll "+PlayerPrefs.GetString(Link.RARE);
-         LegendaryRollText.text = "Legendary Roll "+PlayerPrefs.GetString(Link.LEGENDARY);
+		 CommonRollText.text = PlayerPrefs.GetString(Link.COMMON);
+     RareRollText.text = PlayerPrefs.GetString(Link.RARE);
+     LegendaryRollText.text = PlayerPrefs.GetString(Link.LEGENDARY);
+		 if(PlayerPrefs.GetString("PLAY_TUTORIAL")=="TRUE")
+		 {
+			 SceneManagerHelper.LoadTutorial("berburuhantu");
+		 }
 	}
 	
 	// Update is called once per frame
@@ -36,7 +46,7 @@ public bool Catch=false;
 		if(Catch)
 		{
 		  	if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "TRUE")
-            {
+      {
 
 			}
 			else
@@ -65,8 +75,13 @@ public bool Catch=false;
 			GhostScanner.GetComponent<BoxCollider>().enabled=false;
 			CatchBar.fillAmount=0;
 		}
-		print(GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FilmSelector"));
+		
 	}
+
+	// public void angkadummy()
+	// {
+	// 	Hunting.angka = 6;
+	// }
 	public void Select(){
 		//  GetComponent<Animator>().SetTrigger("Selected");
 		Switch();
@@ -76,30 +91,82 @@ public bool Catch=false;
 		Switch();
 	}
 
+	public void AnimateRoll(int whichroll)
+	{
+			if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "TRUE")            
+		{
+			GameObject[] roll = new GameObject[3];
+			for(int i=0; i<3;i++)
+			{
+					roll[i] = Instantiate(RollPrefab[i],RollStartPosition.position, Quaternion.identity);
+					roll[i].transform.parent = RollStartPosition;
+					roll[i].transform.DOLocalRotate(new Vector3(0,0,0),.1f);
+					roll[i].transform.localScale = new Vector3(0,0,0);			
+			}
+		
+		
+			roll[0].transform.DOLocalJump(new Vector3(450,25,0),120,1,.5f);
+			roll[0].transform.DOScale(new Vector3(1,1,1),.5f).OnComplete(delegate(){
+				Destroy(roll[0]);
+				roll[1].transform.DOLocalJump(new Vector3(450,25,0),120,1,.5f);
+			roll[1].transform.DOScale(new Vector3(1,1,1),.5f).OnComplete(delegate(){
+				Destroy(roll[1]);
+					roll[2].transform.DOLocalJump(new Vector3(450,25,0),120,1,.5f);
+			roll[2].transform.DOScale(new Vector3(1,1,1),.5f).OnComplete(delegate(){
+				Destroy(roll[2]);
+
+			});
+				});
+					});
+
+		}
+		else
+		{		
+			GameObject roll = Instantiate(RollPrefab[whichroll],RollStartPosition.position, Quaternion.identity);
+			roll.transform.parent = RollStartPosition;
+			roll.transform.localScale = new Vector3(0,0,0);			
+			roll.transform.DOLocalJump(new Vector3(450,25,0),120,1,.5f);
+			roll.transform.DOScale(new Vector3(1,1,1),.5f).OnComplete(delegate(){
+				Destroy(roll);
+			});
+		}
+	}
+
 		public void Switch()
-	{	
-		onclick=true;
-		OnDown = !OnDown;
+	{			
+		if(onclick==false)
+		{
+			onclick=true;
+			OnDown = !OnDown;
 			if(OnDown)
 			{
-				GetComponent<Animator>().ResetTrigger("Selected");
-				GetComponent<Animator>().ResetTrigger("Deselect");
-				GetComponent<Animator>().SetTrigger("Selected");
+				closefilm.SetActive(true);
+				FilmList.transform.DOLocalMoveY(0f,.5f).OnComplete(delegate(){
+					onclick=false;
+				});
+				// GetComponent<Animator>().ResetTrigger("Selected");
+				// GetComponent<Animator>().ResetTrigger("Deselect");
+				// GetComponent<Animator>().SetTrigger("Selected");
 			}
 			else
 			{
-				GetComponent<Animator>().ResetTrigger("Selected");
-				GetComponent<Animator>().ResetTrigger("Deselect");
-				GetComponent<Animator>().SetTrigger("Deselect");
+					FilmList.transform.DOLocalMoveY(-250f,.5f).OnComplete(delegate(){
+						closefilm.SetActive(false);
+						onclick=false;
+					});
+				// GetComponent<Animator>().ResetTrigger("Selected");
+				// GetComponent<Animator>().ResetTrigger("Deselect");
+				// GetComponent<Animator>().SetTrigger("Deselect");
 			}
-		
+		}
 		
 	}
 	public void Roller(int whichScanner)
 	{
-		ChangeHantu.Start();
+		// ChangeHantu.Start();
 		 if(whichScanner==0)
 		 {
+			 	ChangeHantu.Start();
 			 	if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 20 && int.Parse (PlayerPrefs.GetString (Link.COMMON)) >= 1) 
 				{
 					CatchTime = MaxTime = 15;
@@ -107,7 +174,7 @@ public bool Catch=false;
 					CatchBar.fillAmount=1;
 					CatchTimeText.text = CatchTime.ToString();
 					Hunting.TimeShiftIncrease = 1;
-					FilmSelectorText.text = "Common Roll";
+					RollSelector.GetComponent<Button>().image.sprite = Film_Selector[whichScanner];
 			 		GhostScanner.GetComponent<BoxCollider>().enabled=true;
 					
 				} 
@@ -115,11 +182,12 @@ public bool Catch=false;
 				{
 					//statusAktif.SetActive (true);
 				}
-			
+			Deselect();
 			
 		 }
 		 else if(whichScanner==1)
 		 {
+			 	ChangeHantu.Start();
 			 	if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 20 && int.Parse (PlayerPrefs.GetString (Link.RARE)) >= 1) 
 				{
 					CatchTime = MaxTime = 20;
@@ -127,36 +195,72 @@ public bool Catch=false;
 					CatchBar.fillAmount=1;
 					CatchTimeText.text= CatchTime.ToString();
 					Hunting.TimeShiftIncrease = 1.5f;
-					FilmSelectorText.text = "Rare Roll";
+					RollSelector.GetComponent<Button>().image.sprite = Film_Selector[whichScanner];
 					GhostScanner.GetComponent<BoxCollider>().enabled=true;
 				} 
 				else 
 				{
 					//statusAktif.SetActive (true);
 				}
-			 
+			 Deselect();
 		 }
-		 else
+		  else if(whichScanner==2)
 		 {
+			 	ChangeHantu.Start();
 			 	if (int.Parse (PlayerPrefs.GetString (Link.GOLD)) >= 20 && int.Parse (PlayerPrefs.GetString (Link.LEGENDARY)) >= 1) 
 				{
 					CatchTime = MaxTime = 30;
 					Catch=true;
 					CatchBar.fillAmount=1;
 					CatchTimeText.text= CatchTime.ToString();
-					Hunting.TimeShiftIncrease = 2;
-					FilmSelectorText.text = "Legendary Roll";
+					Hunting.TimeShiftIncrease = 2f;
+					RollSelector.GetComponent<Button>().image.sprite = Film_Selector[whichScanner];
 					GhostScanner.GetComponent<BoxCollider>().enabled=true;
 				} 
 				else 
 				{
 					//statusAktif.SetActive (true);
 				}
+			 Deselect();
+		 }
+		 else if (whichScanner==3)
+		 {
+			 	if (PlayerPrefs.GetString("PLAY_TUTORIAL")=="TRUE") 
+				{
+					ChangeHantu.Start();
+					CatchTime = MaxTime = 30;
+					Catch=true;
+					CatchBar.fillAmount=1;
+					CatchTimeText.text= CatchTime.ToString();
+					Hunting.TimeShiftIncrease = 1;
+				//	RollSelector.GetComponent<Button>().image.sprite = Film_Selector[whichScanner];
+					GhostScanner.GetComponent<BoxCollider>().enabled=true;
+				} 
+				else 
+				{
+					//statusAktif.SetActive (true);
+				}
+				Deselect();
+		 }
+
+				else 
+		 {
+			 if(PlayerPrefs.GetString("PLAY_TUTORIAL")=="TRUE")
+			 {
+				 print("Masuk sini");
+					ChangeHantu.Start();
+					CatchTime = MaxTime = 30;
+					Catch=true;
+					CatchBar.fillAmount=1;
+					CatchTimeText.text= CatchTime.ToString();
+					Hunting.TimeShiftIncrease = 2;
+					GhostScanner.GetComponent<BoxCollider>().enabled=true;	
+			 }		
 			 
 		 }
 		 
 		 PlayerPrefs.SetInt("Rarity",whichScanner);
-		 Deselect();
+		 
 	}
 	 public void Scanner(int whichScanner)
 	 {
@@ -280,9 +384,9 @@ public bool Catch=false;
 
 
                // Gold.text = PlayerPrefs.GetString(Link.GOLD);
-                 CommonRollText.text = "Common Roll "+jsonString["data"]["common"];
-        		 RareRollText.text = "Rare Roll "+jsonString["data"]["rare"];
-         		 LegendaryRollText.text = "Legendary Roll "+jsonString["data"]["legendary"];         
+                 CommonRollText.text = jsonString["data"]["common"];
+        		 RareRollText.text = jsonString["data"]["rare"];
+         		 LegendaryRollText.text = jsonString["data"]["legendary"];         
             }
             else if (PlayerPrefs.GetString(Link.FOR_CONVERTING) == "33")
             {

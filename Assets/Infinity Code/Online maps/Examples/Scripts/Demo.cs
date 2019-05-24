@@ -41,7 +41,7 @@ namespace InfinityCode.OnlineMapsDemos
             is2D = !is2D;
 
             twoThreeDText.text = is2D ? "3D" : "2D";
-            elevationsToggle.gameObject.SetActive(!is2D);
+//            elevationsToggle.gameObject.SetActive(!is2D);
 
             animValue = 0;
             isCameraModeChange = true;

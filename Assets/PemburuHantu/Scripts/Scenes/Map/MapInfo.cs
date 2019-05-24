@@ -10,7 +10,7 @@ public class MapInfo : MonoBehaviour {
 [HideInInspector]public string Lokasi;
 [HideInInspector]public Map Map;
 [HideInInspector]public Button StartButton;
-[HideInInspector]public Text LevelNameText;
+public Text LevelNameText;
 [HideInInspector]public MapListManager MapLManager;
 [HideInInspector]public int Stage;
 [HideInInspector]public bool Event;
@@ -18,42 +18,55 @@ public class MapInfo : MonoBehaviour {
 public Image Gambar;
 public Transform StageLevelParentTarget;
 public GameObject StageLevelPrefab;
+public Sprite TitleMap;
 void Start()
 {
 	CheckStage();
 	StartCoroutine(LoadGambar());
+	LevelNameText.text = Lokasi;
 }
 public void OnMapClick()
 {
 	PlayerPrefs.SetString(Link.SEARCH_BATTLE, "SINGLE");
     PlayerPrefs.SetString(Link.LOKASI, Lokasi);
     PlayerPrefs.SetString(Link.JENIS, "SINGLE");
+	MapLManager.StageImage.sprite = TitleMap; 
 	//if(SceneManagerHelper.Haske)
 	Map.CheckStage();
+	Map.SetStage(Lokasi);
 	StartCoroutine(Map.GetStageDrop(Lokasi));
 	CheckMap();
 	
 }
 private void CheckMap()
 {
-	if(SceneManagerHelper.HasKey("MapUpdateVersion"))
+	// PlayerPrefs.DeleteKey("MapUpdateVersion");
+	if(SceneManagerHelper.HasKey("MapUpdateVersion"+Lokasi))
 	{
-		var lastupdateMap = PlayerPrefs.GetInt("MapUpdateVersion");
+		var lastupdateMap = PlayerPrefs.GetInt("MapUpdateVersion"+Lokasi);
 		if(MapUpdateVersion>lastupdateMap)
 		{
-			PlayerPrefs.SetInt("MapUpdateVersion", MapUpdateVersion);
+			PlayerPrefs.SetInt("MapUpdateVersion"+Lokasi, MapUpdateVersion);
 			StartCoroutine(GetSelectedMapList(true));
 		}
 		else
 		{
-			StartCoroutine(GetSelectedMapList(false));
+			if(SceneManagerHelper.HasKey(Link.MapData+Lokasi))
+			{
+				StartCoroutine(GetSelectedMapList(false));
+			}
+			else
+			{
+				StartCoroutine(GetSelectedMapList(true));
+			}
+			
 		}
 
 	}
 
 	else
 	{
-		PlayerPrefs.SetInt("MapUpdateVersion", MapUpdateVersion);
+		PlayerPrefs.SetInt("MapUpdateVersion"+Lokasi, MapUpdateVersion);
 		StartCoroutine(GetSelectedMapList(true));
 	}
 }
@@ -82,9 +95,10 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 				entry = new GameObject[count];
 				string stagedata = jsonString ["Hantudata"].ToString();
 				string mapdata = www.text;
-				print(stagedata);
-				PlayerPrefs.SetString(Link.StageData, stagedata);
-				PlayerPrefs.SetString(Link.MapData, mapdata);
+				//print(stagedata);
+				//Debug.Log(stagedata);
+				PlayerPrefs.SetString(Link.StageData,stagedata);
+				PlayerPrefs.SetString(Link.MapData+Lokasi, mapdata);
 				for (int x = 0; x < count; x++) {
 					if(x%6==0&&x!=0)
 					{
@@ -116,7 +130,8 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 						entry [x].GetComponent<StageLevel> ().Panah.SetActive(true);
 						entry [x].GetComponent<StageLevel> ().LevelText.text =  "Tutorial";					
 						entry [x].GetComponent<StageLevel> ().LevelName = "Tutorial";				
-						entry [x].GetComponent<StageLevel> ().MapLM = MapLManager;entry[x].transform.position = MapLManager.StageSelectPositions[0];
+						entry [x].GetComponent<StageLevel> ().MapLM = MapLManager;
+						entry[x].transform.position = MapLManager.StageSelectPositions[0];
 					}
 					else
 					{
@@ -126,7 +141,9 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 					}
 					else 
 					{
-						entry [x].GetComponent<StageLevel> ().MapLM = MapLManager;entry[x].transform.position = MapLManager.StageSelectPositions[x+1];
+						print(level);
+						entry [x].GetComponent<StageLevel> ().MapLM = MapLManager;
+						entry[x].transform.position = MapLManager.StageSelectPositions[level];
 					}
 					
 					entry [x].transform.SetParent (StageLevelParentTarget, false);
@@ -141,8 +158,9 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 		}
 		else
 		{
+			print("offline Data");
 			GameObject[] entry;
-			var isi = PlayerPrefs.GetString(Link.MapData);
+			var isi = PlayerPrefs.GetString(Link.MapData+Lokasi);
 			var jsonString = JSON.Parse (isi);
 			int count = int.Parse (jsonString ["LevelCount"]);
 			entry = new GameObject[count];
@@ -152,7 +170,7 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 					{
 						print("tambah Stage");
 					}
-					
+					print(stagedata);
 					int level = int.Parse(jsonString ["HantuMapList"] [x] ["Stage"])+1;
 					int normallevel = int.Parse(jsonString ["HantuMapList"] [x] ["Stage"]);
 					entry [x] = Instantiate (StageLevelPrefab);
@@ -188,7 +206,8 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 					}
 					else 
 					{
-						entry [x].GetComponent<StageLevel> ().MapLM = MapLManager;entry[x].transform.position = MapLManager.StageSelectPositions[x+1];
+						entry [x].GetComponent<StageLevel> ().MapLM = MapLManager;
+						entry[x].transform.position = MapLManager.StageSelectPositions[level];
 					}
 					
 					entry [x].transform.SetParent (StageLevelParentTarget, false);
@@ -200,6 +219,7 @@ private IEnumerator GetSelectedMapList(bool whichLoad)
 }
 IEnumerator LoadGambar()
 {
+	//PlayerPrefs.DeleteKey(Lokasi);
 	if(SceneManagerHelper.HasKey(Lokasi))
 	{
 		 byte[] b64_bytes = System.Convert.FromBase64String(PlayerPrefs.GetString(Lokasi));
@@ -211,7 +231,7 @@ IEnumerator LoadGambar()
             if (tex.height != 8)
             {
 				tex.filterMode = FilterMode.Point;
-				tex.alphaIsTransparency=true;
+//				tex.alphaIsTransparency = true;
                 Gambar.sprite = Sprite.Create(tex, rect, Vector2.zero, 128.0f);
             }
 	}
@@ -232,7 +252,7 @@ IEnumerator LoadGambar()
             
                 Debug.Log(www.texture.height);
 				tex.filterMode = FilterMode.Point;
-				tex.alphaIsTransparency=true;
+//				tex.alphaIsTransparency=true;
                 Gambar.sprite = Sprite.Create(tex, rect, Vector2.zero, 128.0f);
            
             string s = System.Convert.ToBase64String(tex.EncodeToPNG());

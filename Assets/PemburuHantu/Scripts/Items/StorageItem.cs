@@ -142,7 +142,7 @@ public class StorageItem : MonoBehaviour {
 		}
 		else 
 		{
-			cc.LoreScript.GetHantuLore(name);
+		//	cc.LoreScript.GetHantuLore(name);
 		}
 		Debug.Log ("Hantu Id : " + hantuId);
 		shadow.GetComponent<Image>().enabled=true;

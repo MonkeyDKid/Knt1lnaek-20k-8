@@ -102,9 +102,17 @@ public class PilihCharacter : MonoBehaviour {
 			if(Application.loadedLevelName=="PilihCharacter")
 			{
 				enemylineup.SetActive(true);
+				if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") 
+				{
+					Musuh1.GetComponent<Image> ().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + PlayerPrefs.GetString (Link.POS_1_CHAR_1_FILE));
+				}
+				else
+				{
+				
 				Musuh1.GetComponent<Image> ().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + PlayerPrefs.GetString (Link.POS_1_CHAR_1_FILE));
 				Musuh2.GetComponent<Image> ().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + PlayerPrefs.GetString (Link.POS_1_CHAR_2_FILE));
 				Musuh3.GetComponent<Image> ().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + PlayerPrefs.GetString (Link.POS_1_CHAR_3_FILE));
+			}
 			}
 			
 			PlayerPrefs.SetString ("id_device","2");

@@ -26,6 +26,8 @@ public class OnlineMapsMarker : OnlineMapsMarkerBase
     /// <strong>Please do not use.</strong>
     /// </summary>
     public bool locked;
+    public double id;
+    public int _sortingOrder;
 
     /// <summary>
     /// Relative area of ​​activity of the marker.

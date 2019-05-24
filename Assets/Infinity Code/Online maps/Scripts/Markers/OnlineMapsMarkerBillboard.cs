@@ -34,7 +34,7 @@ public class OnlineMapsMarkerBillboard : OnlineMapsMarkerInstanceBase
         GameObject billboardGO = new GameObject("Marker");
         SpriteRenderer spriteRenderer = billboardGO.AddComponent<SpriteRenderer>();
         OnlineMapsMarkerBillboard billboard = billboardGO.AddComponent<OnlineMapsMarkerBillboard>();
-        
+        spriteRenderer.sortingOrder = marker._sortingOrder;
         billboard.marker = marker;
         marker.OnInitComplete += billboard.OnInitComplete;
         Texture2D texture = marker.texture;

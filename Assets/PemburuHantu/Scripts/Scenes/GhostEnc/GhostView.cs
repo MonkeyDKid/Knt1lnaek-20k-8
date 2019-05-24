@@ -10,6 +10,11 @@ public class GhostView : MonoBehaviour {
 
  public Button[] GhostdexButton;
 
+ public HantuLore HantuInfo;
+public string[] split;
+public Text[] InfoText;
+public GameObject[] Element;
+public Sprite[] ElementPlat;
 public Transform GhostTransform;
     public GameObject Loading;
   
@@ -27,110 +32,373 @@ public Transform GhostTransform;
         Array.Sort(characters);
         return new string(characters);
     }
-    void Activate(char ghost)
+    void Activate(string ghost)
     {
         print("Ghost" + ghost);
         switch (ghost)
         {
-            case 'A':
-                GhostdexButton[0].interactable = true;
-                GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
-                GhostdexButton[0].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Pocong_Fire");
+            case "A1":
+                GhostdexButton[0].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[0].GetComponent<GhostViewButton>().ghostnumber = 0;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[0].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Pocong_Fire");
                 break;
-            case 'B':
-                GhostdexButton[1].interactable = true;
-                GhostdexButton[1].transform.Find("Name").GetComponent<Text>().text = "Jelangkung";
-                GhostdexButton[1].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Jelangkung_Fire");
+            case "A2":
+                 GhostdexButton[1].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[1].GetComponent<GhostViewButton>().ghostnumber = 1;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[1].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Pocong_water");
                 break;
-            case 'C':
-                GhostdexButton[2].interactable = true;
-                GhostdexButton[2].transform.Find("Name").GetComponent<Text>().text = "Babi ngepet";
-                GhostdexButton[2].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Babingepet_Fire");
+            case "A3":
+                 GhostdexButton[2].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[2].GetComponent<GhostViewButton>().ghostnumber = 2;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[2].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Pocong_wind");
                 break;
-            case 'D':
-                GhostdexButton[3].interactable = true;
-                GhostdexButton[3].transform.Find("Name").GetComponent<Text>().text = "Tuyul";
-                GhostdexButton[3].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Tuyul_Fire");
+            
+            case "B1":
+                GhostdexButton[3].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[3].GetComponent<GhostViewButton>().ghostnumber = 3;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[3].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jelangkung_Fire");
                 break;
-            case 'E':
-                GhostdexButton[4].interactable = true;
-                GhostdexButton[4].transform.Find("Name").GetComponent<Text>().text = "Hantu tanpa kepala";
-                GhostdexButton[4].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Hantutanpakepala_Fire");
+            case "B2":
+                GhostdexButton[4].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[4].GetComponent<GhostViewButton>().ghostnumber = 4;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[4].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jelangkung_water");
                 break;
-            case 'F':
-                GhostdexButton[5].interactable = true;
-                GhostdexButton[5].transform.Find("Name").GetComponent<Text>().text = "Muka rata";
-                GhostdexButton[5].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "mukarata_Fire");
+            case "B3":
+                 GhostdexButton[5].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[5].GetComponent<GhostViewButton>().ghostnumber = 5;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[5].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jelangkung_wind");
                 break;
-            case 'G':
-                GhostdexButton[6].interactable = true;
-                GhostdexButton[6].transform.Find("Name").GetComponent<Text>().text = "Kolor ijo";
-                GhostdexButton[6].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "kolorijo_Fire");
+            case "C1":
+                GhostdexButton[6].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[6].GetComponent<GhostViewButton>().ghostnumber = 6;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[6].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Babingepet_Fire");
                 break;
-            case 'H':
-                GhostdexButton[7].interactable = true;
-                GhostdexButton[7].transform.Find("Name").GetComponent<Text>().text = "Jin";
-                GhostdexButton[7].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "jin_Fire");
+            case "C2":
+                 GhostdexButton[7].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[7].GetComponent<GhostViewButton>().ghostnumber = 7;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[7].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Babingepet_water");
                 break;
-            case 'I':
-                GhostdexButton[8].interactable = true;
-                GhostdexButton[8].transform.Find("Name").GetComponent<Text>().text = "Lembuswana";
-                GhostdexButton[8].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Lembuswana_Fire");
+            case "C3":
+                GhostdexButton[8].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[8].GetComponent<GhostViewButton>().ghostnumber = 8;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[8].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Babingepet_wind");
                 break;
-            case 'J':
-                GhostdexButton[9].interactable = true;
-                GhostdexButton[9].transform.Find("Name").GetComponent<Text>().text = "Leak";
-                GhostdexButton[9].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Leak_Fire");
+            
+            case "D1":
+                 GhostdexButton[9].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[9].GetComponent<GhostViewButton>().ghostnumber = 9;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[9].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Tuyul_Fire");
                 break;
-            case 'K':
-                GhostdexButton[10].interactable = true;
-                GhostdexButton[10].transform.Find("Name").GetComponent<Text>().text = "Sundel bolong";
-                GhostdexButton[10].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Sundelbolong_Fire");
+            case "D2":
+                 GhostdexButton[10].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[10].GetComponent<GhostViewButton>().ghostnumber = 10;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[10].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Tuyul_water");
                 break;
-            case 'L':
-                GhostdexButton[11].interactable = true;
-                GhostdexButton[11].transform.Find("Name").GetComponent<Text>().text = "Suster ngesot";
-                GhostdexButton[11].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Susterngesot_Fire");
+            case "D3":
+                GhostdexButton[11].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[11].GetComponent<GhostViewButton>().ghostnumber = 11;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[11].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Tuyul_wind");
                 break;
-            case 'M':
-                GhostdexButton[12].interactable = true;
-                GhostdexButton[12].transform.Find("Name").GetComponent<Text>().text = "Kuntilanak";
-                GhostdexButton[12].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Kunti_Fire");
+            
+            case "E1":
+                GhostdexButton[12].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[12].GetComponent<GhostViewButton>().ghostnumber = 12;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[12].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Hantutanpakepala_Fire");
                 break;
-            case 'N':
-                GhostdexButton[13].interactable = true;
-                GhostdexButton[13].transform.Find("Name").GetComponent<Text>().text = "Genderuwo";
-                GhostdexButton[13].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Genderuwo_Fire");
+            case "E2":
+                GhostdexButton[13].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[13].GetComponent<GhostViewButton>().ghostnumber = 13;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[13].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Hantutanpakepala_water");
                 break;
-            case 'O':
-                GhostdexButton[14].interactable = true;
-                GhostdexButton[14].transform.Find("Name").GetComponent<Text>().text = "Zombie";
-                GhostdexButton[14].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Zombie_Fire");
+            case "E3":
+                GhostdexButton[14].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[14].GetComponent<GhostViewButton>().ghostnumber = 14;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text 14= "Pocong";
+                GhostdexButton[14].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Hantutanpakepala_wind");
                 break;
-            case 'P':
-                GhostdexButton[15].interactable = true;
-                GhostdexButton[15].transform.Find("Name").GetComponent<Text>().text = "Naga besukih";
-                GhostdexButton[15].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Nagabesukih_Fire");
+            case "F1":
+                GhostdexButton[15].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[15].GetComponent<GhostViewButton>().ghostnumber = 15;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[15].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "mukarata_Fire");
                 break;
-            case 'Q':
-                GhostdexButton[16].interactable = true;
-                GhostdexButton[16].transform.Find("Name").GetComponent<Text>().text = "Jerangkong";
-                GhostdexButton[16].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Jerangkong_Fire");
+             case "F2":
+                GhostdexButton[16].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[16].GetComponent<GhostViewButton>().ghostnumber = 16;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[16].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "mukarata_water");
                 break;
-            case 'R':
-                GhostdexButton[17].interactable = true;
-                GhostdexButton[17].transform.Find("Name").GetComponent<Text>().text = "Palasik";
-                GhostdexButton[17].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Palasik_Fire");
+             case "F3":
+                 GhostdexButton[17].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[17].GetComponent<GhostViewButton>().ghostnumber = 17;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[17].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "mukarata_wind");
                 break;
-            case 'S':
-                GhostdexButton[18].interactable = true;
-                GhostdexButton[18].transform.Find("Name").GetComponent<Text>().text = "Jenglot";
-                GhostdexButton[18].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Jenglot_Fire");
+            case "G1":
+                 GhostdexButton[18].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[18].GetComponent<GhostViewButton>().ghostnumber = 18;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[18].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "kolorijo_Fire");
                 break;
-            case 'T':
-                GhostdexButton[19].interactable = true;
-                GhostdexButton[19].transform.Find("Name").GetComponent<Text>().text = "Ratu Pantai";
-                GhostdexButton[19].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Nyiroro_Fire");
+            case "G2":
+                GhostdexButton[19].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[19].GetComponent<GhostViewButton>().ghostnumber = 19;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[19].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "kolorijo_water");
+                break;
+            case "G3":
+                GhostdexButton[20].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[20].GetComponent<GhostViewButton>().ghostnumber = 20;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[20].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "kolorijo_wind");
+                break;
+            case "H1":
+                GhostdexButton[21].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[21].GetComponent<GhostViewButton>().ghostnumber = 21;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[21].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "jin_Fire");
+                break;
+            case "H2":
+                GhostdexButton[2].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[22].GetComponent<GhostViewButton>().ghostnumber = 22;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[22].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "jin_water");
+                break;
+            case "H3":
+                GhostdexButton[23].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[23].GetComponent<GhostViewButton>().ghostnumber = 23;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[23].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "jin_wind");
+                break;
+            case "I1":
+                GhostdexButton[24].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[24].GetComponent<GhostViewButton>().ghostnumber = 24;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[24].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Lembuswana_Fire");
+                break;
+             case "I2":
+                GhostdexButton[25].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[25].GetComponent<GhostViewButton>().ghostnumber = 25;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[25].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Lembuswana_water");
+                break;
+             case "I3":
+                GhostdexButton[26].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[26].GetComponent<GhostViewButton>().ghostnumber = 26;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[26].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Lembuswana_wind");
+                break;
+            case "J1":
+                 GhostdexButton[27].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[27].GetComponent<GhostViewButton>().ghostnumber = 27;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[27].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Leak_Fire");
+                break;
+            case "J2":
+                 GhostdexButton[28].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[28].GetComponent<GhostViewButton>().ghostnumber = 28;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[28].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Leak_water");
+                break;
+            case "J3":
+                 GhostdexButton[29].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[29].GetComponent<GhostViewButton>().ghostnumber = 29;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[29].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Leak_wind");
+                break;
+            case "K1":
+                 GhostdexButton[30].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[30].GetComponent<GhostViewButton>().ghostnumber = 30;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[30].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Sundelbolong_Fire");
+                break;
+            case "K2":
+                GhostdexButton[31].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[31].GetComponent<GhostViewButton>().ghostnumber = 31;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[31].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Sundelbolong_water");
+                break;
+            case "K3":
+                 GhostdexButton[32].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[32].GetComponent<GhostViewButton>().ghostnumber = 32;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[32].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Sundelbolong_wind");
+                break;
+            case "L1":
+                 GhostdexButton[33].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[33].GetComponent<GhostViewButton>().ghostnumber = 33;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[33].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Susterngesot_Fire");
+                break;
+            case "L2":
+                GhostdexButton[34].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[34].GetComponent<GhostViewButton>().ghostnumber = 34;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[34].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Susterngesot_water");
+                break;
+            case "L3":
+                 GhostdexButton[35].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[35].GetComponent<GhostViewButton>().ghostnumber = 35;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[35].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Susterngesot_wind");
+                break;
+            case "M1":
+                GhostdexButton[36].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[36].GetComponent<GhostViewButton>().ghostnumber = 36;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[36].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Kunti_Fire");
+                break;
+             case "M2":
+                GhostdexButton[37].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[37].GetComponent<GhostViewButton>().ghostnumber = 37;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[37].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Kunti_water");
+                break;
+             case "M3":
+                GhostdexButton[38].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[38].GetComponent<GhostViewButton>().ghostnumber = 38;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[38].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Kunti_wind");
+                break;
+            case "N1":
+                GhostdexButton[39].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[39].GetComponent<GhostViewButton>().ghostnumber = 39;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[39].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Genderuwo_Fire");
+                break;
+             case "N2":
+                 GhostdexButton[40].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[40].GetComponent<GhostViewButton>().ghostnumber = 40;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[40].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Genderuwo_water");
+                break;
+             case "N3":
+                GhostdexButton[41].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[41].GetComponent<GhostViewButton>().ghostnumber = 41;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[41].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Genderuwo_wind");
+                break;
+            case "O1":
+                GhostdexButton[42].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[42].GetComponent<GhostViewButton>().ghostnumber = 42;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[42].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Zombie_Fire");
+                break;
+            case "O2":
+                GhostdexButton[43].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[43].GetComponent<GhostViewButton>().ghostnumber = 43;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[43].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Zombie_water");
+                break;
+            case "O3":
+                 GhostdexButton[44].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[44].GetComponent<GhostViewButton>().ghostnumber = 44;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[44].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Zombie_wind");
+                break;
+            case "P1":
+                GhostdexButton[45].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[45].GetComponent<GhostViewButton>().ghostnumber = 45;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().tex4t = "Pocong";
+                GhostdexButton[45].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Nagabesukih_Fire");
+                break;
+            case "P2":
+                GhostdexButton[46].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[46].GetComponent<GhostViewButton>().ghostnumber = 46;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[46].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_charLama/" + "Nagabesukih_water");
+                break;
+            case "P3":
+                GhostdexButton[47].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[47].GetComponent<GhostViewButton>().ghostnumber = 47;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text47 = "Pocong";
+                GhostdexButton[47].GetComponent<Image>().sprite =Resources.Load<Sprite> ("icon_charLama/" + "Nagabesukih_wind");
+                break;
+            case "Q1":
+                GhostdexButton[48].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[48].GetComponent<GhostViewButton>().ghostnumber = 48;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[48].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jerangkong_Fire");
+                break;
+            case "Q2":
+                GhostdexButton[49].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[49].GetComponent<GhostViewButton>().ghostnumber = 49;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[49].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jerangkong_water");
+                break;
+            case "Q3":
+               GhostdexButton[50].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[50].GetComponent<GhostViewButton>().ghostnumber = 50;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().tex50t = "Pocong";
+                GhostdexButton[50].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jerangkong_wind");
+                break;
+            case "R1":
+                GhostdexButton[51].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[51].GetComponent<GhostViewButton>().ghostnumber = 51;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[51].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Palasik_Fire");
+                break;
+             case "R2":
+               GhostdexButton[52].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[52].GetComponent<GhostViewButton>().ghostnumber = 52;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text52 = "Pocong";
+                GhostdexButton[52].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Palasik_water");
+                break;
+             case "R3":
+                GhostdexButton[53].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[53].GetComponent<GhostViewButton>().ghostnumber = 53;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[53].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Palasik_wind");
+                break;
+            case "S1":
+               GhostdexButton[54].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[54].GetComponent<GhostViewButton>().ghostnumber = 54;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().tex54t = "Pocong";
+                GhostdexButton[54].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jenglot_Fire");
+                break;
+            case "S2":
+                GhostdexButton[55].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[55].GetComponent<GhostViewButton>().ghostnumber = 55;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[55].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jenglot_water");
+                break;
+            case "S3":
+                GhostdexButton[56].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[56].GetComponent<GhostViewButton>().ghostnumber = 56;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[56].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Jenglot_wind");
+                break;
+            case "T1":
+                GhostdexButton[57].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[57].GetComponent<GhostViewButton>().ghostnumber = 57;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[57].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Nyiroro_Fire");
+                break;
+            case "T2":
+                 GhostdexButton[58].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[58].GetComponent<GhostViewButton>().ghostnumber = 58;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[58].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Nyiroro_water");
+                break;
+            case "T3":
+                GhostdexButton[59].GetComponent<GhostViewButton>().opened = true;
+                GhostdexButton[59].GetComponent<GhostViewButton>().ghostnumber = 59;
+                // GhostdexButton[0].transform.Find("Name").GetComponent<Text>().text = "Pocong";
+                GhostdexButton[59].GetComponent<Image>().sprite = Resources.Load<Sprite> ("icon_char_Maps/" + "Nyiroro_wind");
                 break;
           
         }
@@ -148,8 +416,9 @@ public Transform GhostTransform;
 
         for (int x = 0; x < characters.Length; x++)
         {
-            Activate(characters[x]);
+            // Activate(characters[x]);
         }
+
     }
     IEnumerator CheckGhostDex()
     {
@@ -164,29 +433,71 @@ public Transform GhostTransform;
             var jsonString = JSON.Parse(www.text);
             PlayerPrefs.SetString("GhostDex",jsonString["char"].ToString());
             print(jsonString);
-            characters = SortString(jsonString["char"].ToString()).ToCharArray();
-            for (int x = 0; x < characters.Length; x++)
+            string strA = jsonString["char"];
+            split = new string[strA.Length/2 + (strA.Length%2 == 0 ? 0 : 1)];
+            for (int i = 0; i < split.Length; i++)
             {
-            Activate(characters[x]);
+                split[ i ] = strA.Substring(i * 2, i * 2 + 2 > strA.Length ? 1 : 2);
+            }
+            //characters = SortString(jsonString["char"].ToString()).ToCharArray();
+            for (int x = 0; x < split.Length; x++)
+            {
+            Activate(split[x]);
             }
             //Loading.SetActive(false);
         }
         else{
-            characters = SortString(PlayerPrefs.GetString("GhostDex")).ToCharArray();
-            for (int x = 0; x < characters.Length; x++)
+            string strA = PlayerPrefs.GetString("GhostDex");
+            split = new string[strA.Length/2 + (strA.Length%2 == 0 ? 0 : 1)];
+            for (int i = 0; i < split.Length; i++)
             {
-            Activate(characters[x]);
+                split[ i ] = strA.Substring(i * 2, i * 2 + 2 > strA.Length ? 1 : 2);
+            }
+            //characters = SortString(jsonString["char"].ToString()).ToCharArray();
+            for (int x = 0; x < split.Length; x++)
+            {
+            Activate(split[x]);
             }
             //Loading.SetActive(false);
         }
     }
-    public void showGhost(string ghost){
+    private void hideelement()
+    {
+        for(int i=0;i<3;i++)
+        {
+            Element[i].SetActive(false);
+        }
+    }
+    public void showGhost(int ghostnumber){
+        hideelement();
         	foreach (Transform child in GhostTransform) {
 			GameObject.Destroy(child.gameObject);
 		}
-        var	model = Instantiate (Resources.Load ("PrefabsChar/" + ghost) as GameObject);
+        var ghostdata = HantuInfo.GetData(ghostnumber);
+        var	model = Instantiate (Resources.Load ("PrefabsChar/" + (ghostdata.File)) as GameObject);
 		model.transform.SetParent (GhostTransform);
-		 model.transform.localPosition = new Vector3(0,0,0);
+		model.transform.localPosition = new Vector3(0,0,0);
+        if(ghostdata.Element=="Fire")
+        {
+            Element[0].SetActive(true);
+            Element[3].GetComponent<Image>().sprite = ElementPlat[0];
+        }
+        else if(ghostdata.Element=="Water")
+        {
+            Element[1].SetActive(true);
+            Element[3].GetComponent<Image>().sprite = ElementPlat[1];
+        }
+        else
+        {
+            Element[2].SetActive(true);
+            Element[3].GetComponent<Image>().sprite = ElementPlat[2];
+        }
+        InfoText[0].text = ghostdata.Name+" "+ ghostdata.Element;
+        InfoText[1].text = "ATK: "+ghostdata.Attack;
+        InfoText[2].text = "DEF: "+ghostdata.Defense;
+        InfoText[3].text = "HP: "+ghostdata.HP;
+        InfoText[4].text = ghostdata.Lore;
+        InfoText[5].text = ghostdata.Type;
 		// model.transform.localScale = GhostTransform.localScale;
 		model.transform.localEulerAngles = new Vector3(0,150,0);;
 		model.name = "ghost";
@@ -194,4 +505,7 @@ public Transform GhostTransform;
         model.GetComponent<Animation>().PlayQueued("idle",QueueMode.CompleteOthers);
 		//model.transform.SetParent (GhostTransform.FindChild ("SummonPos"));
     }
+}
+public struct HantuSini{
+    public string Name,Element,Attack,Defense,HP,Type,Lore;
 }

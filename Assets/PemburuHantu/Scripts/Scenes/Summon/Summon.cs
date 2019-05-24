@@ -4,12 +4,14 @@ using SimpleJSON;
 using System.Collections;
 using System.Text;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 
 public class Summon : MonoBehaviour
 {
 	public Text Gold, Crystal;
 	public SummoningItem SummonItem;
+	public sanghostManager SGM;
 	//public Text SoulStone;
 	public Button OKCatch;
 	public GameObject Summonsd, Summonings,Summoned, validationerror;
@@ -34,7 +36,9 @@ public class Summon : MonoBehaviour
 	void Start () 
 	{
         PlayerPrefs.SetString("SummonStats", "Idling");
-        //PlayerPrefs.SetString ("PLAY_TUTORIAL", "TRUE");
+        // PlayerPrefs.SetString ("PLAY_TUTORIAL", "TRUE");
+		// PlayerPrefs.DeleteKey("SummonTutor");
+		// PlayerPrefs.SetInt ("tutorhitung",0);
         Debug.Log(PlayerPrefs.GetString ("PLAY_TUTORIAL"));
 		tutorHitung = PlayerPrefs.GetInt ("tutorhitung");
 		if(PlayerPrefs.GetInt ("Catched") == 0 || !PlayerPrefs.HasKey("Catched") )
@@ -50,7 +54,7 @@ public class Summon : MonoBehaviour
 						PlayerPrefs.SetString ("SummonTutor", "UDAH");
 						SceneManagerHelper.StopTutorial ();
 						//next.SetActive(true);
-						firstTimerSummonScript.position = 3;
+						//firstTimerSummonScript.position = 3;
 				}
 
 			}
@@ -101,8 +105,21 @@ public class Summon : MonoBehaviour
 				{
 					jenis = "LEGENDARY";
 				}
-
-				OnClickSummoned();
+					if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE" ) {
+						if(PlayerPrefs.GetString("SummonTutor")!="UDAH")
+						{
+							dummyButton();
+						}
+						else
+						{
+							print("Krik2");
+						}
+						
+					}
+					else
+					{
+						OnClickSummoned();
+					}
 
 			}
 
@@ -192,7 +209,11 @@ public void dummyButton()
 {
 	PlayerPrefs.SetString ("PLAY_TUTORIAL","TRUE");
 	tutorHitung = 0;
-	string fakeJson = "{Hantu:[{hantufile:Pocong_Fire}{hantufile:Pocong_Water}{hantufile:Pocong_Wind}]}";
+//	StartCoroutine(Get3Summon());
+	string fakeJson = PlayerPrefs.GetString("DataBuru");
+	var jsonString = JSON.Parse (fakeJson);
+	//"{Hantu:[{hantufile:Pocong_Fire}{hantufile:Pocong_Water}{hantufile:Pocong_Wind}]}";
+	print (fakeJson);
 	Summoning(fakeJson);
 }
 
@@ -200,23 +221,26 @@ public void dummyButton()
 		
 
 	
-		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") 
+		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE")
 		{
 				var jsonString = JSON.Parse (ghost);
 			for(int i = 0; i<3; i++)
 			{
-				var models = Instantiate (Resources.Load ("PrefabsChar/" + jsonString["Hantu"][i]["hantufile"]) as GameObject,  new Vector3(0f,0f,0f), Quaternion.identity);
+				//string hantiu = "Hantu"+(i+1).ToString();				
+				var models = Instantiate (Resources.Load ("PrefabsChar/" + jsonString["kodehantus"][i][1]) as GameObject,  new Vector3(0f,0f,0f), Quaternion.identity);
 				models.transform.SetParent (mycamera.transform);
 				models.transform.localPosition =mycamera.transform.Find ("SummonPos").transform.localPosition;
 				models.transform.localScale = mycamera.transform.Find ("SummonPos").transform.localScale;
 				models.transform.localEulerAngles = mycamera.transform.Find ("SummonPos").transform.localEulerAngles;
 				models.name = "ghost";
+				models.SetActive (false);
+				// models.transform.DOScale(new Vector3(0,0,0),.1f);
 				models.transform.SetParent (mycamera.transform.Find ("SummonPos"));
 				SummonedGhosts[i] = models;
 				switch(i)
 				{
 					case 0 :
-					models.transform.localPosition = new Vector3(0.62f,0,0);
+					models.transform.localPosition = new Vector3(0.74f,0,0);
 					models.transform.localEulerAngles = new Vector3(0,-30,0);
 
 					break;
@@ -224,7 +248,7 @@ public void dummyButton()
 					models.transform.localPosition = new Vector3(0, 0, 0);
 					break;
 					case 2 :
-					models.transform.localPosition = new Vector3(-0.62f,0,0);
+					models.transform.localPosition = new Vector3(-0.74f,0,0);
 					models.transform.localEulerAngles = new Vector3(0,30,0);
 
 					break; 
@@ -259,15 +283,31 @@ public void dummyButton()
 
 	public void SummonEffect()
 	{
-		p[0].Play();
-		p[1].Play();
-		p[2].Play();	
-		for(int i=0;i<3;i++)
-		{
-			SummonedGhosts[i].SetActive(true);
-			SummonedGhosts[i].GetComponent<Animation> ().PlayQueued ("select", QueueMode.PlayNow);
-			SummonedGhosts[i].GetComponent<Animation> ().PlayQueued ("idle");
-		}
+	 
+		SummonedGhosts[0].transform.DOScale(new Vector3(1,1,1),1f).OnComplete(delegate(){
+			p[0].Play();
+			SummonedGhosts[0].SetActive(true);
+			SummonedGhosts[0].GetComponent<Animation> ().PlayQueued ("select", QueueMode.PlayNow);
+			SummonedGhosts[0].GetComponent<Animation> ().PlayQueued ("idle");		
+			SGM.ShowStats(0);		
+			SummonedGhosts[1].transform.DOScale(new Vector3(1,1,1),1f).OnComplete(delegate(){
+				p[1].Play();
+				SummonedGhosts[1].SetActive(true);
+				SummonedGhosts[1].GetComponent<Animation> ().PlayQueued ("select", QueueMode.PlayNow);
+				SummonedGhosts[1].GetComponent<Animation> ().PlayQueued ("idle");	
+				SGM.ShowStats(1);			
+				SummonedGhosts[2].transform.DOScale(new Vector3(1,1,1),1f).OnComplete(delegate(){
+				p[2].Play();
+				SummonedGhosts[2].SetActive(true);
+				SummonedGhosts[2].GetComponent<Animation> ().PlayQueued ("select", QueueMode.PlayNow);
+				SummonedGhosts[2].GetComponent<Animation> ().PlayQueued ("idle");
+				SGM.ShowStats(2);	
+				
+			});
+			});
+			});
+			
+		StartCoroutine(Send3Summon());
 		
 	}
 
@@ -279,7 +319,7 @@ public void dummyButton()
 			{
 				PlayerPrefs.SetString ("SummonTutor", "UDAH");
 				//next.SetActive(true);
-				firstTimerSummonScript.position = 3;
+				//firstTimerSummonScript.position = 3;
 
 			}
 		}
@@ -443,6 +483,42 @@ public void dummyButton()
 
 	}
 
+	IEnumerator Send3Summon()
+	{
+		string fakeJson = PlayerPrefs.GetString("DataBuru");
+		var jsonString = JSON.Parse (fakeJson);
+
+		string url = Link.url + "Send3";
+		WWWForm form = new WWWForm ();
+		form.AddField ("MY_ID", PlayerPrefs.GetString(Link.ID));
+		form.AddField ("Hantu1", jsonString["kodehantus"][0][1]);
+		form.AddField ("Hantu2", jsonString["kodehantus"][1][1]);
+		form.AddField ("Hantu3", jsonString["kodehantus"][2][1]);
+		//formkirimreward.AddField ("ITEM", equipmentreward[0]);
+		WWW www = new WWW(url,form);
+		yield return www;
+		if (www.error == null) {
+			var json2String = JSON.Parse (www.text);
+			print(www.text);
+			string code = json2String["code"];
+			if(code=="1")
+			{
+				print("Success");
+				yield return new WaitForSeconds(3);
+				SceneManagerHelper.LoadTutorial("Summonudah");
+				
+			}
+			else
+			{
+				print("Failed");
+			}
+		} 
+		Debug.Log (www.text);
+
+
+
+	}
+
 	private IEnumerator sendEXP(string hantuplayerid, int Exp)
 	{
 
@@ -567,9 +643,12 @@ public void dummyButton()
 		SceneManagerHelper.LoadScene ("Home");
 		
 	}
-
+public void uncathed()
+{
+	PlayerPrefs.SetInt ("Catched",0);
+}
 private void Unload () {
-		PlayerPrefs.SetInt ("Catched",0);
+		uncathed();
 		SceneManager.UnloadSceneAsync("Summon");
 	}
 

@@ -6,9 +6,11 @@ using Fungus;
 public class FlowchartController : MonoBehaviour {
 private static Flowchart FC;
 	public GameObject GO;
+	int i=0;
 	// Use this for initialization
 	void Start () {
 		//PlayerPrefs.DeleteKey("PP6");
+			
 			FC = GetComponent<Flowchart> ();
 	}
 	
@@ -25,7 +27,7 @@ public static void StartBlock(string blockName)
 	public void enableGO(string gameobjectName)
 	{
 		GO = GameObject.FindGameObjectWithTag (gameobjectName);
-
+		
 		if (GO != null) {
 			switch (GO.name)
 			{
@@ -34,6 +36,31 @@ public static void StartBlock(string blockName)
 				break;
 			case "Summon":
 				GO.GetComponent<Summon> ().firstTimerSummonScript.gameObject.SetActive (true);
+				break;
+			case "Summon2":
+				GO.GetComponent<Summon> ().uncathed();
+				break;
+			case "FilmSelector":
+			if(i==0)
+			{
+				GO.GetComponent<FilmSelector> ().Select();
+				
+			}
+			else if(i==1)
+			{
+				GO.GetComponent<FilmSelector> ().Deselect();
+			}
+			else if(i==2)
+			{
+				GO.GetComponent<FilmSelector> ().AnimateRoll(0);
+			}
+			else
+			{
+				print ("usefunction");
+				GO.GetComponent<FilmSelector> ().Scanner(3);
+			}		
+			print (i.ToString());						
+				i++;
 				break;
 			case "Map":
 				GO.GetComponent<Map> ().firstTimerMAP.SetActive (true);

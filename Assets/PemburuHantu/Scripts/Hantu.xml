@@ -1,101 +1,661 @@
 <Hantu>	
 	<hantu>
 		<Name>Pocong</Name>
+		<File>Pocong_Fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Pocong</Name>
+		<File>Pocong_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Pocong</Name>
+		<File>Pocong_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Jelangkung</Name>
+		<File>Jelangkung_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jelangkung</Name>
+		<File>Jelangkung_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jelangkung</Name>
+		<File>Jelangkung_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Babi Ngepet</Name>
+		<File>Babingepet_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Babi Ngepet</Name>
+		<File>Babingepet_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Babi Ngepet</Name>
+		<File>Babingepet_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Tuyul</Name>
+		<File>Tuyul_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Tuyul</Name>
+		<File>Tuyul_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Tuyul</Name>
+		<File>Tuyul_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Hantu tanpa kepala</Name>
+		<File>hantutanpakepala_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Hantu tanpa kepala</Name>
+		<File>hantutanpakepala_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Hantu tanpa kepala</Name>
+		<File>hantutanpakepala_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Mukarata</Name>
+		<File>Mukarata_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Mukarata</Name>
+		<File>Mukarata_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Mukarata</Name>
+		<File>Mukarata_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Kolorijo</Name>
+		<File>Kolorijo_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Kolorijo</Name>
+		<File>Kolorijo_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Kolorijo</Name>
+		<File>Kolorijo_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Jin</Name>
+		<File>Jin_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jin</Name>
+		<File>Jin_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jin</Name>
+		<File>Jin_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Lembuswana</Name>
+		<File>Lembuswana_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Lembuswana</Name>
+		<File>Lembuswana_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Lembuswana</Name>
+		<File>Lembuswana_fire</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>SundelBolong</Name>
+		<File>SundelBolong_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>SundelBolong</Name>
+		<File>SundelBolong_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>SundelBolong</Name>
+		<File>SundelBolong_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Suster Ngesot</Name>
+		<File>Susterngesot_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Suster Ngesot</Name>
+		<File>Susterngesot_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Suster Ngesot</Name>
+		<File>Susterngesot_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Kuntilanak</Name>
+		<File>Kuntil_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Kuntilanak</Name>
+		<File>Kuntil_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Kuntilanak</Name>
+		<File>Kuntil_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Genderuwo</Name>
+		<File>Genderuwo_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Genderuwo</Name>
+		<File>Genderuwo_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Genderuwo</Name>
+		<File>Genderuwo_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Zombie</Name>
+		<File>Zombie_wfire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Zombie</Name>
+		<File>Zombie_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Zombie</Name>
+		<File>Zombie_fire</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Naga Besukih</Name>
+		<File>Nagabesukih_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Naga Besukih</Name>
+		<File>Nagabesukih_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Naga Besukih</Name>
+		<File>Nagabesukih_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Jerangkong</Name>
+		<File>Jerangkong_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jerangkong</Name>
+		<File>Jerangkong_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jerangkong</Name>
+		<File>Jerangkong_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Palasik</Name>
+		<File>Palasik_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Palasik</Name>
+		<File>Palasik_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Palasik</Name>
+		<File>Palasik_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Ratu Pantai</Name>
+		<File>yororo_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Ratu Pantai</Name>
+		<File>yororo_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Ratu Pantai</Name>
+		<File>Nyororo_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Leak</Name>
+		<File>Leak_fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Leak</Name>
+		<File>Leak_water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Leak</Name>
+		<File>Leak_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 
 	<hantu>
 		<Name>Jenglot</Name>
+		<File>Jenglot_Fire</File>
+		<Element>Fire</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jenglot</Name>
+		<File>Jenglot_Water</File>
+		<Element>Water</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
+		<Lore></Lore>
+	</hantu>
+
+	<hantu>
+		<Name>Jenglot</Name>
+		<File>Jenglot_wind</File>
+		<Element>Wind</Element>
+		<Attack>120</Attack>
+		<Defense>80</Defense>
+		<HP>100</HP>
+		<Type>Attack</Type>
 		<Lore></Lore>
 	</hantu>
 </Hantu>

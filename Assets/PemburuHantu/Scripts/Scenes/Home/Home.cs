@@ -30,6 +30,8 @@ public class Home : MonoBehaviour
     private UserLogin UserData;
     void Start()
     {
+       // PlayerPrefs.SetString ("FightUdah", "TRUE");
+       print(PlayerPrefs.GetString("PLAY_TUTORIAL"));
        UserData = GetComponent<UserLogin>();
 		if (PlayerPrefs.GetString("Base64PictureProfile") != "")
         {
@@ -111,29 +113,48 @@ public class Home : MonoBehaviour
         if (PlayerPrefs.HasKey("PLAY_TUTORIAL"))
         {
 
-            if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "FALSE")
-            {
-                FirstTimerGO.SetActive(false);
-                Story.SetActive(false);
+            // if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "FALSE")
+            // {
+                // FirstTimerGO.SetActive(false);
+                // Story.SetActive(false);
                 if (PlayerPrefs.GetString("lewat") == "ya")
                 {
                     FirstTimerGO2.SetActive(true);
                 }
-            }
-            else {
-                //	Story.SetActive(true);
-                //FirstTimerGO.SetActive(true);
-				Camera.GetComponent<Animator>().Play("HomeCameraAnimation");
-            }
+            // }
+            // else {
+            //     //	Story.SetActive(true);
+            //     //FirstTimerGO.SetActive(true);
+			// 	Camera.GetComponent<Animator>().Play("HomeCameraAnimation");
+            // }
+        }
 
+ if (PlayerPrefs.GetString ("FightUdah") == "TRUE") 
+    {
+         if (PlayerPrefs.GetString("PLAY_TUTORIAL") != "TRUE")
+                 {
+                      Camera.GetComponent<Animator>().Play("HomeCameraAnimation");
+                      Story.SetActive(false);
+                 }
+                 else
+                 {
+                    SceneManagerHelper.LoadTutorial ("Home_3");}
+                    Camera.GetComponent<Animator>().Play("HomeCameraAnimation");
+                    Story.SetActive(false);
+                 }
+               
+                
+    
+    else
+    {
             if (PlayerPrefs.GetString("SummonTutor") == "UDAH")
-			{if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") {
+			{
+               
 					SceneManagerHelper.LoadTutorial ("Home_2");
-				}
-                else{SceneManagerHelper.LoadTutorial ("Home_3");}
-                Camera.GetComponent<Animator>().Play("HomeCameraAnimation");
-                Story.SetActive(false);
+				
+
             }
+          
            else if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "TRUE")
             {
 
@@ -566,6 +587,7 @@ public class Home : MonoBehaviour
     public void EndFirstimer()
     {
         PlayerPrefs.SetString("TutorialMission", "TRUE");
+        PlayerPrefs.SetString ("PLAY_TUTORIAL","FALSE");
         StartCoroutine(Finish());
     }
 

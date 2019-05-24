@@ -9,13 +9,14 @@ public class Map : MonoBehaviour
     public GameObject BG1,BG2,BG3,BG3T,BG4,BG5,BG6,Loadscene;
 	public GameObject imagebutton,firstTimerMAP,FirstTimerMap2,NoEnergyGUI,trouble, ValidationError;
     public GameObject[] Locks, Done;
-    public GameObject LevelSelection, TutorialLevel;
+    public GameObject LevelSelection, TutorialLevel, LevelImageGO;
     public Button schoolbutton, hospitalbutton, bridgebutton, graveyardbutton, warehousebutton;
 	lifeless lf;
 	public Text EnergyBar,R1,R2,R3;
 	public bool pressed;
     public GameObject CameraObject;
     public float nilai;
+    public Sprite[] levelimage;
 
 	public int currentEnergy, MaxEnergy,energyused;
 	public string lokasi = "";
@@ -33,22 +34,22 @@ public class Map : MonoBehaviour
      
         //	PlayerPrefs.SetString ("berburu", "tidak");
         lf = this.gameObject.GetComponent<lifeless> ();
-        if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE" && PlayerPrefs.GetString ("Tutorgame") != "TRUE") {
-			TutorialLevel.SetActive(true);
-            firstTimerMAP.gameObject.SetActive (true);
-			//SceneManagerHelper.LoadTutorial("Map");
-			///FirstTimerMap2.SetActive (false);
-		} 
-        else 
-        {
-			//SceneManagerHelper.StopTutorial ();
-            TutorialLevel.SetActive(false);
-			firstTimerMAP.gameObject.SetActive (false);
-		}
-		if (PlayerPrefs.GetString ("Tutorgame") == "TRUE") {
-			FirstTimerMap2.SetActive (true);
+        // if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE" && PlayerPrefs.GetString ("Tutorgame") != "TRUE") {
+		// 	TutorialLevel.SetActive(true);
+        //     //firstTimerMAP.gameObject.SetActive (true);
+		// 	//SceneManagerHelper.LoadTutorial("Map");
+		// 	///FirstTimerMap2.SetActive (false);
+		// } 
+        // else 
+        // {
+		// 	//SceneManagerHelper.StopTutorial ();
+        //     TutorialLevel.SetActive(false);
+		// 	firstTimerMAP.gameObject.SetActive (false);
+		// }
+		// if (PlayerPrefs.GetString ("Tutorgame") == "TRUE") {
+		// 	FirstTimerMap2.SetActive (true);
 		
-		}
+		// }
 
 		StartCoroutine(GetDataUser ());
 	
@@ -60,7 +61,32 @@ public class Map : MonoBehaviour
         G2.sprite = DefaultSelectedGhostTarget;
         G3.sprite = DefaultSelectedGhostTarget;
     }
+     public void SetStage(string name)
+    {
+        switch(name)
+        {
+            case "Old House":
+            LevelImageGO.GetComponent<Image>().sprite = levelimage[0];
+            break;
+            case "Graveyard":
+            LevelImageGO.GetComponent<Image>().sprite = levelimage[1];
+            break;
+            case "Bridge":
+            LevelImageGO.GetComponent<Image>().sprite = levelimage[3];
+            break;
+            case "Warehouse":
+            LevelImageGO.GetComponent<Image>().sprite = levelimage[5];
+            break;
+            case "School":
+            LevelImageGO.GetComponent<Image>().sprite = levelimage[4];
+            break;
+            case "Hospital":
+            LevelImageGO.GetComponent<Image>().sprite = levelimage[2];
+            break;
 
+        }
+
+    }
     
 
     public void CheckStage()
@@ -460,7 +486,7 @@ public class Map : MonoBehaviour
         LevelSelected();
 		energyused = 4;
 		PlayerPrefs.SetInt ("EUsed", energyused);
-		lokasi = "school";
+		lokasi = "School";
 		StartCoroutine(GetDataUser ());
 		BG2.SetActive (true);
          Normal();
@@ -471,7 +497,7 @@ public class Map : MonoBehaviour
         LevelSelected();
 		energyused = 5;
 		PlayerPrefs.SetInt ("EUsed", energyused);
-		lokasi = "hospital";
+		lokasi = "Hospital";
 		StartCoroutine(GetDataUser ());
 		BG1.SetActive (true);
          Normal();
@@ -481,7 +507,7 @@ public class Map : MonoBehaviour
         LevelSelected();
 		energyused = 3;
 		PlayerPrefs.SetInt ("EUsed", energyused);
-		lokasi = "oldhouse";
+		lokasi = "Oldhouse";
 		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE") {
 			//BG3T.SetActive (true);
             StartCoroutine(GetDataUser ());
@@ -497,7 +523,7 @@ public class Map : MonoBehaviour
         LevelSelected();
 		energyused = 6;
 		PlayerPrefs.SetInt ("EUsed", energyused);
-		lokasi = "bridge";
+		lokasi = "Bridge";
 		StartCoroutine(GetDataUser ());
 		BG4.SetActive (true);
          Normal();
@@ -506,7 +532,7 @@ public class Map : MonoBehaviour
         LevelSelected();
 		energyused = 7;
 		PlayerPrefs.SetInt ("EUsed", energyused);
-		lokasi = "graveyard";
+		lokasi = "Graveyard";
 		StartCoroutine(GetDataUser ());
 		BG6.SetActive (true);
         Normal();
@@ -516,7 +542,7 @@ public class Map : MonoBehaviour
         LevelSelected();
 		energyused = 8;
 		PlayerPrefs.SetInt ("EUsed", energyused);
-		lokasi = "warehouse";
+		lokasi = "Warehouse";
 		StartCoroutine(GetDataUser ());
 		BG5.SetActive (true);
         Normal();
@@ -2269,10 +2295,10 @@ public void OnOld_Building2 () {
 	}
 		
 	public void OnBack () {
-		if (PlayerPrefs.GetString ("Tutorgame") == "TRUE") {
-			PlayerPrefs.SetString ("PLAY_TUTORIAL","FALSE");
-			PlayerPrefs.SetString ("lewat","ya");
-		}
+		// if (PlayerPrefs.GetString ("Tutorgame") == "TRUE") {
+		// 	PlayerPrefs.SetString ("PLAY_TUTORIAL","FALSE");
+		// 	PlayerPrefs.SetString ("lewat","ya");
+		// }
 		SceneManagerHelper.LoadScene ("Home");
 		//Loadscene.GetComponent<SceneLoader> ().LoadingScreeen ();
 	}
@@ -2290,7 +2316,7 @@ public void OnOld_Building2 () {
         form.AddField("StageName", name);
         WWW www = new WWW(url,form);
 		yield return www;
-Debug.Log (www.text);
+        Debug.Log (www.text);
 		if (www.error == null) {
 
 			var jsonString = JSON.Parse (www.text);

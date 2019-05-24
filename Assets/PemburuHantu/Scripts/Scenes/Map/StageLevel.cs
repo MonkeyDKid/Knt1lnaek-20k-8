@@ -40,10 +40,12 @@ public class StageLevel : MonoBehaviour {
 	}
 	 private void OnClick()
 	{
+		print(jsonString);
 		int n;
 		int mystage = int.Parse(PlayerPrefs.GetString(Link.Stage));
 		 PlayerPrefs.SetString(Link.StageChoose, StageChoosen.ToString());
 		Map.R1.text="";
+		ShowDrop(StageChoosen);
 		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE")
 		{
 			if(StageChoosen==99)
@@ -92,7 +94,7 @@ public class StageLevel : MonoBehaviour {
 			StartButton.interactable = false;
 		}
 		
-		ShowDrop(StageChoosen);
+		
 		
 		MapLM.GhostSelectedTarget[0].sprite = Resources.Load<Sprite> ("icon_char_Maps/" + GhostMap1);
 		if(!string.IsNullOrEmpty(GhostMap2))
@@ -196,7 +198,23 @@ public class StageLevel : MonoBehaviour {
 	void SetGhost()
 	{
 			 
-		for(int i=1;i<4;i++)
+	
+		if (PlayerPrefs.GetString ("PLAY_TUTORIAL") == "TRUE")
+		{
+			//print (jsonString[])			
+			 PlayerPrefs.SetString(Link.POS_1_CHAR_1_FILE, jsonString [6]["HantuId1".ToString()]["name_file"]);
+				 PlayerPrefs.SetString(Link.POS_1_CHAR_1_ELEMENT, jsonString [6]["HantuId1".ToString()]["type"]);
+				 PlayerPrefs.SetString(Link.POS_1_CHAR_1_MODE, jsonString [6]["HantuId1".ToString()]["element"]);
+				 PlayerPrefs.SetString(Link.POS_1_CHAR_1_GRADE, jsonString [6]["HantuId1".ToString()]["grade"]);
+				 PlayerPrefs.SetString(Link.POS_1_CHAR_1_ATTACK, jsonString [6]["HantuId1".ToString()]["ATTACK"]);
+				 PlayerPrefs.SetString(Link.POS_1_CHAR_1_DEFENSE, jsonString [6]["HantuId1".ToString()]["DEFEND"]);
+				 PlayerPrefs.SetString(Link.POS_1_CHAR_1_HP, jsonString [6]["HantuId1".ToString()]["HP"]);
+		 print(PlayerPrefs.GetString("pos_1_char_1_file"));
+		 print("here");
+		}
+		else
+		{
+			for(int i=1;i<4;i++)
 			 {
 				 PlayerPrefs.SetString("pos_1_char_"+i.ToString()+"_file", jsonString [localStagenumber]["HantuId"+i.ToString()]["name_file"]);
 				 PlayerPrefs.SetString("pos_1_char_"+i.ToString()+"_element", jsonString [localStagenumber]["HantuId"+i.ToString()]["type"]);
@@ -207,12 +225,13 @@ public class StageLevel : MonoBehaviour {
 				 PlayerPrefs.SetString("pos_1_char_"+i.ToString()+"_hp", jsonString [localStagenumber]["HantuId"+i.ToString()]["HP"]);
 			 
 			 }	 
-	          print(jsonString[0]);
+	         // print(jsonString[0]);
 			 for(int i=1;i<4;i++)
 			 {
 				 print(PlayerPrefs.GetString("pos_1_char_"+i.ToString()+"_hp"));
 			 }
 
+	}
 	}
 	
 }

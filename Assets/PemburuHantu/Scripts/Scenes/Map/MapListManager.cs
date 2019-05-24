@@ -5,11 +5,13 @@ using UnityEngine.UI;
 using SimpleJSON;
 public class MapListManager : MonoBehaviour {
 	public GameObject[] MapListGameObject;
+	public Sprite[] Imagetitle;
 	public Transform[] StageSelectPosition;
 	public Vector3[] StageSelectPositions;
 	public Image[] GhostSelectedTarget;
 	public GameObject MapPrefab, MapButtonPrefab;
 	public GameObject StageBackground;
+	public Image StageImage;
 	public MapSelect MapSelect;
 	public Map Map;	
 	public Transform LevelSelectionParentTarget;
@@ -21,6 +23,36 @@ public class MapListManager : MonoBehaviour {
 		StartCoroutine(GetMapData());
 	}
 	
+	private int titlemap(string titlemap)
+	{
+		int getdata;
+		switch(titlemap)
+		{
+			case "Old House":
+			getdata = 0;
+			break;
+			case "School":
+			getdata = 1;
+			break;
+			case "Hospital":
+			getdata = 2;
+			break;
+			case "Bridge":
+			getdata = 3;
+			break;
+			case "Graveyard":
+			getdata = 4;
+			break;
+			case "Warehouse":
+			getdata = 5;
+			break;
+			default:
+			getdata = 6;
+			break;
+
+		}
+		return getdata;
+	}
 	IEnumerator GetMapData()
 	{	
 			
@@ -81,6 +113,7 @@ public class MapListManager : MonoBehaviour {
 						
 					}
 					entry [x].GetComponent<MapInfo> ().Map = Map;
+					entry [x].GetComponent<MapInfo> ().TitleMap = Imagetitle[titlemap(jsonString ["MapData"] [x] ["Lokasi"])];
 					entry [x].GetComponent<MapInfo> ().StartButton = StartButton;
 					entry [x].GetComponent<MapInfo> ().Stage = int.Parse(jsonString ["MapData"] [x] ["StageNumber"]);
 					entry [x].GetComponent<MapInfo> ().MapLManager = this;

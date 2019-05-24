@@ -9,7 +9,7 @@ using System.Linq;
  [System.Serializable]
  public struct Hantu
  {
-     public string Name, Lore;
+     public string Name,File,Element,Attack,Defense,HP,Type,Lore;
             
  }
  [System.Serializable]
@@ -40,10 +40,21 @@ void parseXmlFile(string xmlData)
         {
 			
             XmlNode name = node.FirstChild;
-            XmlNode addr = name.NextSibling;
-            XmlNode phone = addr.NextSibling;
+			XmlNode file = name.NextSibling;
+            XmlNode element = file.NextSibling;
+			XmlNode attack = element.NextSibling;
+			XmlNode defense = attack.NextSibling;
+			XmlNode hp = defense.NextSibling;
+            XmlNode type = hp.NextSibling;
+			XmlNode lore = type.NextSibling;
 			DaftarHantu.Name=(name.InnerXml);
-			DaftarHantu.Lore=(addr.InnerXml);
+			DaftarHantu.File=(file.InnerXml);
+			DaftarHantu.Element=(element.InnerXml);
+			DaftarHantu.Attack=(attack.InnerXml);
+			DaftarHantu.Defense=(defense.InnerXml);
+			DaftarHantu.HP=(hp.InnerXml);
+			DaftarHantu.Type=(type.InnerXml);
+			DaftarHantu.Lore=(lore.InnerXml);
 			Hantu.Add(DaftarHantu);
 			
         }
@@ -53,6 +64,13 @@ void parseXmlFile(string xmlData)
 		//uiText.text = Hantu.Contains(Name)
 		var ghost = Hantu.Where(x => x.Name == Name).SingleOrDefault();
 		uiText.text = ghost.Lore;
+	}
+
+	public Hantu GetData(int number)
+	{
+		//uiText.text = Hantu.Contains(Name)
+		var ghost = Hantu[number];
+		return ghost;
 	}
 
 	

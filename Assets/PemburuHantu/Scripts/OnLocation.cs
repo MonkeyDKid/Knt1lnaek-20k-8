@@ -109,7 +109,7 @@ public class OnLocation : MonoBehaviour {
 		form.AddField (Link.ID, PlayerPrefs.GetString (Link.ID));
 		form.AddField (Link.LAT, PlayerPrefs.GetString (Link.LAT));
 		form.AddField (Link.LOT, PlayerPrefs.GetString (Link.LOT));
-      //  form.AddField("DID", PlayerPrefs.GetString(Link.DEVICE_ID));
+       	if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "TRUE")form.AddField("HT", 1);
         form.AddField ("FROM", "REAL_TIME");
 	//	form.AddField (Link.FCM_ID, id);
 
@@ -118,6 +118,20 @@ public class OnLocation : MonoBehaviour {
 		if (www.error == null) {
 
 			var jsonString = JSON.Parse (www.text);
+			print (jsonString["kodehantus"][0][1]);
+			if (PlayerPrefs.GetString("PLAY_TUTORIAL") == "TRUE")
+			{
+				Hantu.SetActive (true);
+				ADA.SetActive (true);
+				StopCoroutine (onCoroutine ());
+				StopCoroutine (findPeople ());
+				StopCoroutine (Start2 ());
+				join = false;
+				print (jsonString);
+				PlayerPrefs.SetString("DataBuru",www.text);
+			}
+
+			else{
 			if (int.Parse (jsonString ["code"]) > 0) {
 				PlayerPrefs.SetString ("kodetempat", jsonString ["data"] ["kodetempat"]);
 				PlayerPrefs.SetString ("kodehantu", jsonString ["data"] ["kodehantu"]);
@@ -169,7 +183,7 @@ public class OnLocation : MonoBehaviour {
                     ADA.SetActive(true);
                     abisjatah.SetActive(true);
                 }
-               
+			}
 			
 			}
 		}

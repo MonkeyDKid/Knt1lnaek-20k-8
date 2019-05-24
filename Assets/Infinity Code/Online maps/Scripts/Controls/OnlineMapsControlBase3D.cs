@@ -305,7 +305,7 @@ public abstract class OnlineMapsControlBase3D: OnlineMapsControlBase
             OnlineMapsMarkerInstanceBase markerInstance = GetBillboardMarkerFromScreen(inputPosition);
             if (markerInstance != null)
             {
-                map.tooltip = markerInstance.marker.label;
+               map.tooltip = markerInstance.marker.label;
                 map.tooltipMarker = markerInstance.marker;
             }
         }

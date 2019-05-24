@@ -9,7 +9,7 @@ public class ScenesManager : MonoBehaviour {
 	void Start () {
 		//escape = false;
 
-	   // PlayerPrefs.DeleteAll ();
+	    //  PlayerPrefs.DeleteAll ();
 	}
 	
 	// Update is called once per frame

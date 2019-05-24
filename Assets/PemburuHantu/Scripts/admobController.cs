@@ -108,7 +108,8 @@ using GoogleMobileAds;
 			// value.
 			this.deltaTime += (Time.deltaTime - this.deltaTime) * 0.1f;
         //	if (iklanshowing <= 3) {
-        if (SceneManager.GetActiveScene().name == "berburuhantu")
+            if(PlayerPrefs.GetString("PLAY_TUTORIAL")!="TRUE"){
+            if (SceneManager.GetActiveScene().name == "berburuhantu")
         {
             if(rewardBasedVideo.IsLoaded() && iklanaktif == false)
             {
@@ -131,6 +132,7 @@ using GoogleMobileAds;
                 //	Iklan.SetActive (false);
             }
         }
+            }
 	//	}
 			}
 		public void showiklam(){

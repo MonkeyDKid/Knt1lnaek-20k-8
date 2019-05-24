@@ -2003,8 +2003,8 @@ public class OnlineMaps : MonoBehaviour, ISerializationCallbackReceiver
         {
             if (marker != null)
             {
-                tooltip = marker.label;
-                tooltipMarker = marker;
+                // tooltip = marker.label;
+                // tooltipMarker = marker;
             }
             else
             {
